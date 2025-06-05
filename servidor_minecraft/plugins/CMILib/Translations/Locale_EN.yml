@@ -390,48 +390,48 @@ info:
     zombified_piglin: Zombified piglin
   # Avoid adding color codes to the enchant name
   EnchantNames:
-    knockback: Knockback
-    impaling: Impaling
-    protection_fire: FireProtection
-    arrow_damage: Power
-    damage_arthropods: BaneOfArthropods
-    depth_strider: DepthStrider
-    multishot: Multishot
-    thorns: Thorns
-    damage_all: Sharpness
-    density: Density
-    breach: Breach
-    protection_projectile: ProjectileProtection
-    protection_fall: FallProtection
-    loot_bonus_mobs: Looting
-    loot_bonus_blocks: Fortune
-    arrow_fire: Flame
-    lure: Lure
-    vanishing_curse: VanishingCurse
-    quick_charge: QUICKCHARGE
-    dig_speed: Efficiency
-    water_worker: AquaAffinity
-    channeling: Channeling
-    protection_environmental: Protection
-    oxygen: Respiration
     swift_sneak: SWIFTSNEAK
-    soul_speed: SOULSPEED
-    wind_burst: Wind_burst
-    silk_touch: SilkTouch
-    loyalty: Loyalty
-    damage_undead: Smite
-    durability: Unbreaking
-    sweeping_edge: SweepingEdge
-    riptide: Riptide
-    protection_explosions: BlastProtection
-    arrow_infinite: Infinity
-    mending: Mending
+    multishot: Multishot
+    loot_bonus_mobs: Looting
+    oxygen: Respiration
     piercing: Piercing
+    mending: Mending
+    density: Density
     frost_walker: FrostWalker
-    luck: Luck
-    arrow_knockback: Punch
-    fire_aspect: FireAspect
+    depth_strider: DepthStrider
+    channeling: Channeling
+    knockback: Knockback
+    quick_charge: QUICKCHARGE
+    thorns: Thorns
+    loot_bonus_blocks: Fortune
+    wind_burst: Wind_burst
+    protection_projectile: ProjectileProtection
+    protection_fire: FireProtection
+    soul_speed: SOULSPEED
+    protection_environmental: Protection
+    damage_undead: Smite
+    riptide: Riptide
     binding_curse: BindingCurse
+    arrow_infinite: Infinity
+    sweeping_edge: SweepingEdge
+    protection_fall: FallProtection
+    arrow_damage: Power
+    lure: Lure
+    arrow_knockback: Punch
+    loyalty: Loyalty
+    impaling: Impaling
+    arrow_fire: Flame
+    vanishing_curse: VanishingCurse
+    breach: Breach
+    silk_touch: SilkTouch
+    damage_all: Sharpness
+    damage_arthropods: BaneOfArthropods
+    dig_speed: Efficiency
+    fire_aspect: FireAspect
+    water_worker: AquaAffinity
+    durability: Unbreaking
+    protection_explosions: BlastProtection
+    luck: Luck
   PotionEffectAliases:
     instanthealth:
     - Instant health
