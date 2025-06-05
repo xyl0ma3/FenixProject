@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1749080340949
-  login: 1749079843694
+  logout: 1749094669056
+  login: 1749094095203
 money: '10000012100'
 last-account-name: .xylokhalifa
 lastlocation:
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 4b0168ce-3e79-4123-9bef-119722e4c3f0
   world-name: spawn
-  x: -1.4659758
+  x: -0.43299025
   y: 100.0
-  z: 8.547746
-  yaw: -142.1179656982422
-  pitch: 22.887405395507812
+  z: 6.115945
+  yaw: 16.24298095703125
+  pitch: -13.673553466796875

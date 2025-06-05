@@ -10,11 +10,11 @@ BlockGliding: false
 LogoutLocation:
   ==: org.bukkit.Location
   world: spawn
-  x: -1.4659758
+  x: -0.43299025
   y: 100.0
-  z: 8.547746
-  pitch: 22.887405
-  yaw: -142.11797
+  z: 6.115945
+  pitch: -13.673553
+  yaw: 16.242981
 LastDeathLocation:
   ==: org.bukkit.Location
   world: spawn

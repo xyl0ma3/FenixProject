@@ -390,48 +390,48 @@ info:
     zombified_piglin: Zombified piglin
   # Avoid adding color codes to the enchant name
   EnchantNames:
-    swift_sneak: SWIFTSNEAK
-    multishot: Multishot
-    loot_bonus_mobs: Looting
-    oxygen: Respiration
-    piercing: Piercing
-    mending: Mending
-    density: Density
-    frost_walker: FrostWalker
-    depth_strider: DepthStrider
-    channeling: Channeling
-    knockback: Knockback
-    quick_charge: QUICKCHARGE
-    thorns: Thorns
-    loot_bonus_blocks: Fortune
-    wind_burst: Wind_burst
-    protection_projectile: ProjectileProtection
-    protection_fire: FireProtection
-    soul_speed: SOULSPEED
-    protection_environmental: Protection
-    damage_undead: Smite
-    riptide: Riptide
-    binding_curse: BindingCurse
-    arrow_infinite: Infinity
-    sweeping_edge: SweepingEdge
-    protection_fall: FallProtection
-    arrow_damage: Power
-    lure: Lure
-    arrow_knockback: Punch
-    loyalty: Loyalty
-    impaling: Impaling
-    arrow_fire: Flame
-    vanishing_curse: VanishingCurse
-    breach: Breach
-    silk_touch: SilkTouch
     damage_all: Sharpness
-    damage_arthropods: BaneOfArthropods
-    dig_speed: Efficiency
-    fire_aspect: FireAspect
+    riptide: Riptide
+    arrow_fire: Flame
+    frost_walker: FrostWalker
+    breach: Breach
+    knockback: Knockback
+    multishot: Multishot
+    vanishing_curse: VanishingCurse
+    binding_curse: BindingCurse
+    channeling: Channeling
+    soul_speed: SOULSPEED
     water_worker: AquaAffinity
-    durability: Unbreaking
-    protection_explosions: BlastProtection
+    oxygen: Respiration
     luck: Luck
+    damage_undead: Smite
+    protection_projectile: ProjectileProtection
+    silk_touch: SilkTouch
+    thorns: Thorns
+    loot_bonus_mobs: Looting
+    fire_aspect: FireAspect
+    lure: Lure
+    wind_burst: Wind_burst
+    piercing: Piercing
+    protection_fall: FallProtection
+    arrow_infinite: Infinity
+    depth_strider: DepthStrider
+    impaling: Impaling
+    durability: Unbreaking
+    arrow_damage: Power
+    arrow_knockback: Punch
+    dig_speed: Efficiency
+    mending: Mending
+    sweeping_edge: SweepingEdge
+    density: Density
+    quick_charge: QUICKCHARGE
+    damage_arthropods: BaneOfArthropods
+    loot_bonus_blocks: Fortune
+    swift_sneak: SWIFTSNEAK
+    loyalty: Loyalty
+    protection_environmental: Protection
+    protection_fire: FireProtection
+    protection_explosions: BlastProtection
   PotionEffectAliases:
     instanthealth:
     - Instant health

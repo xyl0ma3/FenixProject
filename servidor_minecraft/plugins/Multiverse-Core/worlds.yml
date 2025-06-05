@@ -34,12 +34,12 @@ arena:
     pitch: 0.0
     yaw: 0.0
   spawning:
-    monster:
+    animal:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    animal:
+    monster:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -82,12 +82,12 @@ mining:
     pitch: 0.0
     yaw: 0.0
   spawning:
-    monster:
+    animal:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    animal:
+    monster:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -130,22 +130,22 @@ playworld:
     pitch: 0.0
     yaw: 0.0
   spawning:
-    monster:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
     animal:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    ambient:
+    monster:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
     misc:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    ambient:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -188,12 +188,12 @@ playworld_nether:
     pitch: 0.0
     yaw: 0.0
   spawning:
-    monster:
+    animal:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    animal:
+    monster:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -241,12 +241,12 @@ playworld_the_end:
     pitch: 0.0
     yaw: 0.0
   spawning:
-    monster:
+    animal:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    animal:
+    monster:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -294,22 +294,22 @@ spawn:
     pitch: 0.0
     yaw: 0.0
   spawning:
-    monster:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
     animal:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    ambient:
+    monster:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
     misc:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    ambient:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
