@@ -1,35 +1,36 @@
-2025-06-05 03:25:46 [INFO]: Loading Overrides...
-2025-06-05 03:25:46 [WARNING]: The world `playworldsss` doesn't seem to exist! Please update `worldsss's` override! Maybe there are capital letters?
-2025-06-05 03:25:46 [INFO]: Loading World Types...
-2025-06-05 03:25:46 [INFO]: - World Type for 'playworld' set to 'NORMAL'
-2025-06-05 03:25:46 [INFO]: - World Type for 'mining' set to 'NORMAL'
-2025-06-05 03:25:46 [INFO]: - World Type for 'playworld_nether' set to 'NETHER'
-2025-06-05 03:25:46 [SEVERE]: World Type for 'playworld_the_end' is INVALID 'END'. Valid ID's are: NORMAL, NETHER
-2025-06-05 03:25:46 [INFO]: Loading Defaults...
-2025-06-05 03:25:46 [INFO]: Loading Custom Worlds...
-2025-06-05 03:25:46 [INFO]: [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
-2025-06-05 03:25:46 [INFO]: [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
-2025-06-05 03:25:46 [INFO]: Loading Permission Groups...
-2025-06-05 03:25:46 [INFO]: - Permission Group: vip
-2025-06-05 03:25:46 [INFO]: - -- World: playworld
-2025-06-05 03:25:46 [INFO]: - - MaxRadius: 50000
-2025-06-05 03:25:46 [INFO]: - - MinRadius: 500
-2025-06-05 03:25:46 [SEVERE]: The particle 'EXPLOSION_NORMAL' created a fatal error when loading particles! Your MC version isn't supported!
-2025-06-05 03:25:55 [INFO]: Database PLAYERS:Players configured and loaded!
-2025-06-05 03:25:55 [INFO]: Database QUEUE:Queue configured and loaded!
-2025-06-05 03:25:55 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
-2025-06-05 03:25:58 [INFO]: Attempting to queue up some more safe locations...
-2025-06-05 03:26:00 [WARNING]: Seems like the world `world_nether` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- world_nether: NETHER`
-2025-06-05 03:27:12 [INFO]: Max attempts to create a Queue reached for default_world_nether (amount: 0)
-2025-06-05 03:27:12 [WARNING]: Seems like the world `arena` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- arena: NETHER`
-2025-06-05 03:28:26 [INFO]: Max attempts to create a Queue reached for default_world_nether (amount: 0)
-2025-06-05 03:29:39 [INFO]: Max attempts to create a Queue reached for default_world_nether (amount: 0)
-2025-06-05 03:30:53 [INFO]: Max attempts to create a Queue reached for default_world_nether (amount: 0)
-2025-06-05 03:32:06 [INFO]: Max attempts to create a Queue reached for default_world_nether (amount: 0)
-2025-06-05 03:33:19 [INFO]: Max attempts to create a Queue reached for default_world_nether (amount: 0)
-2025-06-05 03:38:56 [INFO]: Max attempts to create a Queue reached for default_world_nether (amount: 0)
-2025-06-05 03:40:10 [INFO]: Max attempts to create a Queue reached for default_world_nether (amount: 0)
-2025-06-05 03:41:25 [INFO]: Max attempts to create a Queue reached for default_world_nether (amount: 0)
-2025-06-05 03:42:38 [INFO]: Max attempts to create a Queue reached for default_world_nether (amount: 0)
-2025-06-05 03:43:53 [INFO]: Max attempts to create a Queue reached for default_world_nether (amount: 0)
-2025-06-05 03:45:02 [INFO]: Disabling BetterRTP v3.6.11
+2025-06-05 03:49:40 [INFO]: Loading Overrides...
+2025-06-05 03:49:40 [WARNING]: The world `playworldsss` doesn't seem to exist! Please update `worldsss's` override! Maybe there are capital letters?
+2025-06-05 03:49:40 [INFO]: Loading World Types...
+2025-06-05 03:49:40 [INFO]: - World Type for 'playworld' set to 'NORMAL'
+2025-06-05 03:49:40 [INFO]: - World Type for 'mining' set to 'NORMAL'
+2025-06-05 03:49:40 [INFO]: - World Type for 'playworld_nether' set to 'NETHER'
+2025-06-05 03:49:40 [SEVERE]: World Type for 'playworld_the_end' is INVALID 'END'. Valid ID's are: NORMAL, NETHER
+2025-06-05 03:49:40 [INFO]: Loading Defaults...
+2025-06-05 03:49:40 [INFO]: Loading Custom Worlds...
+2025-06-05 03:49:40 [INFO]: [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
+2025-06-05 03:49:40 [INFO]: [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
+2025-06-05 03:49:40 [INFO]: Loading Permission Groups...
+2025-06-05 03:49:40 [INFO]: - Permission Group: vip
+2025-06-05 03:49:40 [INFO]: - -- World: playworld
+2025-06-05 03:49:40 [INFO]: - - MaxRadius: 50000
+2025-06-05 03:49:40 [INFO]: - - MinRadius: 500
+2025-06-05 03:49:40 [SEVERE]: The particle 'EXPLOSION_NORMAL' created a fatal error when loading particles! Your MC version isn't supported!
+2025-06-05 03:49:52 [INFO]: Database PLAYERS:Players configured and loaded!
+2025-06-05 03:49:52 [INFO]: Database QUEUE:Queue configured and loaded!
+2025-06-05 03:49:52 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
+2025-06-05 03:49:54 [INFO]: Attempting to queue up some more safe locations...
+2025-06-05 03:49:56 [WARNING]: Seems like the world `world_nether` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- world_nether: NETHER`
+2025-06-05 03:51:11 [INFO]: Max attempts to create a Queue reached for default_world_nether (amount: 0)
+2025-06-05 03:51:12 [WARNING]: Seems like the world `arena` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- arena: NETHER`
+2025-06-05 03:52:29 [INFO]: Max attempts to create a Queue reached for default_world_nether (amount: 0)
+2025-06-05 03:53:45 [INFO]: Max attempts to create a Queue reached for default_world_nether (amount: 0)
+2025-06-05 03:55:02 [INFO]: Max attempts to create a Queue reached for default_world_nether (amount: 0)
+2025-06-05 03:56:18 [INFO]: Max attempts to create a Queue reached for default_world_nether (amount: 0)
+2025-06-05 03:57:32 [INFO]: Max attempts to create a Queue reached for default_world_nether (amount: 0)
+2025-06-05 03:58:48 [INFO]: Max attempts to create a Queue reached for default_world_nether (amount: 0)
+2025-06-05 04:00:04 [INFO]: Max attempts to create a Queue reached for default_world_nether (amount: 0)
+2025-06-05 04:01:19 [INFO]: Max attempts to create a Queue reached for default_world_nether (amount: 0)
+2025-06-05 04:02:35 [INFO]: Max attempts to create a Queue reached for default_world_nether (amount: 0)
+2025-06-05 04:02:41 [INFO]: .xylokhalifa executed: /betterrtp:rtp world playworld
+2025-06-05 04:02:43 [INFO]: -Removed a queue Location{world=CraftWorld{name=playworld},x=-39531.5,y=92.0,z=33521.5,pitch=-11.227158,yaw=-175.20332}
+2025-06-05 04:04:08 [INFO]: Max attempts to create a Queue reached for default_world_nether (amount: 0)
