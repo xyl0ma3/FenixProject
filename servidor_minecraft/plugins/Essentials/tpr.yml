@@ -1,0 +1,28 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+# Configuration for the random teleport command.
+# Some settings may be defaulted, and can be changed via the /settpr command in-game.
+min-range: 0.0
+excluded-biomes:
+  - cold_ocean
+  - deep_cold_ocean
+  - deep_frozen_ocean
+  - deep_lukewarm_ocean
+  - deep_ocean
+  - deep_warm_ocean
+  - frozen_ocean
+  - frozen_river
+  - lukewarm_ocean
+  - ocean
+  - river
+  - warm_ocean
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

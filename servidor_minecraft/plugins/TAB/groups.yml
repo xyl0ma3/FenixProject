@@ -1,0 +1,37 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+#Owner:
+#  tabprefix: "&0&l[&a&lOwner&0&l] &a"
+#  tagprefix: "&2&lOwner &a"
+Player:
+  tabprefix: "&0&l[&7&lPlayer&0&l] &3"
+  tagprefix: "&2&lPlayer &3"
+example_group:
+  header:
+    - "This is an example of per-group header/footer"
+  footer:
+    - "applied to a group"
+
+ # default settings for all groups, all groups will take properties from this section unless player's primary group overrides a specific setting
+_DEFAULT_:
+  tabprefix: "%luckperms-prefix%"
+  tagprefix: "%luckperms-prefix%"
+  customtabname: "%essentials_nickname%"
+  customtagname: "%essentials_nickname%" # don't forget to enable unlimited nametag mode to make this one work
+  tabsuffix: " %deluxetags_tag%"
+  tagsuffix: " %deluxetags_tag%"
+
+per-world:
+  world1:
+    Owner:
+      tabprefix: "&0&l[&a&lOwner&0&l] &a"
+      tagprefix: "&2&lOwner &a"
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

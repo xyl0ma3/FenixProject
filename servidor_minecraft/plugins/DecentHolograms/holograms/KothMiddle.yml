@@ -1,0 +1,26 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+location: arena:-21.500:69.000:-30.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#F8594ETime Left: &f%koth_current_time_left%'
+    height: 0.3
+  - content: '&#F8594ECurrent King: &f%koth_current_king%'
+    height: 0.3
+  actions: {}
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

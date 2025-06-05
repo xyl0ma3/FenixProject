@@ -1,0 +1,25 @@
+Nick: .xylokhalifa
+UUID: 00000000-0000-0000-0009-01f8877471c7
+FirstLogin: 04-06-2025 10:20:29
+Mute: false
+BlockMovement: false
+Money: 0.0
+IP: 127.0.0.1
+BlockCommands: false
+BlockGliding: false
+LogoutLocation:
+  ==: org.bukkit.Location
+  world: spawn
+  x: -1.4659758
+  y: 100.0
+  z: 8.547746
+  pitch: 22.887405
+  yaw: -142.11797
+LastDeathLocation:
+  ==: org.bukkit.Location
+  world: spawn
+  x: -71.5
+  y: -215.46129
+  z: 16.700003
+  pitch: 0.0
+  yaw: 0.0

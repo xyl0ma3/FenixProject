@@ -1,0 +1,18 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+# This file was Leaked by Launcher for NullAssets.com           
+# Visit https://nullassets.com today.
+# This file is used to determine any /team commands which contain a cooldown or price . NOTE this currently does not work with /teama commands
+
+# - 'home:9.99'
+
+# This option determines if the command cost is taken from the team balance first or the individual player
+#
+# Possible values: [true, false]
+costFromTeam: true

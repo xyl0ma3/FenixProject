@@ -1,0 +1,38 @@
+info:
+  version: '1.0'
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+#
+---------------------------------------------------------------------------------------------------------------
+
+
+entity_timeouts:
+  SNOWBALL: -1
+  LLAMA_SPIT: -1
+sentry-dsn: ''
+enable-books: true
+enable-suffocation-optimization: true
+enable-async-mob-spawning: true
+projectile:
+  max-loads-per-tick: 10
+  max-loads-per-projectile: 8
+dab:
+  enabled: true
+  start-distance: 12
+  max-tick-freq: 20
+  activation-dist-mod: 7
+  blacklisted-entities: []
+inactive-goal-selector-throttle: true
+misc:
+  disable-method-profiler: true
+  disable-out-of-order-chat: false
+  suppress-null-id-disconnections: false
+allow-end-crystal-respawn: true

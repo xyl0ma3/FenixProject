@@ -1,0 +1,4 @@
+DEBUG: false
+DEBUG_PRINT_CHAT: false
+SETUP_TXT_YES: '&a[Yes]'
+SETUP_TXT_NO: '&c[No]'

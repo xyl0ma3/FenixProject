@@ -1,0 +1,63 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+menu_title: '&f七七七七七七七七🎄'
+open_command: teams
+size: 18
+update_interval: 1
+
+items:
+
+
+  'create_team':
+    material: LIGHT_BLUE_BANNER
+    slot: 1
+    hide_attributes: true
+    display_name: '&b&lᴄʀᴇᴀᴛᴇ ᴛᴇᴀᴍ'
+    lore:
+      - ''
+      - '&bFeatures:'
+      - ' &8▪ &7Alliances'
+      - ' &8▪ &7Team Home'
+      - ' &8▪ &7Toggleable Team PVP'
+      - ' &8▪ &7Team Chat'
+      - ''
+      - '&bCommand:'
+      - ' &8▪ &7/team create <name>'
+
+
+  'join_team':
+    material: LIME_BANNER
+    slot: 4
+    hide_attributes: true
+    display_name: '&a&lᴊᴏɪɴ ᴛᴇᴀᴍ'
+    lore:
+      - ''
+      - '&7Do you want to join another team?'
+      - '&7Use the command below to join!'
+      - ''
+      - '&aCommand:'
+      - ' &8▪ &7/team join <name>'
+
+
+  'leave_team':
+    material: RED_BANNER
+    slot: 7
+    hide_attributes: true
+    display_name: '&c&lʟᴇᴀᴠᴇ ᴛᴇᴀᴍ'
+    lore:
+      - ''
+      - '&7Have an issue with your team?'
+      - '&7You can always leave!'
+      - ''
+      - '&cCommand:'
+      - ' &8▪ &7/team leave'
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

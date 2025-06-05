@@ -1,0 +1,95 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+# Tips
+# 1. Make sure to use the %prefix% to add the prefix in front of messages.
+# 2. If you wish to use more than one line for a message just go from a line to a list.
+# Examples:
+#  Line:
+#    No-Permission: '%prefix%&cYou do not have permission to use that command.'
+#  List:
+#    No-Permission:
+#      - '%prefix%&cYou do not have permission'
+#      - '&cto use that command. Please try another.'
+Messages:
+  No-Permission: '%prefix%&7You do not have permission to use that command.'
+  No-Permission-Claim: '%prefix%&7You do not have permission to claim that envoy.'
+  Players-Only: '%prefix%&7Only players can use that command.'
+  Not-Online: '%prefix%&7That player is not online at this time.'
+  Not-A-Number: '%prefix%&7That is not a number.'
+  Reloaded: '%prefix%&7You have just reloaded all the files.'
+  Already-Started: '%prefix%&7There is already an envoy event running. Please stop
+    it to start a new one.'
+  Force-Start: '%prefix%&7You have just started the envoy.'
+  Not-Started: '%prefix%&7There is no envoy event going on at this time.'
+  Force-Ended: '%prefix%&7You have just ended the envoy.'
+  Warning: '%prefix%&7[&4ALERT&c] &7There is an envoy event happening in &f%time%&7.'
+  Started: '%prefix%&7An envoy event has just started. &f%amount% &7crates have spawned
+    around spawn for 5m.'
+  Left: '%prefix%&f%player% &7has just found a %tier% envoy. There are now &f%amount%
+    &7left to find.'
+  Ended: '%prefix%&7The envoy event has ended. Thanks for playing and please come
+    back for the next one.'
+  Not-Enough-Players: '%prefix%&7Not enough players are online to start the envoy
+    event. Only &f%amount% &7players are online.'
+  Enter-Editor-Mode: '%prefix%&7You are now in editor mode.'
+  Leave-Editor-Mode: '%prefix%&7You have now left editor mode.'
+  Editor-Clear-Locations: '%prefix%&7You have cleared all the editor spawn locations.'
+  Editor-Clear-Failure: '%prefix%&7You must be in Editor mode to clear the spawn locations.'
+  Kicked-From-Editor-Mode: '%prefix%&7Sorry but an envoy is active. Please stop it
+    or wait till it''s over.'
+  Add-Location: '%prefix%&7You have just added a spawn location.'
+  Remove-Location: '%prefix%&7You have just removed a spawn location.'
+  Time-Left: '%prefix%&7The current envoy has &f%time%&7 left.'
+  Time-Till-Event: '%prefix%&7The next envoy will start in &f%time%&7.'
+  Used-Flare: '%prefix%&7You have just started an envoy event with a flare.'
+  Cant-Use-Flares: '%prefix%&7You do not have permission to use flares.'
+  Give-Flare: '%prefix%&7You have just given &f%player% %amount% &7flares.'
+  Given-Flare: '%prefix%&7You have been given &f%amount% &7flares.'
+  New-Center: '%prefix%&7You have just set a new center for the random envoy crates.'
+  Not-In-World-Guard-Region: '%prefix%&7You must be in the WarZone to use a flare.'
+  Start-Ignoring-Messages: '%prefix%&7You are now ignoring the collecting messages.'
+  Stop-Ignoring-Messages: '%prefix%&7You now see all the collecting messages.'
+  Cooldown-Left: '%prefix%&7You still have &f%time% &7till you can collect another
+    crate.'
+  Drops-Available: '%prefix%&7List of all available envoys.'
+  Drops-Possibilities: '%prefix%&7List of location envoy''s may spawn at.'
+  Drops-Page: '%prefix%&7Use /envoy drops [page] to see more.'
+  Drops-Format: '&7[&6%id%&7]: %world%, %x%, %y%, %z%'
+  No-Spawn-Locations-Found: '%prefix%&7No spawn locations were found and so the event
+    has been cancelled and the cooldown has been reset.'
+  Command-Not-Found: '%prefix%&7Please do /envoy help for more information.'
+  Hologram-Placeholders:
+    On-Going: On Going
+    Not-Running: Not Running
+  Time-Placeholders:
+    Day: d
+    Hour: h
+    Minute: m
+    Second: s
+  Help:
+  - '&f/envoy help &7- Shows the envoy help menu.'
+  - '&f/envoy reload &7- Reloads all the config files.'
+  - '&f/envoy time &7- Shows the time till the envoy starts or ends.'
+  - '&f/envoy drops [page] &7- Shows all current crate locations.'
+  - '&f/envoy ignore &7- Shuts up the envoy collecting message.'
+  - '&f/envoy flare [amount] [player] &7- Give a player a flare to call an envoy event.'
+  - '&f/envoy edit &7- Edit the crate locations with bedrock.'
+  - '&f/envoy start &7- Force starts the envoy.'
+  - '&f/envoy stop &7- Force stops the envoy.'
+  - '&f/envoy center &7- Set the center of the random crate drops.'
+  Countdown-In-Progress: '%prefix%&7You cannot claim any envoys for another &6%time%
+    seconds.'
+  Crate-Locations: "&e&lAll Envoy Locations: \n&c[ID], [World]: [X], [Y], [Z] &r%locations%"
+  Location-Format: |2-
+
+    &8[&3%id%&8] &c%world%: %x%, %y%, %z%
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

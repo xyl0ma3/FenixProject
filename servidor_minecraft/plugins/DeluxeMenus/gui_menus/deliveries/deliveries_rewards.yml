@@ -1,0 +1,602 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+menu_title: '&f七七七七七七七七☎'
+open_command: deliveriesrewards
+size: 27
+update_interval: 1
+
+items:
+
+
+  'completed_10_reward_claimed':
+    material: PAPER
+    model_data: 5713
+    slot: 1
+    update: true
+    display_name: '&b&lComplete 10 Deliveries &8&l▪ &c&lClaimed!'
+    lore:
+      - '&8Deliveries Rewards'
+      - ''
+      - '&7You have completed 10 deliveries,'
+      - '&7and have already claimed the reward!'
+      - ''
+      - '&6Reward: &f$20,000'
+    priority: 1
+    view_requirement:
+      stop_at_success: true
+      requirements:
+        permission:
+          type: has permission
+          permission: deliveries.rewards.10.claimed
+
+  'completed_10_reward_ready':
+    material: PAPER
+    model_data: 5714
+    slot: 1
+    update: true
+    display_name: '&b&lComplete 10 Deliveries &8&l▪ &a&lClaim Now!'
+    lore:
+      - '&8Deliveries Rewards'
+      - ''
+      - '&7You have completed 10 deliveries,'
+      - '&7so you can claim this reward now!'
+      - ''
+      - '&6Reward: &f$20,000'
+      - ''
+      - '&e➥ Left-Click to claim'
+    priority: 2
+    view_requirement:
+      stop_at_success: true
+      requirements:
+        level:
+          type: javascript
+          expression: '%coinsengine_balance_raw_deliveries% >= 10'
+          output: "True"
+    click_commands:
+      - "[message] &8[&b&l!&8] &b&lDeliveries &8→ &aYou have claimed this reward!"
+      - "[console] eco give %player_name% 20000"
+      - "[console] lp user %player_name% permission set deliveries.rewards.10.claimed"
+      - "[refresh]"
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+
+  'completed_10_reward_not_enough_level':
+    material: PAPER
+    model_data: 5712
+    slot: 1
+    update: true
+    display_name: '&b&lComplete 10 Deliveries'
+    lore:
+      - '&8Deliveries Rewards'
+      - ''
+      - '&7Complete 10 deliveries to'
+      - '&7obtain this reward!'
+      - ''
+      - '&6Reward: &f$20,000'
+    priority: 3
+    view_requirement:
+      stop_at_success: true
+      requirements:
+        level:
+          type: javascript
+          expression: '%coinsengine_balance_raw_deliveries% < 10'
+          output: "True"
+
+
+
+
+
+
+
+  'completed_25_reward_claimed':
+    material: PAPER
+    model_data: 5713
+    slot: 2
+    update: true
+    display_name: '&b&lComplete 25 Deliveries &8&l▪ &c&lClaimed!'
+    lore:
+      - '&8Deliveries Rewards'
+      - ''
+      - '&7You have completed 25 deliveries,'
+      - '&7and have already claimed the reward!'
+      - ''
+      - '&6Reward: &f$50,000'
+    priority: 1
+    view_requirement:
+      stop_at_success: true
+      requirements:
+        permission:
+          type: has permission
+          permission: deliveries.rewards.25.claimed
+
+  'completed_25_reward_ready':
+    material: PAPER
+    model_data: 5714
+    slot: 2
+    update: true
+    display_name: '&b&lComplete 25 Deliveries &8&l▪ &a&lClaim Now!'
+    lore:
+      - '&8Deliveries Rewards'
+      - ''
+      - '&7You have completed 25 deliveries,'
+      - '&7so you can claim this reward now!'
+      - ''
+      - '&6Reward: &f$50,000'
+      - ''
+      - '&e➥ Left-Click to claim'
+    priority: 2
+    view_requirement:
+      stop_at_success: true
+      requirements:
+        level:
+          type: javascript
+          expression: '%coinsengine_balance_raw_deliveries% >= 25'
+          output: "True"
+    click_commands:
+      - "[message] &8[&b&l!&8] &b&lDeliveries &8→ &aYou have claimed this reward!"
+      - "[console] eco give %player_name% 50000"
+      - "[console] lp user %player_name% permission set deliveries.rewards.25.claimed"
+      - "[refresh]"
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+
+  'completed_25_reward_not_enough_level':
+    material: PAPER
+    model_data: 5712
+    slot: 2
+    update: true
+    display_name: '&b&lComplete 25 Deliveries'
+    lore:
+      - '&8Deliveries Rewards'
+      - ''
+      - '&7Complete 25 deliveries to'
+      - '&7obtain this reward!'
+      - ''
+      - '&6Reward: &f$50,000'
+    priority: 3
+    view_requirement:
+      stop_at_success: true
+      requirements:
+        level:
+          type: javascript
+          expression: '%coinsengine_balance_raw_deliveries% < 25'
+          output: "True"
+
+
+
+
+
+
+  'completed_50_reward_claimed':
+    material: PAPER
+    model_data: 5713
+    slot: 3
+    update: true
+    display_name: '&b&lComplete 50 Deliveries &8&l▪ &c&lClaimed!'
+    lore:
+      - '&8Deliveries Rewards'
+      - ''
+      - '&7You have completed 50 deliveries,'
+      - '&7and have already claimed the reward!'
+      - ''
+      - '&6Reward: &f$100,000'
+    priority: 1
+    view_requirement:
+      stop_at_success: true
+      requirements:
+        permission:
+          type: has permission
+          permission: deliveries.rewards.50.claimed
+
+  'completed_50_reward_ready':
+    material: PAPER
+    model_data: 5714
+    slot: 3
+    update: true
+    display_name: '&b&lComplete 50 Deliveries &8&l▪ &a&lClaim Now!'
+    lore:
+      - '&8Deliveries Rewards'
+      - ''
+      - '&7You have completed 50 deliveries,'
+      - '&7so you can claim this reward now!'
+      - ''
+      - '&6Reward: &f$100,000'
+      - ''
+      - '&e➥ Left-Click to claim'
+    priority: 2
+    view_requirement:
+      stop_at_success: true
+      requirements:
+        level:
+          type: javascript
+          expression: '%coinsengine_balance_raw_deliveries% >= 50'
+          output: "True"
+    click_commands:
+      - "[message] &8[&b&l!&8] &b&lDeliveries &8→ &aYou have claimed this reward!"
+      - "[console] eco give %player_name% 100000"
+      - "[console] lp user %player_name% permission set deliveries.rewards.50.claimed"
+      - "[refresh]"
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+
+  'completed_50_reward_not_enough_level':
+    material: PAPER
+    model_data: 5712
+    slot: 3
+    update: true
+    display_name: '&b&lComplete 50 Deliveries'
+    lore:
+      - '&8Deliveries Rewards'
+      - ''
+      - '&7Complete 50 deliveries to'
+      - '&7obtain this reward!'
+      - ''
+      - '&6Reward: &f$100,000'
+    priority: 3
+    view_requirement:
+      stop_at_success: true
+      requirements:
+        level:
+          type: javascript
+          expression: '%coinsengine_balance_raw_deliveries% < 50'
+          output: "True"
+
+
+
+
+
+
+  'completed_100_reward_claimed':
+    material: PAPER
+    model_data: 5713
+    slot: 4
+    update: true
+    display_name: '&b&lComplete 100 Deliveries &8&l▪ &c&lClaimed!'
+    lore:
+      - '&8Deliveries Rewards'
+      - ''
+      - '&7You have completed 100 deliveries,'
+      - '&7and have already claimed the reward!'
+      - ''
+      - '&6Reward: &f$200,000'
+    priority: 1
+    view_requirement:
+      stop_at_success: true
+      requirements:
+        permission:
+          type: has permission
+          permission: deliveries.rewards.100.claimed
+
+  'completed_100_reward_ready':
+    material: PAPER
+    model_data: 5714
+    slot: 4
+    update: true
+    display_name: '&b&lComplete 100 Deliveries &8&l▪ &a&lClaim Now!'
+    lore:
+      - '&8Deliveries Rewards'
+      - ''
+      - '&7You have completed 100 deliveries,'
+      - '&7so you can claim this reward now!'
+      - ''
+      - '&6Reward: &f$200,000'
+      - ''
+      - '&e➥ Left-Click to claim'
+    priority: 2
+    view_requirement:
+      stop_at_success: true
+      requirements:
+        level:
+          type: javascript
+          expression: '%coinsengine_balance_raw_deliveries% >= 100'
+          output: "True"
+    click_commands:
+      - "[message] &8[&b&l!&8] &b&lDeliveries &8→ &aYou have claimed this reward!"
+      - "[console] eco give %player_name% 200000"
+      - "[console] lp user %player_name% permission set deliveries.rewards.100.claimed"
+      - "[refresh]"
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+
+  'completed_100_reward_not_enough_level':
+    material: PAPER
+    model_data: 5712
+    slot: 4
+    update: true
+    display_name: '&b&lComplete 100 Deliveries'
+    lore:
+      - '&8Deliveries Rewards'
+      - ''
+      - '&7Complete 100 deliveries to'
+      - '&7obtain this reward!'
+      - ''
+      - '&6Reward: &f$200,000'
+    priority: 3
+    view_requirement:
+      stop_at_success: true
+      requirements:
+        level:
+          type: javascript
+          expression: '%coinsengine_balance_raw_deliveries% < 100'
+          output: "True"
+
+
+
+
+
+
+  'completed_200_reward_claimed':
+    material: PAPER
+    model_data: 5713
+    slot: 5
+    update: true
+    display_name: '&b&lComplete 200 Deliveries &8&l▪ &c&lClaimed!'
+    lore:
+      - '&8Deliveries Rewards'
+      - ''
+      - '&7You have completed 200 deliveries,'
+      - '&7and have already claimed the reward!'
+      - ''
+      - '&6Reward: &f$500,000'
+    priority: 1
+    view_requirement:
+      stop_at_success: true
+      requirements:
+        permission:
+          type: has permission
+          permission: deliveries.rewards.200.claimed
+
+  'completed_200_reward_ready':
+    material: PAPER
+    model_data: 5714
+    slot: 5
+    update: true
+    display_name: '&b&lComplete 200 Deliveries &8&l▪ &a&lClaim Now!'
+    lore:
+      - '&8Deliveries Rewards'
+      - ''
+      - '&7You have completed 200 deliveries,'
+      - '&7so you can claim this reward now!'
+      - ''
+      - '&6Reward: &f$500,000'
+      - ''
+      - '&e➥ Left-Click to claim'
+    priority: 2
+    view_requirement:
+      stop_at_success: true
+      requirements:
+        level:
+          type: javascript
+          expression: '%coinsengine_balance_raw_deliveries% >= 200'
+          output: "True"
+    click_commands:
+      - "[message] &8[&b&l!&8] &b&lDeliveries &8→ &aYou have claimed this reward!"
+      - "[console] eco give %player_name% 500000"
+      - "[console] lp user %player_name% permission set deliveries.rewards.200.claimed"
+      - "[refresh]"
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+
+  'completed_200_reward_not_enough_level':
+    material: PAPER
+    model_data: 5712
+    slot: 5
+    update: true
+    display_name: '&b&lComplete 200 Deliveries'
+    lore:
+      - '&8Deliveries Rewards'
+      - ''
+      - '&7Complete 200 deliveries to'
+      - '&7obtain this reward!'
+      - ''
+      - '&6Reward: &f$500,000'
+    priority: 3
+    view_requirement:
+      stop_at_success: true
+      requirements:
+        level:
+          type: javascript
+          expression: '%coinsengine_balance_raw_deliveries% < 200'
+          output: "True"
+
+
+
+
+
+
+  'completed_500_reward_claimed':
+    material: PAPER
+    model_data: 5713
+    slot: 6
+    update: true
+    display_name: '&b&lComplete 500 Deliveries &8&l▪ &c&lClaimed!'
+    lore:
+      - '&8Deliveries Rewards'
+      - ''
+      - '&7You have completed 500 deliveries,'
+      - '&7and have already claimed the reward!'
+      - ''
+      - '&6Reward: &f$1,000,000'
+    priority: 1
+    view_requirement:
+      stop_at_success: true
+      requirements:
+        permission:
+          type: has permission
+          permission: deliveries.rewards.500.claimed
+
+  'completed_500_reward_ready':
+    material: PAPER
+    model_data: 5714
+    slot: 6
+    update: true
+    display_name: '&b&lComplete 500 Deliveries &8&l▪ &a&lClaim Now!'
+    lore:
+      - '&8Deliveries Rewards'
+      - ''
+      - '&7You have completed 500 deliveries,'
+      - '&7so you can claim this reward now!'
+      - ''
+      - '&6Reward: &f$1,000,000'
+      - ''
+      - '&e➥ Left-Click to claim'
+    priority: 2
+    view_requirement:
+      stop_at_success: true
+      requirements:
+        level:
+          type: javascript
+          expression: '%coinsengine_balance_raw_deliveries% >= 500'
+          output: "True"
+    click_commands:
+      - "[message] &8[&b&l!&8] &b&lDeliveries &8→ &aYou have claimed this reward!"
+      - "[console] eco give %player_name% 1000000"
+      - "[console] lp user %player_name% permission set deliveries.rewards.500.claimed"
+      - "[refresh]"
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+
+  'completed_500_reward_not_enough_level':
+    material: PAPER
+    model_data: 5712
+    slot: 6
+    update: true
+    display_name: '&b&lComplete 500 Deliveries'
+    lore:
+      - '&8Deliveries Rewards'
+      - ''
+      - '&7Complete 500 deliveries to'
+      - '&7obtain this reward!'
+      - ''
+      - '&6Reward: &f$1,000,000'
+    priority: 3
+    view_requirement:
+      stop_at_success: true
+      requirements:
+        level:
+          type: javascript
+          expression: '%coinsengine_balance_raw_deliveries% < 500'
+          output: "True"
+
+
+
+
+
+
+  'completed_1000_reward_claimed':
+    material: PAPER
+    model_data: 5713
+    slot: 7
+    update: true
+    display_name: '&b&lComplete 1000 Deliveries &8&l▪ &c&lClaimed!'
+    lore:
+      - '&8Deliveries Rewards'
+      - ''
+      - '&7You have completed 1000 deliveries,'
+      - '&7and have already claimed the reward!'
+      - ''
+      - '&6Reward: &f$2,000,000'
+    priority: 1
+    view_requirement:
+      stop_at_success: true
+      requirements:
+        permission:
+          type: has permission
+          permission: deliveries.rewards.1000.claimed
+
+  'completed_1000_reward_ready':
+    material: PAPER
+    model_data: 5714
+    slot: 7
+    update: true
+    display_name: '&b&lComplete 1000 Deliveries &8&l▪ &a&lClaim Now!'
+    lore:
+      - '&8Deliveries Rewards'
+      - ''
+      - '&7You have completed 1000 deliveries,'
+      - '&7so you can claim this reward now!'
+      - ''
+      - '&6Reward: &f$2,000,000'
+      - ''
+      - '&e➥ Left-Click to claim'
+    priority: 2
+    view_requirement:
+      stop_at_success: true
+      requirements:
+        level:
+          type: javascript
+          expression: '%coinsengine_balance_raw_deliveries% >= 1000'
+          output: "True"
+    click_commands:
+      - "[message] &8[&b&l!&8] &b&lDeliveries &8→ &aYou have claimed this reward!"
+      - "[console] eco give %player_name% 2000000"
+      - "[console] lp user %player_name% permission set deliveries.rewards.1000.claimed"
+      - "[refresh]"
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+
+  'completed_1000_reward_not_enough_level':
+    material: PAPER
+    model_data: 5712
+    slot: 7
+    update: true
+    display_name: '&b&lComplete 1000 Deliveries'
+    lore:
+      - '&8Deliveries Rewards'
+      - ''
+      - '&7Complete 1000 deliveries to'
+      - '&7obtain this reward!'
+      - ''
+      - '&6Reward: &f$2,000,000'
+    priority: 3
+    view_requirement:
+      stop_at_success: true
+      requirements:
+        level:
+          type: javascript
+          expression: '%coinsengine_balance_raw_deliveries% < 1000'
+          output: "True"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  'back':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 19
+      - 20
+      - 21
+    update: true
+    display_name: '&c&lʙᴀᴄᴋ'
+    click_commands:
+      - "[openguimenu] deliveries_menu"
+
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

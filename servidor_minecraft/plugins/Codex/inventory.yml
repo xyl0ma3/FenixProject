@@ -1,0 +1,647 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+Inventories:
+  main:
+    slots: 36
+    title: '&f七七七七七七七七🎉'
+
+    0;1;2;9;10;11;18;19;20:
+      type: regions
+      item: PAPER
+      custom_model_data: 110007
+      name: '&a&lᴅɪsᴄᴏᴠᴇʀ ʀᴇɢɪᴏɴs'
+      lore:
+      - ''
+      - '&7Discover all the important areas'
+      - '&7on the server to explore the server.'
+      - '&7Receive rewards at the same time!'
+      - ''
+      - '&aUnlocked: %unlocked% &8(&7%percentage%&8)'
+      - ''
+      - '&e➥ Left-Click to browse'
+      open_inventory: regions_discoveries
+
+    3;4;5;12;13;14;21;22;23:
+      type: features
+      item: PAPER
+      custom_model_data: 110007
+      name: '&6&lᴅɪsᴄᴏᴠᴇʀ ғᴇᴀᴛᴜʀᴇs'
+      lore:
+      - ''
+      - '&7Discover all the important features,'
+      - '&7by completing small objectives.'
+      - '&7Receive rewards at the same time!'
+      - ''
+      - '&6Unlocked: %unlocked% &8(&7%percentage%&8)'
+      - ''
+      - '&e➥ Left-Click to browse'
+      open_inventory: features_discoveries
+
+    6;7;8;15;16;17;24;25;26:
+      type: objectives
+      item: PAPER
+      custom_model_data: 110007
+      name: '&b&lᴄᴏᴅᴇx ᴏʙᴊᴇᴄᴛɪᴠᴇs'
+      lore:
+      - ''
+      - '&7The codex objectives will help,'
+      - '&7you learn about the features on'
+      - '&7the server! Receive rewards at'
+      - '&7the same time'
+      - ''
+      - '&bUnlocked: %unlocked% &8(&7%percentage%&8)'
+      - ''
+      - '&e➥ Left-Click to browse'
+      open_inventory: codex_objectives
+
+    28;29;30:
+      item: PAPER
+      custom_model_data: 110007
+      name: '&c&lʙᴀᴄᴋ'
+      click_commands:
+      - "dm open serverguide_menu %player%"
+
+
+
+
+
+
+
+  regions_discoveries:
+    slots: 36
+    title: '&f七七七七七七七七🎊'
+    '1':
+      type: regions;crates
+      item: PAPER
+      custom_model_data: 3167
+      name: '&a&lᴅɪsᴄᴏᴠᴇʀ ʀᴇɢɪᴏɴ'
+      lore:
+      - ' '
+      - '&7Discover the Crates region'
+      - '&7to unlock this discovery!'
+      - ' '
+      - '&6Region: &fCrates'
+      - ' '
+      - '&aReward: #B7FB762XP'
+      - ' '
+      - '&e➼ Enter region to discover'
+    '2':
+      type: regions;arena
+      item: PAPER
+      custom_model_data: 3167
+      name: '&a&lᴅɪsᴄᴏᴠᴇʀ ʀᴇɢɪᴏɴ'
+      lore:
+      - ' '
+      - '&7Discover the Arena region'
+      - '&7to unlock this discovery!'
+      - ' '
+      - '&6Region: &fArena'
+      - ' '
+      - '&aReward: #B7FB762XP'
+      - ' '
+      - '&e➼ Enter region to discover'
+    '3':
+      type: regions;koth
+      item: PAPER
+      custom_model_data: 3167
+      name: '&a&lᴅɪsᴄᴏᴠᴇʀ ʀᴇɢɪᴏɴ'
+      lore:
+      - ' '
+      - '&7Discover the KOTH region'
+      - '&7to unlock this discovery!'
+      - ' '
+      - '&6Region: &fKOTH'
+      - ' '
+      - '&aReward: #B7FB762XP'
+      - ' '
+      - '&e➼ Enter region to discover'
+    '4':
+      type: regions;afk
+      item: PAPER
+      custom_model_data: 3167
+      name: '&a&lᴅɪsᴄᴏᴠᴇʀ ʀᴇɢɪᴏɴ'
+      lore:
+      - ' '
+      - '&7Discover the AFK region'
+      - '&7to unlock this discovery!'
+      - ' '
+      - '&6Region: &fAFK'
+      - ' '
+      - '&aReward: #B7FB762XP'
+      - ' '
+      - '&e➼ Enter region to discover'
+    28;29;30:
+      item: PAPER
+      custom_model_data: 110007
+      name: '&c&lʙᴀᴄᴋ'
+      open_inventory: main
+
+
+  features_discoveries:
+    slots: 45
+    title: '&f七七七七七七七七🎈'
+    '1':
+      type: features;1
+      item: PAPER
+      custom_model_data: 3167
+      name: '&6&lᴅɪsᴄᴏᴠᴇʀ ғᴇᴀᴛᴜʀᴇ'
+      lore:
+      - ' '
+      - '&7Discover the Auction feature'
+      - '&7by entering the auction menu!'
+      - '&7by NPC in spawn!'
+      - ' '
+      - '&6Talk to NPC: &fAuction'
+      - ' '
+      - '&aReward: #B7FB761XP'
+      - ' '
+      - '&e➼ Enter command to discover'
+    '2':
+      type: features;2
+      item: PAPER
+      custom_model_data: 3167
+      name: '&6&lᴅɪsᴄᴏᴠᴇʀ ғᴇᴀᴛᴜʀᴇ'
+      lore:
+      - ' '
+      - '&7Discover the Coinshop feature'
+      - '&7by entering the coinshop menu!'
+      - '&7by NPC in spawn!'
+      - ' '
+      - '&6Talk to NPC: &fCoinshop'
+      - ' '
+      - '&aReward: #B7FB761XP'
+      - ' '
+      - '&e➼ Enter command to discover'
+    '3':
+      type: features;3
+      item: PAPER
+      custom_model_data: 3167
+      name: '&6&lᴅɪsᴄᴏᴠᴇʀ ғᴇᴀᴛᴜʀᴇ'
+      lore:
+      - ' '
+      - '&7Discover the Cosmetics feature'
+      - '&7by entering the cosmetics menu!'
+      - '&7by NPC in spawn!'
+      - ' '
+      - '&6Talk to NPC: &fCosmetics'
+      - ' '
+      - '&aReward: #B7FB761XP'
+      - ' '
+      - '&e➼ Enter command to discover'
+    '4':
+      type: features;4
+      item: PAPER
+      custom_model_data: 3167
+      name: '&6&lᴅɪsᴄᴏᴠᴇʀ ғᴇᴀᴛᴜʀᴇ'
+      lore:
+      - ' '
+      - '&7Discover the DailyQuests feature'
+      - '&7by entering the dailyquests menu!'
+      - '&7by NPC in spawn!'
+      - ' '
+      - '&6Talk to NPC: &fDailyquests'
+      - ' '
+      - '&aReward: #B7FB761XP'
+      - ' '
+      - '&e➼ Enter command to discover'
+    '5':
+      type: features;5
+      item: PAPER
+      custom_model_data: 3167
+      name: '&6&lᴅɪsᴄᴏᴠᴇʀ ғᴇᴀᴛᴜʀᴇ'
+      lore:
+      - ' '
+      - '&7Discover the Deliveries feature'
+      - '&7by entering the deliveries menu!'
+      - '&7by NPC in spawn!'
+      - ' '
+      - '&6Talk to NPC: &fDeliveries'
+      - ' '
+      - '&aReward: #B7FB761XP'
+      - ' '
+      - '&e➼ Enter command to discover'
+    '6':
+      type: features;6
+      item: PAPER
+      custom_model_data: 3167
+      name: '&6&lᴅɪsᴄᴏᴠᴇʀ ғᴇᴀᴛᴜʀᴇ'
+      lore:
+      - ' '
+      - '&7Discover the Factories feature'
+      - '&7by entering the factories menu!'
+      - '&7by NPC in spawn!'
+      - ' '
+      - '&6Talk to NPC: &fFactories'
+      - ' '
+      - '&aReward: #B7FB761XP'
+      - ' '
+      - '&e➼ Enter command to discover'
+    '7':
+      type: features;7
+      item: PAPER
+      custom_model_data: 3167
+      name: '&6&lᴅɪsᴄᴏᴠᴇʀ ғᴇᴀᴛᴜʀᴇ'
+      lore:
+      - ' '
+      - '&7Discover the Jobs feature'
+      - '&7by entering the jobs menu!'
+      - '&7by NPC in spawn!'
+      - ' '
+      - '&6Talk to NPC: &fJobs'
+      - ' '
+      - '&aReward: #B7FB761XP'
+      - ' '
+      - '&e➼ Enter command to discover'
+    '10':
+      type: features;8
+      item: PAPER
+      custom_model_data: 3167
+      name: '&6&lᴅɪsᴄᴏᴠᴇʀ ғᴇᴀᴛᴜʀᴇ'
+      lore:
+      - ' '
+      - '&7Discover the Kits feature'
+      - '&7by entering the kits menu!'
+      - '&7by NPC in spawn!'
+      - ' '
+      - '&6Talk to NPC: &fKits'
+      - ' '
+      - '&aReward: #B7FB761XP'
+      - ' '
+      - '&e➼ Enter command to discover'
+    '11':
+      type: features;9
+      item: PAPER
+      custom_model_data: 3167
+      name: '&6&lᴅɪsᴄᴏᴠᴇʀ ғᴇᴀᴛᴜʀᴇ'
+      lore:
+      - ' '
+      - '&7Discover the Leaderboards feature'
+      - '&7by entering the leaderboards menu!'
+      - '&7by NPC in spawn!'
+      - ' '
+      - '&6Talk to NPC: &fLeaderboards'
+      - ' '
+      - '&aReward: #B7FB761XP'
+      - ' '
+      - '&e➼ Enter command to discover'
+    '12':
+      type: features;10
+      item: PAPER
+      custom_model_data: 3167
+      name: '&6&lᴅɪsᴄᴏᴠᴇʀ ғᴇᴀᴛᴜʀᴇ'
+      lore:
+      - ' '
+      - '&7Discover the Levels feature'
+      - '&7by entering the levels menu!'
+      - '&7by NPC in spawn!'
+      - ' '
+      - '&6Talk to NPC: &fLevels'
+      - ' '
+      - '&aReward: #B7FB761XP'
+      - ' '
+      - '&e➼ Enter command to discover'
+    '13':
+      type: features;11
+      item: PAPER
+      custom_model_data: 3167
+      name: '&6&lᴅɪsᴄᴏᴠᴇʀ ғᴇᴀᴛᴜʀᴇ'
+      lore:
+      - ' '
+      - '&7Discover the Lottery feature'
+      - '&7by entering the lottery menu!'
+      - '&7by NPC in spawn!'
+      - ' '
+      - '&6Talk to NPC: &fLottery'
+      - ' '
+      - '&aReward: #B7FB761XP'
+      - ' '
+      - '&e➼ Enter command to discover'
+    '14':
+      type: features;12
+      item: PAPER
+      custom_model_data: 3167
+      name: '&6&lᴅɪsᴄᴏᴠᴇʀ ғᴇᴀᴛᴜʀᴇ'
+      lore:
+      - ' '
+      - '&7Discover the PlayerWarps feature'
+      - '&7by entering the playerwarps menu!'
+      - '&7by NPC in spawn!'
+      - ' '
+      - '&6Talk to NPC: &fPlayerwarps'
+      - ' '
+      - '&aReward: #B7FB761XP'
+      - ' '
+      - '&e➼ Enter command to discover'
+    '15':
+      type: features;13
+      item: PAPER
+      custom_model_data: 3167
+      name: '&6&lᴅɪsᴄᴏᴠᴇʀ ғᴇᴀᴛᴜʀᴇ'
+      lore:
+      - ' '
+      - '&7Discover the Quests feature'
+      - '&7by entering the quests menu!'
+      - '&7by NPC in spawn!'
+      - ' '
+      - '&6Talk to NPC: &fQuests'
+      - ' '
+      - '&aReward: #B7FB761XP'
+      - ' '
+      - '&e➼ Enter command to discover'
+    '16':
+      type: features;14
+      item: PAPER
+      custom_model_data: 3167
+      name: '&6&lᴅɪsᴄᴏᴠᴇʀ ғᴇᴀᴛᴜʀᴇ'
+      lore:
+      - ' '
+      - '&7Discover the Rewards feature'
+      - '&7by entering the rewards menu!'
+      - '&7by NPC in spawn!'
+      - ' '
+      - '&6Talk to NPC: &fRewards'
+      - ' '
+      - '&aReward: #B7FB761XP'
+      - ' '
+      - '&e➼ Enter command to discover'
+    '19':
+      type: features;15
+      item: PAPER
+      custom_model_data: 3167
+      name: '&6&lᴅɪsᴄᴏᴠᴇʀ ғᴇᴀᴛᴜʀᴇ'
+      lore:
+      - ' '
+      - '&7Discover the RTP feature'
+      - '&7by entering the rtp menu!'
+      - '&7by NPC in spawn!'
+      - ' '
+      - '&6Talk to NPC: &fRtp'
+      - ' '
+      - '&aReward: #B7FB761XP'
+      - ' '
+      - '&e➼ Enter command to discover'
+    '20':
+      type: features;16
+      item: PAPER
+      custom_model_data: 3167
+      name: '&6&lᴅɪsᴄᴏᴠᴇʀ ғᴇᴀᴛᴜʀᴇ'
+      lore:
+      - ' '
+      - '&7Discover the Shop feature'
+      - '&7by entering the shop menu!'
+      - '&7by NPC in spawn!'
+      - ' '
+      - '&6Talk to NPC: &fShop'
+      - ' '
+      - '&aReward: #B7FB761XP'
+      - ' '
+      - '&e➼ Enter command to discover'
+    '21':
+      type: features;17
+      item: PAPER
+      custom_model_data: 3167
+      name: '&6&lᴅɪsᴄᴏᴠᴇʀ ғᴇᴀᴛᴜʀᴇ'
+      lore:
+      - ' '
+      - '&7Discover the Skills feature'
+      - '&7by entering the skills menu!'
+      - '&7by NPC in spawn!'
+      - ' '
+      - '&6Talk to NPC: &fSkills'
+      - ' '
+      - '&aReward: #B7FB761XP'
+      - ' '
+      - '&e➼ Enter command to discover'
+    '22':
+      type: features;18
+      item: PAPER
+      custom_model_data: 3167
+      name: '&6&lᴅɪsᴄᴏᴠᴇʀ ғᴇᴀᴛᴜʀᴇ'
+      lore:
+      - ' '
+      - '&7Discover the Tags feature'
+      - '&7by entering the tags menu!'
+      - '&7by NPC in spawn!'
+      - ' '
+      - '&6Talk to NPC: &fTags'
+      - ' '
+      - '&aReward: #B7FB761XP'
+      - ' '
+      - '&e➼ Enter command to discover'
+    '23':
+      type: features;19
+      item: PAPER
+      custom_model_data: 3167
+      name: '&6&lᴅɪsᴄᴏᴠᴇʀ ғᴇᴀᴛᴜʀᴇ'
+      lore:
+      - ' '
+      - '&7Discover the Teams feature'
+      - '&7by entering the teams menu!'
+      - '&7by NPC in spawn!'
+      - ' '
+      - '&6Talk to NPC: &fTeams'
+      - ' '
+      - '&aReward: #B7FB761XP'
+      - ' '
+      - '&e➼ Enter command to discover'
+    '24':
+      type: features;20
+      item: PAPER
+      custom_model_data: 3167
+      name: '&6&lᴅɪsᴄᴏᴠᴇʀ ғᴇᴀᴛᴜʀᴇ'
+      lore:
+      - ' '
+      - '&7Discover the Toolskins feature'
+      - '&7by entering the toolskins menu!'
+      - '&7by NPC in spawn!'
+      - ' '
+      - '&6Talk to NPC: &fToolskins'
+      - ' '
+      - '&aReward: #B7FB761XP'
+      - ' '
+      - '&e➼ Enter command to discover'
+    '25':
+      type: features;21
+      item: PAPER
+      custom_model_data: 3167
+      name: '&6&lᴅɪsᴄᴏᴠᴇʀ ғᴇᴀᴛᴜʀᴇ'
+      lore:
+      - ' '
+      - '&7Discover the Warps feature'
+      - '&7by entering the warps menu!'
+      - '&7by NPC in spawn!'
+      - ' '
+      - '&6Talk to NPC: &fWarps'
+      - ' '
+      - '&aReward: #B7FB761XP'
+      - ' '
+      - '&e➼ Enter command to discover'
+    37;38;39:
+      item: PAPER
+      custom_model_data: 110007
+      name: '&c&lʙᴀᴄᴋ'
+      open_inventory: main
+
+
+  codex_objectives:
+    slots: 36
+    title: '&f七七七七七七七七🎌'
+    '1':
+      type: objectives;1
+      item: PAPER
+      custom_model_data: 3167
+      name: '&b&lᴄᴏᴅᴇx ᴏʙᴊᴇᴄᴛɪᴠᴇ'
+      lore:
+      - ' '
+      - '&7Reach level 3 to compete'
+      - '&7this objective!'
+      - ' '
+      - '&bObjective:'
+      - ' &8▪ &7Reach level 3'
+      - ' '
+      - '&aReward: #B7FB762XP'
+      - ' '
+      - '&e➼ Complete to discover'
+    '2':
+      type: objectives;2
+      item: PAPER
+      custom_model_data: 3167
+      name: '&b&lᴄᴏᴅᴇx ᴏʙᴊᴇᴄᴛɪᴠᴇ'
+      lore:
+      - ' '
+      - '&7Obtain your first AFK'
+      - '&7reward in the AFK pond!'
+      - ' '
+      - '&bObjective:'
+      - ' &8▪ &7First AFK Reward'
+      - ' '
+      - '&aReward: #B7FB762XP'
+      - ' '
+      - '&e➼ Complete to discover'
+    '3':
+      type: objectives;3
+      item: PAPER
+      custom_model_data: 3167
+      name: '&b&lᴄᴏᴅᴇx ᴏʙᴊᴇᴄᴛɪᴠᴇ'
+      lore:
+      - ' '
+      - '&7Claim the PVP kit'
+      - '&7from the kits menu!'
+      - ' '
+      - '&bObjective:'
+      - ' &8▪ &7Claim PVP kit'
+      - ' '
+      - '&aReward: #B7FB762XP'
+      - ' '
+      - '&e➼ Complete to discover'
+    '4':
+      type: objectives;4
+      item: PAPER
+      custom_model_data: 3167
+      name: '&b&lᴄᴏᴅᴇx ᴏʙᴊᴇᴄᴛɪᴠᴇ'
+      lore:
+      - ' '
+      - '&7Teleport to the Nether'
+      - '&7in the worlds menu!'
+      - ' '
+      - '&bObjective:'
+      - ' &8▪ &7Teleport to Nether'
+      - ' '
+      - '&aReward: #B7FB762XP'
+      - ' '
+      - '&e➼ Complete to discover'
+    '5':
+      type: objectives;5
+      item: PAPER
+      custom_model_data: 3167
+      name: '&b&lᴄᴏᴅᴇx ᴏʙᴊᴇᴄᴛɪᴠᴇ'
+      lore:
+      - ' '
+      - '&7Purchase a common key'
+      - '&7from the coinshop!'
+      - ' '
+      - '&bObjective:'
+      - ' &8▪ &7Purchase 1x Common key'
+      - ' '
+      - '&aReward: #B7FB762XP'
+      - ' '
+      - '&e➼ Complete to discover'
+    '6':
+      type: objectives;6
+      item: PAPER
+      custom_model_data: 3167
+      name: '&b&lᴄᴏᴅᴇx ᴏʙᴊᴇᴄᴛɪᴠᴇ'
+      lore:
+      - ' '
+      - '&7Complete a daily quests'
+      - '&7from the dailyquests menu!'
+      - ' '
+      - '&bObjective:'
+      - ' &8▪ &7Complete daily quest'
+      - ' '
+      - '&aReward: #B7FB762XP'
+      - ' '
+      - '&e➼ Complete to discover'
+    '7':
+      type: objectives;7
+      item: PAPER
+      custom_model_data: 3167
+      name: '&b&lᴄᴏᴅᴇx ᴏʙᴊᴇᴄᴛɪᴠᴇ'
+      lore:
+      - ' '
+      - '&7Claim the daily reward'
+      - '&7from the rewards menu!'
+      - ' '
+      - '&bObjective:'
+      - ' &8▪ &7Claim daily reward'
+      - ' '
+      - '&aReward: #B7FB762XP'
+      - ' '
+      - '&e➼ Complete to discover'
+    '10':
+      type: objectives;8
+      item: PAPER
+      custom_model_data: 3167
+      name: '&b&lᴄᴏᴅᴇx ᴏʙᴊᴇᴄᴛɪᴠᴇ'
+      lore:
+      - ' '
+      - '&7Sell a diamond in'
+      - '&7the server shop!'
+      - ' '
+      - '&bObjective:'
+      - ' &8▪ &7Sell diamond'
+      - ' '
+      - '&aReward: #B7FB762XP'
+      - ' '
+      - '&e➼ Complete to discover'
+    '11':
+      type: objectives;9
+      item: PAPER
+      custom_model_data: 3167
+      name: '&b&lᴄᴏᴅᴇx ᴏʙᴊᴇᴄᴛɪᴠᴇ'
+      lore:
+      - ' '
+      - '&7Produce 100x logs in'
+      - '&7factories!'
+      - ' '
+      - '&bObjective:'
+      - ' &8▪ &7Produce 100x logs'
+      - ' '
+      - '&aReward: #B7FB762XP'
+      - ' '
+      - '&e➼ Complete to discover'
+    28;29;30:
+      item: PAPER
+      custom_model_data: 110007
+      name: '&c&lʙᴀᴄᴋ'
+      open_inventory: main
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

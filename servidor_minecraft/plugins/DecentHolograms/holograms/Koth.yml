@@ -1,0 +1,30 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+location: arena:-21.500:68.000:-40.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#F8594E&lKing Of The Hill'
+    height: 0.5
+  - content: '&fWelcome to the &#F8594EKOTH &farena!'
+    height: 0.5
+  - content: '&#4CFF65Win Rewards:'
+    height: 0.3
+  - content: '&b&l1x &fRare Crate Key'
+    height: 0.3
+  actions: {}
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

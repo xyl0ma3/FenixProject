@@ -1,0 +1,374 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+#
+title: '{skills_menu_title}'
+size: 4
+fill:
+  enabled: false
+  material: black_stained_glass_pane
+items:
+
+  stats1:
+    pos: 2,5
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    display_name: '&6&lʏᴏᴜʀ sᴛᴀᴛs'
+    lore:
+      - ''
+      - '&7Increase your stats by'
+      - '&7leveling up your skills.'
+      - ''
+      - '&e➥ Left-Click to view your stats'
+    on_click:
+      - type: command
+        executor: player
+        command: aureliumskills:stats
+  stats2:
+    pos: 2,6
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    display_name: '&6&lʏᴏᴜʀ sᴛᴀᴛs'
+    lore:
+      - ''
+      - '&7Increase your stats by'
+      - '&7leveling up your skills.'
+      - ''
+      - '&e➥ Left-Click to view your stats'
+    on_click:
+      - type: command
+        executor: player
+        command: aureliumskills:stats
+  stats3:
+    pos: 2,7
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    display_name: '&6&lʏᴏᴜʀ sᴛᴀᴛs'
+    lore:
+      - ''
+      - '&7Increase your stats by'
+      - '&7leveling up your skills.'
+      - ''
+      - '&e➥ Left-Click to view your stats'
+    on_click:
+      - type: command
+        executor: player
+        command: aureliumskills:stats
+  stats4:
+    pos: 2,8
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    display_name: '&6&lʏᴏᴜʀ sᴛᴀᴛs'
+    lore:
+      - ''
+      - '&7Increase your stats by'
+      - '&7leveling up your skills.'
+      - ''
+      - '&e➥ Left-Click to view your stats'
+    on_click:
+      - type: command
+        executor: player
+        command: aureliumskills:stats
+  stats5:
+    pos: 3,5
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    display_name: '&6&lʏᴏᴜʀ sᴛᴀᴛs'
+    lore:
+      - ''
+      - '&7Increase your stats by'
+      - '&7leveling up your skills.'
+      - ''
+      - '&e➥ Left-Click to view your stats'
+    on_click:
+      - type: command
+        executor: player
+        command: aureliumskills:stats
+  stats6:
+    pos: 3,6
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    display_name: '&6&lʏᴏᴜʀ sᴛᴀᴛs'
+    lore:
+      - ''
+      - '&7Increase your stats by'
+      - '&7leveling up your skills.'
+      - ''
+      - '&e➥ Left-Click to view your stats'
+    on_click:
+      - type: command
+        executor: player
+        command: aureliumskills:stats
+  stats7:
+    pos: 3,7
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    display_name: '&6&lʏᴏᴜʀ sᴛᴀᴛs'
+    lore:
+      - ''
+      - '&7Increase your stats by'
+      - '&7leveling up your skills.'
+      - ''
+      - '&e➥ Left-Click to view your stats'
+    on_click:
+      - type: command
+        executor: player
+        command: aureliumskills:stats
+  stats8:
+    pos: 3,8
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    display_name: '&6&lʏᴏᴜʀ sᴛᴀᴛs'
+    lore:
+      - ''
+      - '&7Increase your stats by'
+      - '&7leveling up your skills.'
+      - ''
+      - '&e➥ Left-Click to view your stats'
+    on_click:
+      - type: command
+        executor: player
+        command: aureliumskills:stats
+
+
+
+  guide1:
+    pos: 2,0
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    display_name: '&a&lsᴋɪʟʟs ɢᴜɪᴅᴇ'
+    lore:
+      - ''
+      - '&7Train your skills to improve and'
+      - '&7obtain certain abilities which'
+      - '&7will make you more powerful as'
+      - '&7a player'
+      - ''
+      - '&7You increase your skill level'
+      - '&7by just playing on the server'
+      - '&7and doing usual survival tasks.'
+      - ''
+      - '&6Skills Available: &f14'
+  guide2:
+    pos: 2,1
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    display_name: '&a&lsᴋɪʟʟs ɢᴜɪᴅᴇ'
+    lore:
+      - ''
+      - '&7Train your skills to improve and'
+      - '&7obtain certain abilities which'
+      - '&7will make you more powerful as'
+      - '&7a player'
+      - ''
+      - '&7You increase your skill level'
+      - '&7by just playing on the server'
+      - '&7and doing usual survival tasks.'
+      - ''
+      - '&6Skills Available: &f14'
+  guide3:
+    pos: 2,2
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    display_name: '&a&lsᴋɪʟʟs ɢᴜɪᴅᴇ'
+    lore:
+      - ''
+      - '&7Train your skills to improve and'
+      - '&7obtain certain abilities which'
+      - '&7will make you more powerful as'
+      - '&7a player'
+      - ''
+      - '&7You increase your skill level'
+      - '&7by just playing on the server'
+      - '&7and doing usual survival tasks.'
+      - ''
+      - '&6Skills Available: &f14'
+  guide4:
+    pos: 2,3
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    display_name: '&a&lsᴋɪʟʟs ɢᴜɪᴅᴇ'
+    lore:
+      - ''
+      - '&7Train your skills to improve and'
+      - '&7obtain certain abilities which'
+      - '&7will make you more powerful as'
+      - '&7a player'
+      - ''
+      - '&7You increase your skill level'
+      - '&7by just playing on the server'
+      - '&7and doing usual survival tasks.'
+      - ''
+      - '&6Skills Available: &f14'
+  guide5:
+    pos: 3,0
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    display_name: '&a&lsᴋɪʟʟs ɢᴜɪᴅᴇ'
+    lore:
+      - ''
+      - '&7Train your skills to improve and'
+      - '&7obtain certain abilities which'
+      - '&7will make you more powerful as'
+      - '&7a player'
+      - ''
+      - '&7You increase your skill level'
+      - '&7by just playing on the server'
+      - '&7and doing usual survival tasks.'
+      - ''
+      - '&6Skills Available: &f14'
+  guide6:
+    pos: 3,1
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    display_name: '&a&lsᴋɪʟʟs ɢᴜɪᴅᴇ'
+    lore:
+      - ''
+      - '&7Train your skills to improve and'
+      - '&7obtain certain abilities which'
+      - '&7will make you more powerful as'
+      - '&7a player'
+      - ''
+      - '&7You increase your skill level'
+      - '&7by just playing on the server'
+      - '&7and doing usual survival tasks.'
+      - ''
+      - '&6Skills Available: &f14'
+  guide7:
+    pos: 3,2
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    display_name: '&a&lsᴋɪʟʟs ɢᴜɪᴅᴇ'
+    lore:
+      - ''
+      - '&7Train your skills to improve and'
+      - '&7obtain certain abilities which'
+      - '&7will make you more powerful as'
+      - '&7a player'
+      - ''
+      - '&7You increase your skill level'
+      - '&7by just playing on the server'
+      - '&7and doing usual survival tasks.'
+      - ''
+      - '&6Skills Available: &f14'
+  guide8:
+    pos: 3,3
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    display_name: '&a&lsᴋɪʟʟs ɢᴜɪᴅᴇ'
+    lore:
+      - ''
+      - '&7Train your skills to improve and'
+      - '&7obtain certain abilities which'
+      - '&7will make you more powerful as'
+      - '&7a player'
+      - ''
+      - '&7You increase your skill level'
+      - '&7by just playing on the server'
+      - '&7and doing usual survival tasks.'
+      - ''
+      - '&6Skills Available: &f14'
+
+
+
+
+
+
+
+templates:
+  skill:
+    farming:
+      pos: 0,0
+      material: diamond_hoe
+      flags: [hide_attributes]
+    foraging:
+      pos: 0,1
+      material: stone_axe
+      flags: [hide_attributes]
+    mining:
+      pos: 0,2
+      material: iron_pickaxe
+      flags: [hide_attributes]
+    fishing:
+      pos: 0,3
+      material: fishing_rod
+    excavation:
+      pos: 0,4
+      material: golden_shovel
+      flags: [hide_attributes]
+    archery:
+      pos: 0,5
+      material: bow
+    defense:
+      pos: 0,6
+      material: chainmail_chestplate
+      flags: [hide_attributes]
+    fighting:
+      pos: 0,7
+      material: diamond_sword
+      flags: [hide_attributes]
+    endurance:
+      pos: 0,8
+      material: golden_apple
+    agility:
+      pos: 1,0
+      material: feather
+    alchemy:
+      pos: 1,1
+      material: potion
+      potion_data:
+        type: instant_heal
+      flags: [hide_potion_effects]
+    enchanting:
+      pos: 1,2
+      material: enchanting_table
+    healing:
+      pos: 1,3
+      material: splash_potion
+      potion_data:
+        type: instant_heal
+      flags: [hide_potion_effects]
+    forging:
+      pos: 1,4
+      material: anvil
+    display_name: '&e&l{skill} &6&l{level}'
+    lore:
+      - ''
+      - '&eInformation:'
+      - '{skill_desc}'
+      - '{stats_leveled}'
+      - '{ability_levels}{mana_ability}'
+      - '{level}'
+      - ''
+      - '&eProgression:'
+      - '{progress_to_level}{max_level}'
+      - ''
+      - '{skill_click}'
+
+
+
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

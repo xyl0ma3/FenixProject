@@ -1,0 +1,41 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+# This file was Leaked by Launcher for NullAssets.com           
+# Visit https://nullassets.com today.
+#
+# Locations where rtp will center upon
+# Format:
+# - LOCATION_NAME:
+#     World: world
+#     CenterX: 100
+#     CenterY: 150
+#     MaxRadius: 100
+#     MinRadius: 5
+#     Shape: square
+#     MinY: 0
+#     MaxY: 320
+
+Enabled: false # enable the locations feature
+RequirePermission: false # Require players to have `betterrtp.location.<world_name>`
+UseLocationIfAvailable: true # Will choose a location upon `/rtp` if location(s) is available in the world
+UseLocationsInSameWorld: true # Will only choose locations in same world rtp'ing in
+
+Locations:
+- main_loc:
+    World: world_name
+    CenterX: 100
+    CenterZ: 150
+    MaxRadius: 100
+    MinRadius: 5
+    Shape: square
+    MinY: 0
+    MaxY: 320
+    Cooldown: 300
+
+# b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

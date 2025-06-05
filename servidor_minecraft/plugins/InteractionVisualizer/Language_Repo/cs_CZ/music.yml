@@ -1,0 +1,30 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+ # These instrument names will be used in the noteblock display
+Instruments:
+  BANJO: Bendžo
+  BASS_DRUM: Buben
+  BASS_GUITAR: Basová kytara
+  BELL: Zvonkohra
+  BIT: Bit
+  CHIME: Zvonkohra
+  COW_BELL: Kravský zvonec
+  DIDGERIDOO: Didgeridoo
+  FLUTE: Flétna
+  GUITAR: Kytara
+  IRON_XYLOPHONE: Železný xylofon
+  PIANO: Piano
+  PLING: Elektrické piano
+  SNARE_DRUM: Malý bubínek
+  STICKS: Hůlky
+  XYLOPHONE: Xylofon
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

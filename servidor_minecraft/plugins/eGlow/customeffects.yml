@@ -1,0 +1,38 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+Effects:
+  Christmas:
+    Displayname: "&cC&2h&cr&2i&cs&2t&cm&2a&cs"
+    Delay: 1.0
+    Colors:
+     - "red"
+     - "darkgreen"
+    GUI:
+     Material: "SAPLING"
+     Meta: 1
+     Name: "&cC&2h&cr&2i&cs&2t&cm&2a&cs"
+     Lores:
+      - "&fLeft click: %effect_name%"
+      - "&fEffect permission: %effect_has_permission%"
+  Halloween:
+    Displayname: "&6Halloween"
+    Delay: 1.0
+    Colors:
+     - "gold"
+     - "yellow"
+    GUI:
+     Material: "PUMPKIN"
+     Meta: 0
+     Name: "&6H&ea&6l&el&6o&ew&6e&ee&6n"
+     Lores:
+      - "&fLeft click: %effect_name%"
+      - "&fEffect permission: %effect_has_permission%"
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

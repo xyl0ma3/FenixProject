@@ -1,0 +1,1053 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+menu_title: '&f七七七七七七七七⥼'
+open_command: shopminerals1
+size: 54
+update_interval: 1
+
+items:
+
+
+  'raw_gold':
+    material: raw_gold
+    slot: 19
+    display_name: '&fRaw Gold'
+    lore:
+      - ''
+      - "&8• &7Sell for: &c$5"
+      - ''
+      - '&e➥ Left-Click to sell 1x'
+      - '&e➦ Right-Click to sell 16x'
+    left_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'raw_gold'
+          amount: 1
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    right_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'raw_gold'
+          amount: 16
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    left_click_commands:
+      - '[console] eco give %player_name% 5'
+      - '[console] minecraft:clear %player_name% raw_gold 1'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+    right_click_commands:
+      - '[console] eco give %player_name% 80'
+      - '[console] minecraft:clear %player_name% raw_gold 16'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+
+
+
+  'netherite_scrap':
+    material: netherite_scrap
+    slot: 20
+    display_name: '&fNetherite Scrap'
+    lore:
+      - ''
+      - "&8• &7Sell for: &c$20"
+      - ''
+      - '&e➥ Left-Click to sell 1x'
+      - '&e➦ Right-Click to sell 16x'
+    left_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'netherite_scrap'
+          amount: 1
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    right_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'netherite_scrap'
+          amount: 16
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    left_click_commands:
+      - '[console] eco give %player_name% 20'
+      - '[console] minecraft:clear %player_name% netherite_scrap 1'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+    right_click_commands:
+      - '[console] eco give %player_name% 320'
+      - '[console] minecraft:clear %player_name% netherite_scrap 16'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+
+
+
+  'raw_iron':
+    material: raw_iron
+    slot: 21
+    display_name: '&fRaw Iron'
+    lore:
+      - ''
+      - "&8• &7Sell for: &c$5"
+      - ''
+      - '&e➥ Left-Click to sell 1x'
+      - '&e➦ Right-Click to sell 16x'
+    left_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'raw_iron'
+          amount: 1
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    right_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'raw_iron'
+          amount: 16
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    left_click_commands:
+      - '[console] eco give %player_name% 5'
+      - '[console] minecraft:clear %player_name% raw_iron 1'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+    right_click_commands:
+      - '[console] eco give %player_name% 80'
+      - '[console] minecraft:clear %player_name% raw_iron 16'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+
+
+
+  'coal':
+    material: coal
+    slot: 22
+    display_name: '&fCoal'
+    lore:
+      - ''
+      - "&8• &7Sell for: &c$4"
+      - ''
+      - '&e➥ Left-Click to sell 1x'
+      - '&e➦ Right-Click to sell 16x'
+    left_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'coal'
+          amount: 1
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    right_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'coal'
+          amount: 16
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    left_click_commands:
+      - '[console] eco give %player_name% 4'
+      - '[console] minecraft:clear %player_name% coal 1'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+    right_click_commands:
+      - '[console] eco give %player_name% 64'
+      - '[console] minecraft:clear %player_name% coal 16'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+
+
+
+  'gold_ingot':
+    material: gold_ingot
+    slot: 23
+    display_name: '&fGold Ingot'
+    lore:
+      - ''
+      - "&8• &7Sell for: &c$10"
+      - ''
+      - '&e➥ Left-Click to sell 1x'
+      - '&e➦ Right-Click to sell 16x'
+    left_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'gold_ingot'
+          amount: 1
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    right_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'gold_ingot'
+          amount: 16
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    left_click_commands:
+      - '[console] eco give %player_name% 10'
+      - '[console] minecraft:clear %player_name% gold_ingot 1'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+    right_click_commands:
+      - '[console] eco give %player_name% 160'
+      - '[console] minecraft:clear %player_name% gold_ingot 16'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+
+
+
+  'netherite_ingot':
+    material: netherite_ingot
+    slot: 24
+    display_name: '&fNetherite Ingot'
+    lore:
+      - ''
+      - "&8• &7Sell for: &c$200"
+      - ''
+      - '&e➥ Left-Click to sell 1x'
+      - '&e➦ Right-Click to sell 16x'
+    left_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'netherite_ingot'
+          amount: 1
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    right_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'netherite_ingot'
+          amount: 16
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    left_click_commands:
+      - '[console] eco give %player_name% 200'
+      - '[console] minecraft:clear %player_name% netherite_ingot 1'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+    right_click_commands:
+      - '[console] eco give %player_name% 1600'
+      - '[console] minecraft:clear %player_name% netherite_ingot 16'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+
+
+
+  'iron_ingot':
+    material: iron_ingot
+    slot: 25
+    display_name: '&fIron Ingot'
+    lore:
+      - ''
+      - "&8• &7Sell for: &c$7"
+      - ''
+      - '&e➥ Left-Click to sell 1x'
+      - '&e➦ Right-Click to sell 16x'
+    left_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'iron_ingot'
+          amount: 1
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    right_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'iron_ingot'
+          amount: 16
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    left_click_commands:
+      - '[console] eco give %player_name% 7'
+      - '[console] minecraft:clear %player_name% iron_ingot 1'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+    right_click_commands:
+      - '[console] eco give %player_name% 112'
+      - '[console] minecraft:clear %player_name% iron_ingot 16'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+
+
+
+  'lapis_lazuli':
+    material: lapis_lazuli
+    slot: 28
+    display_name: '&fLapis Lazuli'
+    lore:
+      - ''
+      - "&8• &7Sell for: &c$8"
+      - ''
+      - '&e➥ Left-Click to sell 1x'
+      - '&e➦ Right-Click to sell 16x'
+    left_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'lapis_lazuli'
+          amount: 1
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    right_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'lapis_lazuli'
+          amount: 16
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    left_click_commands:
+      - '[console] eco give %player_name% 8'
+      - '[console] minecraft:clear %player_name% lapis_lazuli 1'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+    right_click_commands:
+      - '[console] eco give %player_name% 128'
+      - '[console] minecraft:clear %player_name% lapis_lazuli 16'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+
+
+
+  'coal_block':
+    material: coal_block
+    slot: 29
+    display_name: '&fCoal Block'
+    lore:
+      - ''
+      - "&8• &7Sell for: &c$36"
+      - ''
+      - '&e➥ Left-Click to sell 1x'
+      - '&e➦ Right-Click to sell 16x'
+    left_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'coal_block'
+          amount: 1
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    right_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'coal_block'
+          amount: 16
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    left_click_commands:
+      - '[console] eco give %player_name% 36'
+      - '[console] minecraft:clear %player_name% coal_block 1'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+    right_click_commands:
+      - '[console] eco give %player_name% 576'
+      - '[console] minecraft:clear %player_name% coal_block 16'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+
+
+
+  'redstone_block':
+    material: redstone_block
+    slot: 30
+    display_name: '&fRedstone Block'
+    lore:
+      - ''
+      - "&8• &7Sell for: &c$45"
+      - ''
+      - '&e➥ Left-Click to sell 1x'
+      - '&e➦ Right-Click to sell 16x'
+    left_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'redstone_block'
+          amount: 1
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    right_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'redstone_block'
+          amount: 16
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    left_click_commands:
+      - '[console] eco give %player_name% 45'
+      - '[console] minecraft:clear %player_name% redstone_block 1'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+    right_click_commands:
+      - '[console] eco give %player_name% 720'
+      - '[console] minecraft:clear %player_name% redstone_block 16'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+
+
+
+  'gold_block':
+    material: gold_block
+    slot: 31
+    display_name: '&fGold Block'
+    lore:
+      - ''
+      - "&8• &7Sell for: &c$90"
+      - ''
+      - '&e➥ Left-Click to sell 1x'
+      - '&e➦ Right-Click to sell 16x'
+    left_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'gold_block'
+          amount: 1
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    right_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'gold_block'
+          amount: 16
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    left_click_commands:
+      - '[console] eco give %player_name% 90'
+      - '[console] minecraft:clear %player_name% gold_block 1'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+    right_click_commands:
+      - '[console] eco give %player_name% 1440'
+      - '[console] minecraft:clear %player_name% gold_block 16'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+
+
+
+  'netherite_block':
+    material: netherite_block
+    slot: 32
+    display_name: '&fNetherite Block'
+    lore:
+      - ''
+      - "&8• &7Sell for: &c$1800"
+      - ''
+      - '&e➥ Left-Click to sell 1x'
+      - '&e➦ Right-Click to sell 16x'
+    left_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'netherite_block'
+          amount: 1
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    right_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'netherite_block'
+          amount: 16
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    left_click_commands:
+      - '[console] eco give %player_name% 1800'
+      - '[console] minecraft:clear %player_name% netherite_block 1'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+    right_click_commands:
+      - '[console] eco give %player_name% 28800'
+      - '[console] minecraft:clear %player_name% netherite_block 16'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+
+
+
+  'iron_block':
+    material: iron_block
+    slot: 33
+    display_name: '&fIron Block'
+    lore:
+      - ''
+      - "&8• &7Sell for: &c$65"
+      - ''
+      - '&e➥ Left-Click to sell 1x'
+      - '&e➦ Right-Click to sell 16x'
+    left_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'iron_block'
+          amount: 1
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    right_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'iron_block'
+          amount: 16
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    left_click_commands:
+      - '[console] eco give %player_name% 65'
+      - '[console] minecraft:clear %player_name% iron_block 1'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+    right_click_commands:
+      - '[console] eco give %player_name% 1040'
+      - '[console] minecraft:clear %player_name% iron_block 16'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+
+
+
+  'diamond_block':
+    material: diamond_block
+    slot: 34
+    display_name: '&fDiamond Block'
+    lore:
+      - ''
+      - "&8• &7Sell for: &c$800"
+      - ''
+      - '&e➥ Left-Click to sell 1x'
+      - '&e➦ Right-Click to sell 16x'
+    left_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'diamond_block'
+          amount: 1
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    right_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'diamond_block'
+          amount: 16
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    left_click_commands:
+      - '[console] eco give %player_name% 800'
+      - '[console] minecraft:clear %player_name% diamond_block 1'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+    right_click_commands:
+      - '[console] eco give %player_name% 12800'
+      - '[console] minecraft:clear %player_name% diamond_block 16'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+
+
+
+  'lapis_block':
+    material: lapis_block
+    slot: 37
+    display_name: '&fLapis Block'
+    lore:
+      - ''
+      - "&8• &7Sell for: &c$72"
+      - ''
+      - '&e➥ Left-Click to sell 1x'
+      - '&e➦ Right-Click to sell 16x'
+    left_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'lapis_block'
+          amount: 1
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    right_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'lapis_block'
+          amount: 16
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    left_click_commands:
+      - '[console] eco give %player_name% 72'
+      - '[console] minecraft:clear %player_name% lapis_block 1'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+    right_click_commands:
+      - '[console] eco give %player_name% 1152'
+      - '[console] minecraft:clear %player_name% lapis_block 16'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+
+
+
+  'redstone':
+    material: redstone
+    slot: 38
+    display_name: '&fRedstone'
+    lore:
+      - ''
+      - "&8• &7Sell for: &c$5"
+      - ''
+      - '&e➥ Left-Click to sell 1x'
+      - '&e➦ Right-Click to sell 16x'
+    left_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'redstone'
+          amount: 1
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    right_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'redstone'
+          amount: 16
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    left_click_commands:
+      - '[console] eco give %player_name% 5'
+      - '[console] minecraft:clear %player_name% redstone 1'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+    right_click_commands:
+      - '[console] eco give %player_name% 80'
+      - '[console] minecraft:clear %player_name% redstone 16'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+
+
+
+  'diamond':
+    material: diamond
+    slot: 39
+    display_name: '&fDiamond'
+    lore:
+      - ''
+      - "&8• &7Sell for: &c$90"
+      - ''
+      - '&e➥ Left-Click to sell 1x'
+      - '&e➦ Right-Click to sell 16x'
+    left_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'diamond'
+          amount: 1
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    right_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'diamond'
+          amount: 16
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    left_click_commands:
+      - '[console] eco give %player_name% 90'
+      - '[console] minecraft:clear %player_name% diamond 1'
+      - "[console] codex unlock %player_name% objectives 8"
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+    right_click_commands:
+      - '[console] eco give %player_name% 1440'
+      - '[console] minecraft:clear %player_name% diamond 16'
+      - "[console] codex unlock %player_name% objectives 8"
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+
+
+
+  'quartz':
+    material: quartz
+    slot: 40
+    display_name: '&fQuartz'
+    lore:
+      - ''
+      - "&8• &7Sell for: &c$5"
+      - ''
+      - '&e➥ Left-Click to sell 1x'
+      - '&e➦ Right-Click to sell 16x'
+    left_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'quartz'
+          amount: 1
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    right_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'quartz'
+          amount: 16
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    left_click_commands:
+      - '[console] eco give %player_name% 5'
+      - '[console] minecraft:clear %player_name% quartz 1'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+    right_click_commands:
+      - '[console] eco give %player_name% 80'
+      - '[console] minecraft:clear %player_name% quartz 16'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+
+
+
+  'raw_copper':
+    material: raw_copper
+    slot: 41
+    display_name: '&fRaw Copper'
+    lore:
+      - ''
+      - "&8• &7Sell for: &c$5"
+      - ''
+      - '&e➥ Left-Click to sell 1x'
+      - '&e➦ Right-Click to sell 16x'
+    left_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'raw_copper'
+          amount: 1
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    right_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'raw_copper'
+          amount: 16
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    left_click_commands:
+      - '[console] eco give %player_name% 5'
+      - '[console] minecraft:clear %player_name% raw_copper 1'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+    right_click_commands:
+      - '[console] eco give %player_name% 80'
+      - '[console] minecraft:clear %player_name% raw_copper 16'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+
+
+
+  'emerald':
+    material: emerald
+    slot: 42
+    display_name: '&fEmerald'
+    lore:
+      - ''
+      - "&8• &7Sell for: &c$30"
+      - ''
+      - '&e➥ Left-Click to sell 1x'
+      - '&e➦ Right-Click to sell 16x'
+    left_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'emerald'
+          amount: 1
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    right_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'emerald'
+          amount: 16
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    left_click_commands:
+      - '[console] eco give %player_name% 30'
+      - '[console] minecraft:clear %player_name% emerald 1'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+    right_click_commands:
+      - '[console] eco give %player_name% 480'
+      - '[console] minecraft:clear %player_name% emerald 16'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+
+
+
+  'quartz_block':
+    material: quartz_block
+    slot: 43
+    display_name: '&fQuartz Block'
+    lore:
+      - ''
+      - "&8• &7Sell for: &c$45"
+      - ''
+      - '&e➥ Left-Click to sell 1x'
+      - '&e➦ Right-Click to sell 16x'
+    left_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'quartz_block'
+          amount: 1
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    right_click_requirement:
+      requirements:
+        has_item:
+          type: has item
+          material: 'quartz_block'
+          amount: 16
+          strict: true
+          deny_commands:
+          - '[message] &8[&b&l!&8] &b&lShop &8→ &cYou don''t have the items to sell.'
+    left_click_commands:
+      - '[console] eco give %player_name% 45'
+      - '[console] minecraft:clear %player_name% quartz_block 1'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+    right_click_commands:
+      - '[console] eco give %player_name% 720'
+      - '[console] minecraft:clear %player_name% quartz_block 16'
+      - '[message] &8[&b&l!&8] &b&lShop &8→ &aYou have sold this item!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+
+
+
+
+
+
+
+
+  'shoppage_next':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 26
+      - 35
+      - 44
+    display_name: '&f&lɴᴇxᴛ ᴘᴀɢᴇ'
+    click_commands:
+      - '[openguimenu] shop_minerals2'
+
+
+
+
+
+
+
+
+
+  'shop_previous':
+    material: PAPER
+    model_data: 110007
+    slot: 0
+    display_name: '&f&lᴘʀᴇᴠɪᴏᴜs'
+    click_commands:
+      - '[openguimenu] shop_wood1'
+  'shop_next':
+    material: PAPER
+    model_data: 110007
+    slot: 8
+    display_name: '&f&lɴᴇxᴛ'
+    click_commands:
+      - '[openguimenu] shop_farming1'
+
+
+
+
+
+  'shop_misc':
+    material: TOTEM_OF_UNDYING
+    slot: 1
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&e&lMisc'
+    lore:
+      - '&7Shop Categories'
+    click_commands:
+      - '[openguimenu] shop_misc1'
+
+  'shop_blocks':
+    material: BRICKS
+    slot: 2
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&e&lBlocks'
+    lore:
+      - '&7Shop Categories'
+    click_commands:
+      - '[openguimenu] shop_blocks1'
+
+  'shop_wood':
+    material: OAK_LOG
+    slot: 3
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&e&lWood'
+    lore:
+      - '&7Shop Categories'
+    click_commands:
+      - '[openguimenu] shop_wood1'
+
+  'shop_minerals':
+    material: DIAMOND
+    slot: 4
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&e&lMinerals'
+    lore:
+      - '&7Shop Categories'
+    click_commands:
+      - '[openguimenu] shop_minerals1'
+
+  'shop_farming':
+    material: WHEAT
+    slot: 5
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&e&lFarming'
+    lore:
+      - '&7Shop Categories'
+    click_commands:
+      - '[openguimenu] shop_farming1'
+
+  'shop_foods':
+    material: APPLE
+    slot: 6
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&e&lFoods'
+    lore:
+      - '&7Shop Categories'
+    click_commands:
+      - '[openguimenu] shop_foods1'
+
+  'shop_mobdrops':
+    material: ROTTEN_FLESH
+    slot: 7
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&e&lMob Drops'
+    lore:
+      - '&7Shop Categories'
+    click_commands:
+      - '[openguimenu] shop_mobdrops1'
+
+
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

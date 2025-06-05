@@ -1,0 +1,56 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+#                     
+#Visit https://nullforums.net/ today.
+#Support them and upgrade your account: https://nullforums.net/account/upgrades
+Titles:
+  Novice:
+    Name: N
+    ShortName: N
+    ChatColour: YELLOW
+    levelReq: 0
+  Apprentice:
+    Name: A
+    ShortName: A
+    ChatColour: WHITE
+    levelReq: 25
+  Initiate:
+    Name: I
+    ShortName: I
+    ChatColour: GOLD
+    levelReq: 50
+  Journeyman:
+    Name: J
+    ShortName: J
+    ChatColour: DARK_GREEN
+    levelReq: 75
+  Adept:
+    Name: Ad
+    ShortName: Ad
+    ChatColour: DARK_PURPLE
+    levelReq: 100
+  Master:
+    Name: M
+    ShortName: M
+    ChatColour: GRAY
+    levelReq: 125
+  Grandmaster:
+    Name: GM
+    ShortName: GM
+    ChatColour: DARK_GRAY
+    levelReq: 150
+  Legendary:
+    Name: L
+    ShortName: L
+    ChatColour: BLACK
+    levelReq: 200
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

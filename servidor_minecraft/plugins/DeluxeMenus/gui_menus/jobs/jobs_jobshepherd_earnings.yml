@@ -1,0 +1,79 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+menu_title: '&f七七七七七七七七⇮'
+open_command: jobsjobshepherdearnings
+size: 54
+update_interval: 1
+
+items:
+
+
+  'shear_sheep_1':
+    material: SHEARS
+    slot: 10
+    hide_attributes: true
+    display_name: '&6&lShearing Sheep'
+    lore:
+      - ''
+      - '&7View the payment you receive'
+      - '&7for each job action.'
+      - ''
+      - '&fShearing Sheep &8&l▪ &a$%math_2+({jobsr_user_jlevel_shepherd}*0.03)% &b2pts &65exp'
+
+
+  'shear_sheep_1':
+    material: SHEARS
+    slot: 10
+    hide_attributes: true
+    display_name: '&6&lShearing Sheep'
+    lore:
+      - ''
+      - '&7View the payment you receive'
+      - '&7for each job action.'
+      - ''
+      - '&fShearing Sheep &8&l▪ &a$%math_2+({jobsr_user_jlevel_shepherd}*0.03)% &b2pts &65exp'
+
+  'breed_sheep_1':
+    material: SHEEP_SPAWN_EGG
+    slot: 11
+    hide_attributes: true
+    display_name: '&6&lBreed Sheep'
+    lore:
+      - ''
+      - '&7View the payment you receive'
+      - '&7for each job action.'
+      - ''
+      - '&fBreeding Sheep &8&l▪ &a$%math_3+({jobsr_user_jlevel_shepherd}*0.03)% &b2pts &65exp'
+
+
+
+
+
+
+
+
+
+  'back':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 46
+      - 47
+      - 48
+    update: true
+    display_name: '&c&lʙᴀᴄᴋ'
+    left_click_commands:
+      - "[openguimenu] jobs_jobshepherd"
+
+
+
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

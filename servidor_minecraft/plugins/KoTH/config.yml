@@ -1,0 +1,69 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+update-checker: true
+
+#The time in seconds it takes for a koth to finish once started
+koth-duration: 600
+
+#Resets the timer if the current king changes or leaves the area
+reset-time-on-king-change: false
+
+koth-in-progress:
+  #Every few seconds there will be a broadcast of who is dominating the hill
+  broadcast-every: 60
+
+  #What will return the placeholder {king} of the scoreboard when no one is dominating the hill
+  king-null-placeholder: 'None'
+
+# Modify the format of the placeholder %koth_schedule_next_time%
+next-koth-time-format:
+  days: 'd '
+  day: 'd '
+  hours: 'h '
+  hour: 'h '
+  minutes: 'm '
+  minute: 'm '
+  seconds: 's'
+  second: 's'
+
+
+koth-finish:
+  #Fireworks effect that will be launched when the koth ends and there is a winner
+  winner-fireworks: true
+
+#Wand configuration you can get with /koth givewand
+selection-wand:
+  type: STICK
+  name: '&c&lKoTH Selection Wand'
+  lore:
+    - '&7Left-Click to select position 1'
+    - '&7Right-Click to select position 2'
+
+#Configuration of the scoreboard that will be shown when there is a koth in progress
+scoreboard:
+  enable: false
+  title: '&c&lKoTH'
+  body:
+    - ''
+    - '&7Koth:'
+    - '&c{koth_name}'
+    - ''
+    - '&7King:'
+    - '&C{king}'
+    - ''
+    - '&7Coords:'
+    - '&c{x} {y} {z}'
+    - ''
+    - '&7Time Left:'
+    - '&c{time_left}'
+    - ''
+    - '&cplay.myserver.com'
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

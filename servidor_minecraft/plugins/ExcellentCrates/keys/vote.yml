@@ -1,0 +1,31 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+Name: §6Vote Key
+Virtual: false
+Item:
+  Material: PAPER
+  Custom_Model_Data: 3001
+  Amount: 1
+  Durability: 0
+  Name: '&6&lVote Key'
+  Lore:
+  - ''
+  - '&7Purchase more crate keys'
+  - '&7with &6/coinshop'
+  - ''
+  - '&e➥ Use at Warp Crates!'
+  Enchants:
+    unbreaking: 1
+  Item_Flags:
+    - HIDE_ENCHANTS     
+  Unbreakable: false
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

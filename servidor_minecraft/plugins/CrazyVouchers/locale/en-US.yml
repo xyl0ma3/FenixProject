@@ -1,0 +1,68 @@
+# Support: https://discord.gg/badbones-s-live-chat-182615261403283459
+# Github: https://github.com/Crazy-Crew
+# 
+# Issues: https://github.com/Crazy-Crew/CrazyVouchers/issues
+# Features: https://github.com/Crazy-Crew/CrazyVouchers/issues
+# 
+# Tips:
+#  1. Make sure to use the {prefix} to add the prefix in front of messages.
+#  2. If you wish to use more than one line for a message just go from a line to a list.
+# Examples:
+#   Line:
+#     No-Permission: '{prefix}&cYou do not have permission to use that command.'
+#   List:
+#     No-Permission:
+#       - '{prefix}&cYou do not have permission'
+#       - '&cto use that command. Please try another.'
+player:
+  survival-only: '{prefix}&cYou must be in survival mode to use vouchers.'
+  no-permission: '{prefix}&cYou do not have permission to use that command!'
+  voucher:
+    no-permission: '{prefix}&cYou do not have permission to use that voucher.'
+    already-used:
+      value: '{prefix}&cThis voucher has already been used, likely a duped voucher'
+      # This requires the permission crazyvouchers.notify.duped
+      # 
+      # Available placeholders: {player}, {id}
+      notify-staff: '{prefix}{player} has been potentially caught using a duped voucher
+        with the id {id}.'
+    no-permission-offhand: '{prefix}&cYou do not have permission to use vouchers in
+      your off hand.'
+    cant-put-in-crafting-table: '{prefix}&cYou cannot put vouchers in the crafting
+      table.'
+    migrated: '{prefix}&cSuccessfully migrated old vouchers in your inventory.'
+  target-not-online: '{prefix}&cThat player is not online.'
+  hit-limit: '{prefix}&cYou have hit your limit for using this voucher.'
+  two-step-authentication: '{prefix}&7Right click again to confirm that you want to
+    use this voucher.'
+voucher:
+  requirements:
+    not-a-number: '{prefix}&c{arg} is not a number.'
+    not-a-voucher: '{prefix}&cThat is not a Voucher Type.'
+    un-stack-item: '{prefix}&cSorry but you can not use this voucher because you have
+      a black-listed permission.'
+    not-in-world: '{prefix}&cYou can not use that voucher here as you are not in a
+      whitelisted world for this voucher.'
+    has-blacklist-perm: '{prefix}&cYou need to unstack that item before you can use
+      it.'
+  code:
+    unavailable: '{prefix}&cThe Voucher code &6{arg} &cis incorrect or unavailable
+      at this time.'
+    used: '{prefix}&cThe voucher code &6{arg} &chas already been redeemed.'
+  sent-voucher: '{prefix}&3You have just given &6{player} &3a &6{voucher} &3voucher.'
+  # A list of available placeholders: {time}
+  cooldown: '{prefix}Please wait {time}, before using the voucher again'
+  sent-everyone-voucher: '{prefix}&3You have just given all players a &6{voucher}
+    &3voucher.'
+misc:
+  config-reload: '{prefix}&7You have just reloaded the Config.yml'
+  player-only: '{prefix}&cOnly players can use this command.'
+  help:
+  - '&8- &6/Voucher help &3Lists all the commands for vouchers.'
+  - '&8- &6/Voucher list &3Lists all available types of vouchers and codes.'
+  - '&8- &6/Voucher redeem <code> &3Allows the player to redeem a voucher code.'
+  - '&8- &6/Voucher give <voucher> [amount] [player] [arguments] &3Gives a player
+    a voucher.'
+  - '&8- &6/Voucher giveAll <voucher> [amount] [arguments] &3Gives all players a voucher.'
+  - '&8- &6/Voucher open [page] &3Opens a GUI so you can get vouchers easily.'
+  - '&8- &6/Voucher reload &3Reloaded the configuration files.'

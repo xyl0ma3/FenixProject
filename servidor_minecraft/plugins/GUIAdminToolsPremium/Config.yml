@@ -1,0 +1,146 @@
+#Configuration version
+#DO NOT CHANGE IT MANUALLY!
+CfgVersion: 3.6
+
+#Send message to administrator about update available while joining to server.
+#Permission: admintools.servermanager.checkupdate
+UPDATE_INFO_ON_JOIN: true
+
+#Available languages: en, pl, de, es, fr, nl
+Language_messages: en
+
+#Flags are working on whole server without WorldEdit and WorldGuard
+#TRUE - allow
+#FALSE - block
+FLAGS:
+  PLACE_BLOCK: true
+  BREAK_BLOCK: true
+  CHAT: true
+  PVP: true
+  MOB_SPAWN: true
+  DROP_ITEM: true
+  PICKUP_ITEM: true
+  USE_ITEM: true
+  INTERACT: true
+  EXPLOSION_DAMAGE: true
+  FIRE_SPREAD: true
+  FALL_DAMAGE: true
+  ENTITY_DAMAGE: true
+  COMMAND_USE: true
+
+#TRUE - use this plugin as Vault economy provider
+EconomyProvider: false
+
+#Chat manager
+CHAT:
+  MUTE: false
+  SLOW_MODE:
+    STATUS: false
+    DELAY: 5
+  FILTER:
+    STATUS: false
+    WORDS: fuck, shit, bitch, asshole, bastard, cunt, dick, piss, crap, damn, motherfucker, prick, wanker, bollocks, git, twat, bugger, arse, sod, bloody, minger, douchebag, cock, pussy, whore, slut, ass, shag, cocksucker, fucker, goddamn, dammit, fag, faggot, dickhead, fuckwit, bullshit, cuntface, shithead, dumbass, jackass, asswipe, fucktard, dipshit, assbag, muffdiver, nutjob, scumbag, shitter, chode
+  LOGS:
+    CLEAR: 48  # Clear log entries older than 48 hours
+  COLOR_CODE: true
+  COLOR_CODE_CHAR: "&"
+
+#FALSE - unregister
+CommandRegistration:
+  anvil: true
+  armorcreator: true
+  atluckperms: true
+  attackdamage: true
+  atwhitelist: true
+  ban: true
+  banlist: true
+  chatmanager: true
+  cleararrows: true
+  clearchat: true
+  clearinv: true
+  effects: true
+  ecomgr: true
+  enchantingtable: true
+  exp: true
+  fastflags: true
+  fly: true
+  gamemode: true
+  gamerules: true
+  getskull: true
+  god: true
+  heal: true
+  home: true
+  jump: true
+  kickall: true
+  kit: true
+  kitmanager: true
+  maxhealth: true
+  mobspawn: true
+  mute: true
+  myeq: true
+  player: true
+  repair: true
+  region: true
+  servermanager: true
+  sethome: true
+  setspawn: true
+  showinv: true
+  spawn: true
+  speed: true
+  statistics: true
+  timeweather: true
+  top: true
+  tp: true
+  tptome: true
+  tppos: true
+  tpw: true
+  unban: true
+  unbanip: true
+  wgregion: true
+  workbench: true
+  worldmanager: true
+
+
+#EssentialsX tools support.
+EssentialsXSupport: false
+#Support for GUI tools.
+#TRUE - use EssentialsX command
+#FALSE - use GUI Admin Tools Premium tool
+EssentialsXTools:
+  Fly: false
+  God: false
+  Heal: false
+  Gamemode: false
+  WalkSpeed: false
+  FlySpeed: false
+  ClearInv: false
+  Repair: false
+  Home: false
+  Exp: false
+
+#Ban manager config
+BanManager:
+  #Set default ban reason
+  DefaultReason: 'No reason!'
+  #Save admin nick
+  AdminNick: true
+  #Kick player immediately
+  KickPlayer: true
+  #Ban message
+  #Color code - &
+  #%REASON% - reason variable
+  #%EXPIRES% - expires variable
+  BanMessage:
+    - "&cYou are banned!"
+    - "&cUsername: &f%PLAYER%"
+    - "&cReason: &f%REASON%"
+    - "&cCreated: &f%CREATED%"
+    - "&cExpires: &f%EXPIRES%"
+    - "&cBanned by: &f%BANNER%"
+  BanIPMessage:
+    - "&cYour IP is banned!"
+    - "&cIP Address: &f%IPADDRESS%"
+    - "&cReason: &f%REASON%"
+    - "&cCreated: &f%CREATED%"
+    - "&cExpires: &f%EXPIRES%"
+    - "&cBanned by: &f%BANNER%"

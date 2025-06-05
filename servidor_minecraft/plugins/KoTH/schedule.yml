@@ -1,0 +1,62 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+options:
+  # List of time zones: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  # Timezone example:
+  # timezone: 'America/Argentina/Buenos_Aires'
+  timezone: DEFAULT
+
+  # Minimum players for the koth to start
+  minimum-players: 5
+
+schedule:
+  monday:
+    - '10:00 koth'
+    - '15:00 koth'
+    - '19:00 koth'
+
+  tuesday:
+    - '10:00 koth'
+    - '15:00 koth'
+    - '19:00 koth'
+
+  wednesday:
+    - '10:00 koth'
+    - '15:00 koth'
+    - '19:00 koth'
+
+  thursday:
+    - '10:00 koth'
+    - '15:00 koth'
+    - '19:00 koth'
+
+  friday:
+    - '10:00 koth'
+    - '15:00 koth'
+    - '19:00 koth'
+
+  saturday:
+    - '10:00 koth'
+    - '15:00 koth'
+    - '19:00 koth'
+
+  sunday:
+    - '10:00 koth'
+    - '15:00 koth'
+    - '19:00 koth'
+
+
+
+
+
+
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

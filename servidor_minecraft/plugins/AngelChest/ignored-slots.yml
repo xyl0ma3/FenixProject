@@ -1,0 +1,54 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+#
+# Items to ignore in your hotbar.
+#
+# 0 is the first item in your hotbar.
+# 8 is the last item in your hotbar.
+# 9 is the item in your offhand.
+#
+# Example: This would ignore the first two items in your hotbar:
+#
+#   hotbar:
+#   - 0
+#   - 1
+#
+hotbar:
+
+# Items to ignore in your inventory.
+#
+# 0 is the first item in the top row of your inventory,
+# 9 is the first item in the second row of your inventory,
+# 18 is the first item in the third row of your inventory.
+#
+# Example: This would ignore the first and last item in your inventory's third line:
+#
+#   inventory:
+#   - 18
+#   - 26
+#
+inventory:
+
+# Items to ignore in your armor slots.
+#
+# 0 is the helmet slot,
+# 1 is the chestplate slot,
+# 2 is the leggings slot,
+# 3 is the boots slot.
+#
+# Example: This would ignore the boots:
+#
+#   armor:
+#    - 3
+#
+armor:
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

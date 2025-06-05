@@ -1,0 +1,347 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+menu_title: '&f七七七七七七七七♫'
+open_command:
+  - rtp
+  - worlds
+size: 45
+update_interval: 1
+
+items:
+
+
+  'rtp_world_oncooldown':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&a&lsᴜʀᴠɪᴠᴀʟ ᴡᴏʀʟᴅ'
+    lore:
+      - ''
+      - '&aWorld Information:'
+      - ' &8&l∙ &7Size: &f30k x 30k'
+      - ' &8&l∙ &7Land Claiming: &fEnabled'
+      - ' &8&l∙ &7Keep Inventory: &fDisabled'
+      - ' &8&l∙ &7Pvp: &fDisabled'
+      - ''
+      - '&aCooldown: &f%luckperms_group_expiry_time_rtpworld%'
+    priority: 1
+    view_requirement:
+      requirements:
+        claimed:
+          type: string contains
+          input: "%luckperms_inherits_group_rtpworld%"
+          output: "yes"
+    left_click_commands:
+      - "[refresh]"
+      - "[message] &8[&a&l!&8] &a&lRTP &8→ &cYour RTP is currenly on cooldown!"
+
+
+  'rtp_world_available':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&a&lsᴜʀᴠɪᴠᴀʟ ᴡᴏʀʟᴅ'
+    lore:
+      - ''
+      - '&aWorld Information:'
+      - ' &8&l∙ &7Size: &f30k x 30k'
+      - ' &8&l∙ &7Land Claiming: &fEnabled'
+      - ' &8&l∙ &7Keep Inventory: &fDisabled'
+      - ' &8&l∙ &7Pvp: &fDisabled'
+      - ''
+      - '&e➥ Left-Click to RTP'
+    priority: 2
+    left_click_commands:
+      - "[givepermission] betterrtp.*"
+      - "[console] lp user %player_name% parent addtemp rtpworld 60s"
+      - "[player] betterrtp:rtp world playworld"
+      - "[takepermission] betterrtp.*"
+      - "[refresh]"
+
+
+
+
+
+
+  'rtp_mining_oncooldown':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 5
+      - 6
+      - 7
+      - 8
+      - 14
+      - 15
+      - 16
+      - 17
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&e&lᴍɪɴɪɴɢ ᴡᴏʀʟᴅ'
+    lore:
+      - ''
+      - '&eWorld Information:'
+      - ' &8&l∙ &7Size: &f5k x 5k'
+      - ' &8&l∙ &7Land Claiming: &fDisabled'
+      - ' &8&l∙ &7Keep Inventory: &fDisabled'
+      - ' &8&l∙ &7Pvp: &fDisabled'
+      - ''
+      - '&eCooldown: &f%luckperms_group_expiry_time_rtpmining%'
+    priority: 1
+    view_requirement:
+      requirements:
+        claimed2:
+          type: string contains
+          input: "%luckperms_inherits_group_rtpmining%"
+          output: "yes"
+    left_click_commands:
+      - "[refresh]"
+      - "[message] &8[&a&l!&8] &a&lRTP &8→ &cYour RTP is currenly on cooldown!"
+
+
+  'rtp_mining_available':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 5
+      - 6
+      - 7
+      - 8
+      - 14
+      - 15
+      - 16
+      - 17
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&e&lᴍɪɴɪɴɢ ᴡᴏʀʟᴅ'
+    lore:
+      - ''
+      - '&eWorld Information:'
+      - ' &8&l∙ &7Size: &f5k x 5k'
+      - ' &8&l∙ &7Land Claiming: &fDisabled'
+      - ' &8&l∙ &7Keep Inventory: &fDisabled'
+      - ' &8&l∙ &7Pvp: &fDisabled'
+      - ''
+      - '&e➥ Left-Click to RTP'
+    priority: 2
+    left_click_commands:
+      - "[givepermission] betterrtp.*"
+      - "[console] lp user %player_name% parent addtemp rtpmining 60s"
+      - "[player] betterrtp:rtp world mining"
+      - "[takepermission] betterrtp.*"
+      - "[refresh]"
+
+
+
+
+
+
+  'rtp_nether_oncooldown':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 18
+      - 19
+      - 20
+      - 21
+      - 27
+      - 28
+      - 29
+      - 30
+      - 36
+      - 37
+      - 38
+      - 39
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&c&lɴᴇᴛʜᴇʀ ᴡᴏʀʟᴅ'
+    lore:
+      - ''
+      - '&cWorld Information:'
+      - ' &8&l∙ &7Size: &f10k x 10k'
+      - ' &8&l∙ &7Land Claiming: &fDisabled'
+      - ' &8&l∙ &7Keep Inventory: &fDisabled'
+      - ' &8&l∙ &7Pvp: &fDisabled'
+      - ''
+      - '&cCooldown: &f%luckperms_group_expiry_time_rtpnether%'
+    priority: 1
+    view_requirement:
+      requirements:
+        claimed3:
+          type: string contains
+          input: "%luckperms_inherits_group_rtpnether%"
+          output: "yes"
+    left_click_commands:
+      - "[refresh]"
+      - "[message] &8[&a&l!&8] &a&lRTP &8→ &cYour RTP is currenly on cooldown!"
+
+
+  'rtp_nether_available':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 18
+      - 19
+      - 20
+      - 21
+      - 27
+      - 28
+      - 29
+      - 30
+      - 36
+      - 37
+      - 38
+      - 39
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&c&lɴᴇᴛʜᴇʀ ᴡᴏʀʟᴅ'
+    lore:
+      - ''
+      - '&cWorld Information:'
+      - ' &8&l∙ &7Size: &f10k x 10k'
+      - ' &8&l∙ &7Land Claiming: &fDisabled'
+      - ' &8&l∙ &7Keep Inventory: &fDisabled'
+      - ' &8&l∙ &7Pvp: &fDisabled'
+      - ''
+      - '&e➥ Left-Click to RTP'
+    priority: 2
+    left_click_commands:
+      - "[givepermission] betterrtp.*"
+      - "[console] lp user %player_name% parent addtemp rtpnether 60s"
+      - "[player] betterrtp:rtp world playworld_nether"
+      - "[takepermission] betterrtp.*"
+      - "[console] codex unlock %player_name% objectives 4"
+      - "[refresh]"
+
+
+
+
+
+
+
+  'rtp_end_oncooldown':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+      - 31
+      - 32
+      - 33
+      - 34
+      - 35
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&b&lᴇɴᴅ ᴡᴏʀʟᴅ'
+    lore:
+      - ''
+      - '&bWorld Information:'
+      - ' &8&l∙ &7Size: &f5k x 5k'
+      - ' &8&l∙ &7Land Claiming: &fDisabled'
+      - ' &8&l∙ &7Keep Inventory: &fDisabled'
+      - ' &8&l∙ &7Pvp: &fDisabled'
+      - ''
+      - '&bCooldown: &f%luckperms_group_expiry_time_rtpend%'
+    priority: 1
+    view_requirement:
+      requirements:
+        claimed3:
+          type: string contains
+          input: "%luckperms_inherits_group_rtpend%"
+          output: "yes"
+    left_click_commands:
+      - "[refresh]"
+      - "[message] &8[&a&l!&8] &a&lRTP &8→ &cYour RTP is currenly on cooldown!"
+
+
+  'rtp_end_available':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+      - 31
+      - 32
+      - 33
+      - 34
+      - 35
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&b&lᴇɴᴅ ᴡᴏʀʟᴅ'
+    lore:
+      - ''
+      - '&bWorld Information:'
+      - ' &8&l∙ &7Size: &f5k x 5k'
+      - ' &8&l∙ &7Land Claiming: &fDisabled'
+      - ' &8&l∙ &7Keep Inventory: &fDisabled'
+      - ' &8&l∙ &7Pvp: &fDisabled'
+      - ''
+      - '&e➥ Left-Click to RTP'
+    priority: 2
+    left_click_commands:
+      - "[givepermission] betterrtp.*"
+      - "[console] lp user %player_name% parent addtemp rtpend 60s"
+      - "[player] betterrtp:rtp world playworld_the_end"
+      - "[takepermission] betterrtp.*"
+      - "[refresh]"
+
+
+
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

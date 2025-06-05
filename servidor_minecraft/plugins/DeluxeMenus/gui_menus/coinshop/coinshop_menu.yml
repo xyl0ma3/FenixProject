@@ -1,0 +1,352 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+menu_title: '&f七七七七七七七七︼'
+open_command: coinshop
+size: 45
+update_interval: 1
+
+items:
+
+
+  'keys':
+    material: TRIPWIRE_HOOK
+    slot: 6
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&b&lᴄʀᴀᴛᴇ ᴋᴇʏs'
+    lore:
+      - ''
+      - '&7Crate keys can be used to open'
+      - '&7crates to receive special rewards.'
+      - '&7Use your coins to purchase keys!'
+      - ''
+      - '&e➥ Left-Click to open'
+    left_click_commands:
+      - "[openguimenu] coinshop_keys"
+
+
+  'ranks':
+    material: BOOK
+    slot: 7
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&6&lᴅᴏɴᴀᴛᴏʀ ʀᴀɴᴋs'
+    lore:
+      - ''
+      - '&7Donator ranks gives you a variety'
+      - '&7of perks, commands and a kit.'
+      - '&7Use your coins to purchase ranks!'
+      - ''
+      - '&e➥ Left-Click to open'
+    left_click_commands:
+      - "[openguimenu] coinshop_ranks"
+
+
+  'commands':
+    material: PRISMARINE_SHARD
+    slot: 8
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&c&lᴄᴏᴍᴍᴀɴᴅs'
+    lore:
+      - ''
+      - '&7You already know what commands are.'
+      - '&7Use your coins to purchase commands!'
+      - ''
+      - '&e➥ Left-Click to open'
+    left_click_commands:
+      - "[openguimenu] coinshop_commands"
+
+
+  'pets':
+    material: PAPER
+    model_data: 5974
+    slot: 15
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&a&lᴘᴇᴛs'
+    lore:
+      - ''
+      - '&7Pets are mobs which follows'
+      - '&7you around on the server.'
+      - '&7Use your coins to purchase pets!'
+      - ''
+      - '&e➥ Left-Click to open'
+    left_click_commands:
+      - "[openguimenu] coinshop_pets"
+
+
+  'glows':
+    material: GLOWSTONE_DUST
+    slot: 16
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&e&lɢʟᴏᴡs'
+    lore:
+      - ''
+      - '&7Set your entire skin to glow'
+      - '&7Use your coins to purchase glows!'
+      - ''
+      - '&e➥ Left-Click to open'
+    left_click_commands:
+      - "[openguimenu] coinshop_glows"
+
+
+  'particles':
+    material: BLAZE_POWDER
+    slot: 17
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&c&lᴘᴀʀᴛɪᴄʟᴇs'
+    lore:
+      - ''
+      - '&7Particles are special effects'
+      - '&7which appear around your player.'
+      - '&7Use your coins to purchase particles!'
+      - ''
+      - '&e➥ Left-Click to open'
+    left_click_commands:
+      - "[openguimenu] coinshop_particles"
+
+
+  'furniture':
+    material: PAPER
+    model_data: 5980
+    slot: 24
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&#9E5A31&lғᴜʀɴɪᴛᴜʀᴇ'
+    lore:
+      - ''
+      - '&7Buy furniture to make you survival'
+      - '&7experience more realistic!'
+      - ''
+      - '&e➥ Left-Click to open'
+    left_click_commands:
+      - "[openguimenu] coinshop_furniture"
+
+
+  'backpacks':
+    material: PAPER
+    model_data: 5972
+    slot: 25
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&6&lʙᴀᴄᴋᴘᴀᴄᴋs'
+    lore:
+      - ''
+      - '&7Backpacks can be used to store'
+      - '&7items exactly like an enderchest.'
+      - '&7Use your coins to purchase backpacks!'
+      - ''
+      - '&e➥ Left-Click to open'
+    left_click_commands:
+      - "[openguimenu] coinshop_backpacks"
+
+
+  'claimblocks':
+    material: GOLDEN_SHOVEL
+    slot: 26
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&a&lᴄʟᴀɪᴍʙʟᴏᴄᴋs'
+    lore:
+      - ''
+      - '&7Claimblocks are what you use'
+      - '&7to claim land in the world.'
+      - '&7Use your coins to purchase claimblocks!'
+      - ''
+      - '&e➥ Left-Click to open'
+    left_click_commands:
+      - "[openguimenu] coinshop_claimblocks"
+
+
+  'toolskins':
+    material: DIAMOND_PICKAXE
+    model_data: 50001
+    slot: 33
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&b&lᴛᴏᴏʟsᴋɪɴs'
+    lore:
+      - ''
+      - '&7Toolskins are skins which'
+      - '&7you can equip on diamond and'
+      - '&7netherite tools!'
+      - ''
+      - '&e➥ Left-Click to open'
+    left_click_commands:
+      - "[openguimenu] coinshop_toolskins"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  'coins':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 9
+      - 10
+      - 11
+      - 12
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&6&lᴄᴏɪɴs'
+    lore:
+      - '&8Information'
+      - ''
+      - '&7Coins is a premium currency'
+      - '&7on our server which can be'
+      - '&7bought on the server store!'
+      - ''
+      - '&6Your Coins: &f%coinsengine_balance_coins%'
+
+
+  'store':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 18
+      - 19
+      - 20
+      - 21
+      - 27
+      - 28
+      - 29
+      - 30
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&#5B63AF&lsᴇʀᴠᴇʀ sᴛᴏʀᴇ'
+    lore:
+      - '&8Information'
+      - ''
+      - '&7The server store is where'
+      - '&7you can purchase premium'
+      - '&7perks such as coins!'
+      - ''
+      - '&7When you buy something from'
+      - '&7our store, it helps us'
+      - '&7improve the server!'
+      - ''
+      - '&e➥ Left-Click to open store'
+    left_click_commands:
+      - "[message] "
+      - "[message] &b&lStore &8&l▪ &fThanks for supporting our server!"
+      - "[message] "
+      - "[message] &#8CC0CCHey &f%player_name%&#8CC0CC! Are you enjoying your time on the server?"
+      - "[message] &#8CC0CCCheck out our &fstore&#8CC0CC! Your purchases allow us to continue"
+      - "[message] &#8CC0CCto provide you with the &fbest possible experience&#8CC0CC!"
+      - "[message] "
+      - "[message] &bStore: &fstore.yourserverlink.com"
+      - "[message] "
+      - "[close]"
+
+
+  'guide':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 37
+      - 38
+      - 39
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&a&lᴄᴏɪɴsʜᴏᴘ ɢᴜɪᴅᴇ'
+    lore:
+      - '&8Information'
+      - ''
+      - '&7The coinshop is where you can'
+      - '&7purchase premium perks and items'
+      - '&7with your coins from the store!'
+      - ''
+      - '&7Enter one of the categories on'
+      - '&7the right side of this menu, to'
+      - '&7find out what to purchase!'
+
+
+
+
+
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

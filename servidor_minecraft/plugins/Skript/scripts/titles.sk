@@ -1,0 +1,73 @@
+
+command /deliverytitlestandard:
+ permission: deliverytitle.enter
+ permission message: &c&l[!] &7You don't have permission to perform this command!
+ trigger:
+  send player title "&a&lDelivery Completed" with subtitle "&7You have completed a standard delivery!" for 5 seconds
+
+command /deliverytitleexpress:
+ permission: deliverytitle.enter
+ permission message: &c&l[!] &7You don't have permission to perform this command!
+ trigger:
+  send player title "&a&lDelivery Completed" with subtitle "&7You have completed an express delivery!" for 5 seconds
+
+command /deliverytitlelightning:
+ permission: deliverytitle.enter
+ permission message: &c&l[!] &7You don't have permission to perform this command!
+ trigger:
+  send player title "&a&lDelivery Completed" with subtitle "&7You have completed a lightning delivery!" for 5 seconds
+
+command /deliverytitlespecial:
+ permission: deliverytitle.enter
+ permission message: &c&l[!] &7You don't have permission to perform this command!
+ trigger:
+  send player title "&a&lDelivery Completed" with subtitle "&7You have completed a special delivery!" for 5 seconds
+
+command /deliverytitleenchantment:
+ permission: deliverytitle.enter
+ permission message: &c&l[!] &7You don't have permission to perform this command!
+ trigger:
+  send player title "&a&lDelivery Completed" with subtitle "&7You have completed an enchantment delivery!" for 5 seconds
+
+command /deliverytitlemystery:
+ permission: deliverytitle.enter
+ permission message: &c&l[!] &7You don't have permission to perform this command!
+ trigger:
+  send player title "&a&lDelivery Completed" with subtitle "&7You have completed a mystery delivery!" for 5 seconds
+
+
+
+
+
+
+command /factoriestitle:
+ permission: deliverytitle.enter
+ permission message: &c&l[!] &7You don't have permission to perform this command!
+ trigger:
+  send player title "&a&lProduction Completed" with subtitle "&7You have completed the production!" for 5 seconds
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+on region enter:
+ wait 2 ticks
+ if "%region at player%" contains "warning1":
+  send player title "&c&lWarning" with subtitle "&7PVP is enabled in the Warzone!" for 2 seconds
+on region enter:
+ wait 2 ticks
+ if "%region at player%" contains "warning2":
+  send player title "&c&lWarning" with subtitle "&7PVP is enabled in the Warzone!" for 2 seconds
+
+
+

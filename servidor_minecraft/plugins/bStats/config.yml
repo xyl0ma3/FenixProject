@@ -1,8 +1,16 @@
-# bStats collects some data for plugin authors like how many servers are using their plugins.
-# To honor their work, you should not disable it.
-# This has nearly no effect on the server performance!
-# Check out https://bStats.org/ to learn more :)
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
 
 enabled: true
-serverUuid: 51ddc7ee-686f-4d3b-8217-1ebabb5da11a
+serverUuid: e15ebf0d-173a-48b0-9eec-45aabd27ead6
 logFailedRequests: false
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

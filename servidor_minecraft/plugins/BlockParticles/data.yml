@@ -1,0 +1,19 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+locations:
+  SpawnPoint:
+    world: spawn
+    x: 0
+    y: 99
+    z: 0
+    particle: Witch
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

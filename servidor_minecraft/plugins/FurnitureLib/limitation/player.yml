@@ -1,0 +1,91 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+#
+
+PlayerLimit:
+  projects:
+    TornTableA: 10
+    SimplePlate: 10
+    SimpleChoppingBoard: 10
+    shelf2: 10
+    GasCooker: 10
+    dog: 10
+    Streetlamp: 5
+    StreetLamp: 5
+    Chair2: 5
+    Studio: 1
+    BeverageMachine: 2
+    Refrigerator: 2
+    StreetLamp3: 5
+    Rennwagen: 1
+    Sofa3: 2
+    Scarecrow: 2
+    WashingMachine: 2
+    StreetLamp2: 5
+    Sidetable: 2
+    Well: 1
+    Bench: 1
+    Sofa2: 3
+    Washstand: 2
+    Fireplace: 1
+    Piano: 1
+    Computer: 2
+    GamingDesk: 1
+    Toilet: 2
+    Bed: 1
+    Campfire: 2
+    FireworkLauncher: 0
+    AdventCalender: 0
+    Flag: 3
+    TrashCan: 2
+    BearTrap: 3
+    FlowerPot: 10
+    Guillotine: 0
+    WeaponStand: 2
+    Tent3: 0
+    Tent2: 1
+    Campfire2: 0
+    Campfire1: 0
+    LargeTable: 2
+    Camera: 0
+    GraveStone: 0
+    Tent1: 1
+    Crossbow: 3
+    Hammock: 2
+    Sunshade: 2
+    Trunk: 3
+    Fence: 0
+    Log: 0
+    Lantern: 5
+    WaxCandle: 10
+    Barrels: 0
+    Catapult: 1
+    Sofa: 3
+    MailBox: 2
+    BlackBoard: 3
+    SchoolTable: 4
+    SchoolChair: 4
+    Table: 4
+    ChristmasTree: 0
+    SleepingBag: 3
+    CactusPlant: 3
+    CampChair: 4
+    Chair: 4
+    TV: 3
+    SnowGolem: 2
+    CandyCane: 0
+    HumanSkeleton: 0
+  total:
+    enable: false
+    amount: 50
+    global: true
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

@@ -1,0 +1,82 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+enable-stats: false
+enable-update-check: false
+update-notify-login: false
+logging-settings:
+  log-debug: false
+  log-warning: false
+  log-info: false
+worlds:
+  world:
+    min-night-speed-mult: 10
+    max-night-speed-mult: 20
+    all-sleeping-speed-mult: 30
+    night-speed-curve: 0.5
+    accelerate-random-tick: true
+    max-random-tick: 1000
+    accelerate-weather: true
+    clear-weather-when-morning: true
+    heal-slept-villagers: true
+    morning-sound: 'ENTITY_PLAYER_LEVELUP'
+    morning-particle-options:
+      particle: 'VILLAGER_HAPPY'
+      amount: 20
+      radius: 0.5
+      enabled: true
+      delay-ticks: 5
+      pattern: 'RANDOM'
+    instant-day-if-all-sleeping: false
+    compatibility-settings:
+      ignore-afk: true
+      ignore-vanish: true
+    replenish-settings:
+      heal-negative-statuses: true
+      hours-to-heal-negative: 3
+      heal-positive-statuses: false
+      hours-to-heal-positive: 3
+      ticks-per-heal: 1000
+      heal-amount: 0
+      heal-awake: false
+      ticks-per-feed: 1000
+      feed-amount: 0
+      feed-awake: false
+      add-saturation: true
+      max-saturation: 1.0
+      saturation-amount: 1.0
+    sleep-rewards:
+      potion-effects:
+        enabled: true
+        required-hours-sleep: 3
+        show-effect-particles: false
+        effects:
+          LUCK:
+            duration: 3600
+            amplifier: 0
+    titles:
+      enabled: true
+      sleep-title: '&#00DCFF{12H}:{MIN} {MER_UPPER} ⌚'
+      sleep-subtitle: '&#DFDFDF{SLEEPERS}/{TOTAL} Sleeping ({TIMESCALE}x speed)'
+      morning-title: '&#FBFF00{12H}:{MIN} {MER_UPPER}'
+      morning-subtitle: '&#DFDFDFRise and shine, {USERNAME}!'
+      stay-ticks: 20
+      fade-ticks: 40
+    action-bar:
+      enabled: false
+      show-if-awake: false
+      title: ''
+    boss-bar:
+      enabled: true
+      show-if-awake: true
+      color: 'BLUE'
+      style: 'SOLID'
+      title: '&#00DCFF{SLEEPERS}/{TOTAL} &#DFDFDFSleeping &#8D8D8D- &#00DCFF{12H}:{MIN} {MER_UPPER}'
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

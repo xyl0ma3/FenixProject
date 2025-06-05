@@ -1,0 +1,97 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+voucher:
+  item: BOOK
+  name: '&3⛏ &b&lRandom Toolskin &3⛏'
+  lore:
+  - '&8Toolskin Voucher'
+  - ''
+  - '&7Claim this voucher to'
+  - '&7receive a random toolskin!'
+  - ''
+  - '&e➥ Left-Click to claim'
+  player: ''
+  glowing: true
+  options:
+    firework:
+      toggle: true
+      colors: Black, Green, Aqua, Navy
+  random-commands:
+  - giverandomtoolskin toolskinsAtlantisSword {player}
+  - giverandomtoolskin toolskinsCelestialSword {player}
+  - giverandomtoolskin toolskinsCrimsonSword {player}
+  - giverandomtoolskin toolskinsDevilSword {player}
+  - giverandomtoolskin toolskinsEmeraldSword {player}
+  - giverandomtoolskin toolskinsHalloweenSword {player}
+  - giverandomtoolskin toolskinsHeavenSword {player}
+  - giverandomtoolskin toolskinsMonsterSword {player}
+  - giverandomtoolskin toolskinsMoonSword {player}
+  - giverandomtoolskin toolskinsMudSword {player}
+  - giverandomtoolskin toolskinsNetherSword {player}
+  - giverandomtoolskin toolskinsPantherSword {player}
+  - giverandomtoolskin toolskinsPegasusSword {player}
+  - giverandomtoolskin toolskinsRadiantSword {player}
+  - giverandomtoolskin toolskinsThunderSword {player}
+  - giverandomtoolskin toolskinsTwilightSword {player}
+  - giverandomtoolskin toolskinsWarriorSword {player}
+  - giverandomtoolskin toolskinsAtlantisPickaxe {player}
+  - giverandomtoolskin toolskinsCelestialPickaxe {player}
+  - giverandomtoolskin toolskinsCrimsonPickaxe {player}
+  - giverandomtoolskin toolskinsDevilPickaxe {player}
+  - giverandomtoolskin toolskinsEmeraldPickaxe {player}
+  - giverandomtoolskin toolskinsHalloweenPickaxe {player}
+  - giverandomtoolskin toolskinsHeavenPickaxe {player}
+  - giverandomtoolskin toolskinsMonsterPickaxe {player}
+  - giverandomtoolskin toolskinsMoonPickaxe {player}
+  - giverandomtoolskin toolskinsMudPickaxe {player}
+  - giverandomtoolskin toolskinsNetherPickaxe {player}
+  - giverandomtoolskin toolskinsPantherPickaxe {player}
+  - giverandomtoolskin toolskinsPegasusPickaxe {player}
+  - giverandomtoolskin toolskinsRadiantPickaxe {player}
+  - giverandomtoolskin toolskinsThunderPickaxe {player}
+  - giverandomtoolskin toolskinsTwilightPickaxe {player}
+  - giverandomtoolskin toolskinsWarriorPickaxe {player}
+  - giverandomtoolskin toolskinsAtlantisAxe {player}
+  - giverandomtoolskin toolskinsCelestialAxe {player}
+  - giverandomtoolskin toolskinsCrimsonAxe {player}
+  - giverandomtoolskin toolskinsDevilAxe {player}
+  - giverandomtoolskin toolskinsEmeraldAxe {player}
+  - giverandomtoolskin toolskinsHalloweenAxe {player}
+  - giverandomtoolskin toolskinsHeavenAxe {player}
+  - giverandomtoolskin toolskinsMonsterAxe {player}
+  - giverandomtoolskin toolskinsMoonAxe {player}
+  - giverandomtoolskin toolskinsMudAxe {player}
+  - giverandomtoolskin toolskinsNetherAxe {player}
+  - giverandomtoolskin toolskinsPantherAxe {player}
+  - giverandomtoolskin toolskinsPegasusAxe {player}
+  - giverandomtoolskin toolskinsRadiantAxe {player}
+  - giverandomtoolskin toolskinsThunderAxe {player}
+  - giverandomtoolskin toolskinsTwilightAxe {player}
+  - giverandomtoolskin toolskinsWarriorAxe {player}
+  - giverandomtoolskin toolskinsAtlantisShovel {player}
+  - giverandomtoolskin toolskinsCelestialShovel {player}
+  - giverandomtoolskin toolskinsCrimsonShovel {player}
+  - giverandomtoolskin toolskinsDevilShovel {player}
+  - giverandomtoolskin toolskinsEmeraldShovel {player}
+  - giverandomtoolskin toolskinsHalloweenShovel {player}
+  - giverandomtoolskin toolskinsHeavenShovel {player}
+  - giverandomtoolskin toolskinsMonsterShovel {player}
+  - giverandomtoolskin toolskinsMoonShovel {player}
+  - giverandomtoolskin toolskinsMudShovel {player}
+  - giverandomtoolskin toolskinsNetherShovel {player}
+  - giverandomtoolskin toolskinsPantherShovel {player}
+  - giverandomtoolskin toolskinsPegasusShovel {player}
+  - giverandomtoolskin toolskinsRadiantShovel {player}
+  - giverandomtoolskin toolskinsThunderShovel {player}
+  - giverandomtoolskin toolskinsTwilightShovel {player}
+  - giverandomtoolskin toolskinsWarriorShovel {player}
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

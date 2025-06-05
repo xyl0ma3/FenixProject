@@ -1,0 +1,690 @@
+# DeluxeTags version: 1.8.2-Release Main Configuration
+#
+# Create your tags using the following format:
+#
+# deluxetags:
+#   VIP: 
+#     order: 1
+#     tag: '&7[&eVIP&7]'
+#     description: 'This tag is awarded by getting VIP'
+#
+# Placeholders for your chat plugin that supports PlaceholderAPI (Including DeluxeChat)
+#
+# %deluxetags_identifier% - display the players active tag identifier
+# %deluxetags_tag% - display the players active tag
+# %deluxetags_description% - display the players active tag description
+# %deluxetags_amount% - display the amount of tags a player has access to
+#
+# Placeholders for your essentials/chat handling formats config:
+#
+# {deluxetags_identifier} - display the players active tag identifier
+# {deluxetags_tag} - display the players active tag
+# {deluxetags_description} - display the players active tag description
+# {deluxetags_amount} - display the amount of tags a player has access to
+
+force_tags: true
+check_updates: true
+legacy_hex: false
+papi_chat: true
+format_chat:
+  enabled: false
+  format: '{deluxetags_tag} <%1$s> %2$s'
+load_tag_on_join: true
+gui:
+  name: '&8Available tags: %deluxetags_amount%'
+  tag_select_item:
+    material: NAME_TAG
+    data: 0
+    displayname: '&e%deluxetags_identifier% Pin'
+    lore:
+    - ''
+    - '&fDisplay: %deluxetags_tag%'
+    - '&7Display in chat and tab'
+    - ''
+    - '&e➥ Left-Click to select'
+  divider_item:
+    material: BLACK_STAINED_GLASS_PANE
+    data: 0
+    displayname: '&f'
+    lore: []
+  has_tag_item:
+    material: PLAYER_HEAD
+    data: 0
+    displayname: '&eYour Tag'
+    lore:
+    - ''
+    - '&fCurrent: %deluxetags_identifier%'
+    - '&fDisplay: %deluxetags_tag%'
+    - ''
+    - '&e➥ Left-Click to remove tag'
+  no_tag_item:
+    material: PLAYER_HEAD
+    data: 0
+    displayname: '&cYou don''t have a tag set!'
+    lore:
+    - ''
+    - '&eSelect a tag from the menu!'
+  exit_item:
+    material: IRON_DOOR
+    data: 0
+    displayname: '&c&lᴇxɪᴛ'
+    lore: []
+  next_page:
+    material: PAPER
+    data: 0
+    displayname: '&f&lɴᴇxᴛ'
+    lore: []
+  previous_page:
+    material: PAPER
+    data: 0
+    displayname: '&f&lᴘʀᴇᴠɪᴏᴜs'
+    lore: []
+deluxetags:
+  
+  Alex:
+    order: 1
+    tag: '&f⌀'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  AmericanFootball:
+    order: 2
+    tag: '&f⌂'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  AmongUs:
+    order: 3
+    tag: '&f⌅'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Apple:
+    order: 4
+    tag: '&f⌆'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Banana:
+    order: 5
+    tag: '&f⌇'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Batman:
+    order: 6
+    tag: '&f⌈'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Bowser:
+    order: 7
+    tag: '&f⌉'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Broccli:
+    order: 8
+    tag: '&f⌊'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  BullDog:
+    order: 9
+    tag: '&f⌋'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Cactus:
+    order: 10
+    tag: '&f⌌'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Camera:
+    order: 11
+    tag: '&f⌍'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  CaptainAmerica:
+    order: 12
+    tag: '&f⌎'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Carrot:
+    order: 13
+    tag: '&f⌏'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  CatBlack:
+    order: 14
+    tag: '&f⌐'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  CatOrange:
+    order: 15
+    tag: '&f⌑'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  CatWhite:
+    order: 16
+    tag: '&f⌒'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  ChessBlack:
+    order: 17
+    tag: '&f⌓'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  ChessWhite:
+    order: 18
+    tag: '&f⌔'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Chip:
+    order: 19
+    tag: '&f⌕'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Clock:
+    order: 20
+    tag: '&f⌖'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Coins:
+    order: 21
+    tag: '&f⌗'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Corgi:
+    order: 22
+    tag: '&f⌘'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Crown:
+    order: 23
+    tag: '&f⌙'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Deadpool:
+    order: 24
+    tag: '&f⌚'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Death:
+    order: 25
+    tag: '&f⌛'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  DivingHelmet:
+    order: 26
+    tag: '&f⌜'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  DonaldDuck:
+    order: 27
+    tag: '&f⌝'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Dragon:
+    order: 28
+    tag: '&f⌞'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Earth:
+    order: 29
+    tag: '&f⌟'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Elephant:
+    order: 30
+    tag: '&f⌠'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Fire:
+    order: 31
+    tag: '&f⌡'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  FireFlower:
+    order: 32
+    tag: '&f⌢'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Flower:
+    order: 33
+    tag: '&f⌣'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  FlyingRocket:
+    order: 34
+    tag: '&f⌤'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Football:
+    order: 35
+    tag: '&f⌥'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Frog:
+    order: 36
+    tag: '&f⌦'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  FruitBasket:
+    order: 37
+    tag: '&f⌧'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Ghost:
+    order: 38
+    tag: '&f⌨'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Giraffe:
+    order: 39
+    tag: '&f⌫'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Goofy:
+    order: 40
+    tag: '&f⌬'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Goomba:
+    order: 41
+    tag: '&f⌭'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Gru:
+    order: 42
+    tag: '&f⌮'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Heart:
+    order: 43
+    tag: '&f⌯'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Hippo:
+    order: 44
+    tag: '&f⌰'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Hulk:
+    order: 45
+    tag: '&f⌱'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  IronMan:
+    order: 46
+    tag: '&f⌲'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  KingJulien:
+    order: 47
+    tag: '&f⌳'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  KungFuPanda:
+    order: 48
+    tag: '&f⌴'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Labrador:
+    order: 49
+    tag: '&f⌵'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Lemon:
+    order: 50
+    tag: '&f⌶'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Lime:
+    order: 51
+    tag: '&f⌷'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  LuckyBlock:
+    order: 52
+    tag: '&f⌸'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Luigi:
+    order: 53
+    tag: '&f⌹'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Mario:
+    order: 54
+    tag: '&f⌺'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Marty:
+    order: 55
+    tag: '&f⌻'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  McQueen:
+    order: 56
+    tag: '&f⌼'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  MegaMind:
+    order: 57
+    tag: '&f⌽'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Melon:
+    order: 58
+    tag: '&f⌾'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  MexicanHat:
+    order: 59
+    tag: '&f⌿'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  MickeyMouse:
+    order: 60
+    tag: '&f⍀'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  MikeWazowski:
+    order: 61
+    tag: '&f⍁'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Minions:
+    order: 62
+    tag: '&f⍂'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  MrsPotts:
+    order: 63
+    tag: '&f⍃'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  MushroomBlue:
+    order: 64
+    tag: '&f⍄'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  MushroomGreen:
+    order: 65
+    tag: '&f⍅'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  MushroomRed:
+    order: 66
+    tag: '&f⍆'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Orange:
+    order: 67
+    tag: '&f⍇'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Panda:
+    order: 68
+    tag: '&f⍈'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Pear:
+    order: 69
+    tag: '&f⍉'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Penguin:
+    order: 70
+    tag: '&f⍊'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Pizza:
+    order: 71
+    tag: '&f⍋'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  PussInBoots:
+    order: 72
+    tag: '&f⍌'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  RedPanda:
+    order: 73
+    tag: '&f⍍'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Rocket:
+    order: 74
+    tag: '&f⍎'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  SafetyRing:
+    order: 75
+    tag: '&f⍏'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Santa:
+    order: 76
+    tag: '&f⍐'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Shark:
+    order: 77
+    tag: '&f⍑'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Shrek:
+    order: 78
+    tag: '&f⍒'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Simba:
+    order: 79
+    tag: '&f⍓'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Snow:
+    order: 80
+    tag: '&f⍔'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Snowman:
+    order: 81
+    tag: '&f⍕'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Spiderman:
+    order: 82
+    tag: '&f⍖'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Star:
+    order: 83
+    tag: '&f⍗'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Starwars:
+    order: 84
+    tag: '&f⍘'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Storm:
+    order: 85
+    tag: '&f⍙'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Strawberry:
+    order: 86
+    tag: '&f⍚'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Sullivan:
+    order: 87
+    tag: '&f⍛'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Superman:
+    order: 88
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  TennisBall:
+    order: 89
+    tag: '&f⍝'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  TheFlash:
+    order: 90
+    tag: '&f⍞'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Thor:
+    order: 91
+    tag: '&f⍟'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Tiger:
+    order: 92
+    tag: '&f⍠'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Timeglass:
+    order: 93
+    tag: '&f⍡'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Toat:
+    order: 94
+    tag: '&f⍢'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Trophy:
+    order: 95
+    tag: '&f⍣'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Turtle:
+    order: 96
+    tag: '&f⍤'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Water:
+    order: 97
+    tag: '&f⍥'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  WinnieThePooh:
+    order: 98
+    tag: '&f⍦'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  WonderWoman:
+    order: 99
+    tag: '&f⍧'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Yoda:
+    order: 100
+    tag: '&f⍨'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+  Yoshi:
+    order: 101
+    tag: '&f⍩'
+    description:
+    - '&cAwarded for using DeluxeTags!'
+    permission: deluxetags.tag.all
+
+# b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

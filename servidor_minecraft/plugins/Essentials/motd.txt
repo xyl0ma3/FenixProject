@@ -1,0 +1,15 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+&6Welcome, {PLAYER}&6!
+&6Type &c/help&6 for a list of commands.
+&6Type &c/list&6 to see who else is online.
+&6Players online:&c {ONLINE} &6- World time:&c {WORLDTIME12}
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

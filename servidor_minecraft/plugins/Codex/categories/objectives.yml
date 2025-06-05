@@ -1,0 +1,81 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+name: "&c&lWorld &7&lRegions"
+discover_title:
+  title: ""
+  subtitle: ""
+  fade_in: 1
+  stay: 1
+  fade_out: 1
+discover_message:
+- " "
+- "&8[&6&l!&8] &6&lObjective Completed &8→ &f%name%"
+- " "
+discover_sound:
+  name: BLOCK_GILDED_BLACKSTONE_STEP
+  volume: 10
+  pitch: 0.1
+discoveries:
+  1:
+    name: "&a&lReach Level 3"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 2"
+  2:
+    name: "&a&lFirst AFK Reward"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 2"
+  3:
+    name: "&a&lClaim PVP Kit"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 2"
+  4:
+    name: "&a&lTeleport To Nether"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 2"
+  5:
+    name: "&a&lPurchase Common Key"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 2"
+  6:
+    name: "&a&lComplete Daily Quests"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 2"
+  7:
+    name: "&a&lClaim Daily Reward"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 2"
+  8:
+    name: "&a&lSell A Diamond"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 2"
+  9:
+    name: "&a&lProduce 100x Logs"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 2"
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

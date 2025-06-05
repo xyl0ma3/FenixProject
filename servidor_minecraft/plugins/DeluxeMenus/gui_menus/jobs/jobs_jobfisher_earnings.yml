@@ -1,0 +1,57 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+menu_title: '&f七七七七七七七七⇮'
+open_command: jobsjobfisherearnings
+size: 54
+update_interval: 1
+
+items:
+
+
+  'catching_fish_1':
+    material: FISHING_ROD
+    slot: 10
+    hide_attributes: true
+    display_name: '&6&lCatching Fish'
+    lore:
+      - ''
+      - '&7View the payment you receive'
+      - '&7for each job action.'
+      - ''
+      - '&fCod &8&l▪ &a$%math_15+({jobsr_user_jlevel_fisher}*0.03)% &b15pts &615exp'
+      - '&fSalmon &8&l▪ &a$%math_20+({jobsr_user_jlevel_fisher}*0.03)% &b20pts &625exp'
+      - '&fTropical Fish &8&l▪ &a$%math_25+({jobsr_user_jlevel_fisher}*0.03)% &b25pts &625exp'
+      - '&fPufferfish &8&l▪ &a$%math_25+({jobsr_user_jlevel_fisher}*0.03)% &b25pts &625exp'
+
+
+
+
+
+
+
+
+
+  'back':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 46
+      - 47
+      - 48
+    update: true
+    display_name: '&c&lʙᴀᴄᴋ'
+    left_click_commands:
+      - "[openguimenu] jobs_jobfisher"
+
+
+
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

@@ -1,0 +1,29 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+location: spawn:71.500:115.6:-64.5
+enabled: true
+display-range: 100
+update-range: 100
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&6&lVote Crate'
+    height: 0.3
+  - content: '&fRarity: け'
+    height: 0.5
+  - content: '&fLeft-Click to Preview'
+    height: 0.3
+  - content: '&6&nGet Keys From: /coinshop'
+    height: 0.3
+  actions: {}
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

@@ -1,0 +1,29 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+Name: Coins
+Symbol: ⛃
+Format: '%amount%&7%currency_symbol%'
+Command_Aliases: coins,coin
+Decimal: false
+Permission_Required: false
+Transfer_Allowed: true
+Start_Value: 0
+Max_Value: -1
+Economy:
+  Vault: false
+# Sets currency visual icon.
+Icon:
+  Material: GOLD_NUGGET
+# Sets minimal amount to be able to send it to other players.
+# Set this to '-1' to no limits.
+Transfer_Min_Amount: 1.0
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

@@ -1,0 +1,336 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+menu_title: '&f七七七七七七七七📥'
+open_command: factories
+size: 45
+update_interval: 1
+
+items:
+
+
+  'factory_wood':
+    material: OAK_LOG
+    slot: 19
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&6&lᴏᴀᴋ ʟᴏɢ ғᴀᴄᴛᴏʀʏ'
+    lore:
+      - ''
+      - '&7The oak log factory is unlocked'
+      - '&7by default. Use the factory'
+      - '&7to produce oak logs easily.'
+      - ''
+      - '&6Required Resources:'
+      - ' &8&l∙ &fSaplings'
+      - ' &8&l∙ &fBone Meal'
+      - ' &8&l∙ &fCoal'
+      - ''
+      - '&6Fuel Level: &8Coal &7(1)'
+      - ''
+      - '&e➥ Left-Click to open'
+    click_commands:
+      - "[openguimenu] factories_wood"
+
+
+
+  'next_factory':
+    material: PAPER
+    model_data: 110007
+    slot: 20
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&f&lɴᴇxᴛ ғᴀᴄᴛᴏʀʏ'
+    click_commands:
+      - "[openguimenu] factories_menu_charcoal"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  'all_factories':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 37
+      - 38
+      - 39
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&6&lᴀʟʟ ғᴀᴄᴛᴏʀɪᴇs'
+    lore:
+      - ''
+      - '&7View all the factories easier'
+      - '&7in the All Factories menu!'
+      - ''
+      - '&e➥ Left-Click to open'
+    click_commands:
+      - "[openguimenu] factories_all1"
+
+
+  'factories_research':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 5
+      - 6
+      - 7
+      - 8
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&#5B63AF&lғᴀᴄᴛᴏʀɪᴇs ʀᴇsᴇᴀʀᴄʜ'
+    lore:
+      - ''
+      - '&7The Factories Research Center'
+      - '&7is where you can research new'
+      - '&7features to unlock new factories!'
+      - ''
+      - '&e➥ Left-Click to open'
+    click_commands:
+      - "[openguimenu] factories_research1"
+
+
+  'factories_rewards':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 14
+      - 15
+      - 16
+      - 17
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&6&lғᴀᴄᴛᴏʀɪᴇs ʀᴇᴡᴀʀᴅs'
+    lore:
+      - ''
+      - '&7When progressing through'
+      - '&7factories, you obtain rewards'
+      - '&7for hitting certain milestones!'
+      - ''
+      - '&e➥ Left-Click to open'
+    click_commands:
+      - "[openguimenu] factories_rewards"
+
+
+  'factories_stats':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 23
+      - 24
+      - 25
+      - 26
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&c&lᴘᴇʀsᴏɴᴀʟ sᴛᴀᴛɪsᴛɪᴄs'
+    lore:
+      - ''
+      - '&7View all important statistics'
+      - '&7about your factory profile.'
+      - ''
+      - '&6Factory Stats:'
+      - '&8&l∙ &7Productions: &f%coinsengine_balance_rounded_factoriespcompleted%'
+      - '&8&l∙ &7Factories Owned: &f%coinsengine_balance_rounded_factoriesowned%'
+      - '&8&l∙ &7Production Limit: &f%coinsengine_balance_rounded_factoriespongoing%/%coinsengine_balance_rounded_factoriesplimit%'
+      - '&8&l∙ &7Research Points: &f%coinsengine_balance_rounded_factoriesresearch%&e☀'
+
+
+
+
+
+  'guide_page_remove_for_OPS':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 32
+      - 33
+      - 34
+      - 35
+    update: true
+    display_name: '&a&lᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ғᴀᴄᴛᴏʀɪᴇs'
+    lore:
+      - ''
+      - '&7This is where the jobs guide is located.'
+      - ''
+      - '&c[!] You cant see this while being OP!'
+    priority: 0
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: permission.op
+
+  'guide_page_4':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 32
+      - 33
+      - 34
+      - 35
+    update: true
+    display_name: '&a&lғᴀᴄᴛᴏʀɪᴇs ʀᴇᴡᴀʀᴅs'
+    lore:
+      - ' &8Page 4/4'
+      - ''
+      - '&7Once you hit certain milestones'
+      - '&7in Factories, you unlock rewards'
+      - '&7which improves your Factory or'
+      - '&7rewards you as a player.'
+      - ''
+      - '&7Dont forget to claim these'
+      - '&7rewards when you reach certain'
+      - '&7achievements. Good Luck!'
+      - ''
+      - '&6Thanks For Your Time!'
+      - '&e➥ Left-Click for start over'
+    priority: 1
+    click_commands:
+      - "[message] &8[&6&l!&8] &6&lFactories &8→ &aSwitched to page 1"
+      - "[takepermission] factories.guide.page.4"
+      - "[refresh]"
+      - "[sound] ITEM_BOOK_PAGE_TURN"
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: factories.guide.page.4
+
+  'guide_page_3':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 32
+      - 33
+      - 34
+      - 35
+    update: true
+    display_name: '&a&lғᴀᴄᴛᴏʀɪᴇs ʀᴇsᴇᴀʀᴄʜ'
+    lore:
+      - ' &8Page 3/4'
+      - ''
+      - '&7Very few features and factories are'
+      - '&7unlocked by default. You will have'
+      - '&7to unlock most features with money'
+      - '&7or in the research center.'
+      - ''
+      - '&7The resource center is where you'
+      - '&7unlock new features and upgrades'
+      - '&7to factories.'
+      - ''
+      - '&7You use Research Points to start'
+      - '&7researching in the Research Center.'
+      - ''
+      - '&6Continue To Learn More!'
+      - '&e➥ Left-Click for next page'
+    priority: 2
+    click_commands:
+      - "[message] &8[&6&l!&8] &6&lFactories &8→ &aSwitched to page 4"
+      - "[givepermission] factories.guide.page.4"
+      - "[takepermission] factories.guide.page.3"
+      - "[refresh]"
+      - "[sound] ITEM_BOOK_PAGE_TURN"
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: factories.guide.page.3
+
+  'guide_page_2':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 32
+      - 33
+      - 34
+      - 35
+    update: true
+    display_name: '&a&lʜᴏᴡ ғᴀᴄᴛᴏʀɪᴇs ᴡᴏʀᴋ'
+    lore:
+      - ' &8Page 2/4'
+      - ''
+      - '&7To start your first production,'
+      - '&7enter the Wood Factory which is'
+      - '&7the first unlocked factory.'
+      - ''
+      - '&7Here you will see 1 unlocked'
+      - '&7production size. Gather the'
+      - '&7required resources and start'
+      - '&7the production!'
+      - ''
+      - '&7Each production will take 10-60m'
+      - '&7depending on how advanced it is.'
+      - ''
+      - '&6Continue To Learn More!'
+      - '&e➥ Left-Click for next page'
+    priority: 3
+    click_commands:
+      - "[message] &8[&6&l!&8] &6&lFactories &8→ &aSwitched to page 3"
+      - "[givepermission] factories.guide.page.3"
+      - "[takepermission] factories.guide.page.2"
+      - "[refresh]"
+      - "[sound] ITEM_BOOK_PAGE_TURN"
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: factories.guide.page.2
+
+  'guide_page_1':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 32
+      - 33
+      - 34
+      - 35
+    update: true
+    display_name: '&a&lᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ғᴀᴄᴛᴏʀɪᴇs'
+    lore:
+      - ' &8Page 1/4'
+      - ''
+      - '&7Factories offers a way to produce'
+      - '&7items and resources by inserting a'
+      - '&7required amount of resources and fuel'
+      - '&7for the production.'
+      - ''
+      - '&7You can produce different usefull items'
+      - '&7and there are 3 production sizes.'
+      - ''
+      - '&aAvailable Factories: &f20'
+      - ''
+      - '&6Continue To Learn More!'
+      - '&e➥ Left-Click for next page'
+    priority: 4
+    click_commands:
+      - "[message] &8[&6&l!&8] &6&lFactories &8→ &aSwitched to page 2"
+      - "[givepermission] factories.guide.page.2"
+      - "[refresh]"
+      - "[sound] ITEM_BOOK_PAGE_TURN"
+
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

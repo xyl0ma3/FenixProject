@@ -1,0 +1,19 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+#
+# If you have custom limits for building heights in your worlds, you can add them here.
+# If the values aren't set for a world, AngelChest uses the values provided by Spigot.
+
+some_example_world:
+  min: 0
+  max: 127
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

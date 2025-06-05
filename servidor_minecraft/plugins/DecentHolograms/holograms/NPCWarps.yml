@@ -1,0 +1,28 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+location: spawn:-9.500:103.9:-3.5
+enabled: true
+display-range: 100
+update-range: 100
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '╝'
+    height: 0.3
+  - content: '&6&lWarps&f'
+    height: 0.3
+  - content: '&7(/warps)'
+    height: 0.5
+  actions: {}
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

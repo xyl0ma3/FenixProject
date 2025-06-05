@@ -1,0 +1,119 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+menu_title: '&f七七七七七七七七⇮'
+open_command: jobsjobblacksmithearnings
+size: 54
+update_interval: 1
+
+items:
+
+
+
+  'repair_weapons_1':
+    material: ANVIL
+    slot: 10
+    hide_attributes: true
+    display_name: '&6&lRepair Weapons'
+    lore:
+      - ''
+      - '&7View the payment you receive'
+      - '&7for each job action.'
+      - ''
+      - '&fWooden Sword &8&l▪ &a$%math_1+({jobsr_user_jlevel_blacksmith}*0.03)% &b1pts &61exp'
+      - '&fIron Sword &8&l▪ &a$%math_2+({jobsr_user_jlevel_blacksmith}*0.03)% &b2pts &62exp'
+      - '&fGolden Sword &8&l▪ &a$%math_3+({jobsr_user_jlevel_blacksmith}*0.03)% &b3pts &63exp'
+      - '&fDiamond Sword &8&l▪ &a$%math_4+({jobsr_user_jlevel_blacksmith}*0.03)% &b4pts &64exp'
+
+
+  'craft_items_1':
+    material: CRAFTING_TABLE
+    slot: 11
+    hide_attributes: true
+    display_name: '&6&lCrafting Items'
+    lore:
+      - ''
+      - '&7View the payment you receive'
+      - '&7for each job action.'
+      - ''
+      - '&fWooden Sword &8&l▪ &a$%math_1+({jobsr_user_jlevel_blacksmith}*0.03)% &b1pts &62exp'
+      - '&fLeather Helmet &8&l▪ &a$%math_3+({jobsr_user_jlevel_blacksmith}*0.03)% &b3pts &64exp'
+      - '&fLeather Chestplate &8&l▪ &a$%math_4+({jobsr_user_jlevel_blacksmith}*0.03)% &b4pts &68exp'
+      - '&fLeather Leggings &8&l▪ &a$%math_2.5+({jobsr_user_jlevel_blacksmith}*0.03)% &b2.5pts &65exp'
+      - '&fLeather Boots &8&l▪ &a$%math_3.5+({jobsr_user_jlevel_blacksmith}*0.03)% &b3.5pts &67exp'
+      - '&fIron Sword &8&l▪ &a$%math_4+({jobsr_user_jlevel_blacksmith}*0.03)% &b4pts &68exp'
+      - '&fIron Helmet &8&l▪ &a$%math_8+({jobsr_user_jlevel_blacksmith}*0.03)% &b8pts &616exp'
+      - '&fIron Chestplate &8&l▪ &a$%math_16+({jobsr_user_jlevel_blacksmith}*0.03)% &b16pts &632exp'
+      - '&fIron Leggings &8&l▪ &a$%math_10+({jobsr_user_jlevel_blacksmith}*0.03)% &b10pts &620exp'
+      - '&fIron Boots &8&l▪ &a$%math_14+({jobsr_user_jlevel_blacksmith}*0.03)% &b14pts &628exp'
+
+
+  'craft_items_2':
+    material: CRAFTING_TABLE
+    slot: 12
+    hide_attributes: true
+    display_name: '&6&lCrafting Items'
+    lore:
+      - ''
+      - '&7View the payment you receive'
+      - '&7for each job action.'
+      - ''
+      - '&fGold Sword &8&l▪ &a$%math_6+({jobsr_user_jlevel_blacksmith}*0.03)% &b6pts &612exp'
+      - '&fGold Helmet &8&l▪ &a$%math_12+({jobsr_user_jlevel_blacksmith}*0.03)% &b12pts &624exp'
+      - '&fGold Chestplate &8&l▪ &a$%math_24+({jobsr_user_jlevel_blacksmith}*0.03)% &b24pts &648exp'
+      - '&fGold Leggings &8&l▪ &a$%math_15+({jobsr_user_jlevel_blacksmith}*0.03)% &b15pts &630exp'
+      - '&fGold Boots &8&l▪ &a$%math_21+({jobsr_user_jlevel_blacksmith}*0.03)% &b21pts &642exp'
+      - '&fDiamond Sword &8&l▪ &a$%math_8+({jobsr_user_jlevel_blacksmith}*0.03)% &b8pts &616exp'
+      - '&fDiamond Helmet &8&l▪ &a$%math_20+({jobsr_user_jlevel_blacksmith}*0.03)% &b20pts &640exp'
+      - '&fDiamond Chestplate &8&l▪ &a$%math_32+({jobsr_user_jlevel_blacksmith}*0.03)% &b32pts &664exp'
+      - '&fDiamond Leggings &8&l▪ &a$%math_28+({jobsr_user_jlevel_blacksmith}*0.03)% &b28pts &640exp'
+      - '&fDiamond Boots &8&l▪ &a$%math_16+({jobsr_user_jlevel_blacksmith}*0.03)% &b16pts &632exp'
+
+
+  'craft_items_3':
+    material: FURNACE
+    slot: 13
+    hide_attributes: true
+    display_name: '&6&lSmelting Ores'
+    lore:
+      - ''
+      - '&7View the payment you receive'
+      - '&7for each job action.'
+      - ''
+      - '&fIron Ore &8&l▪ &a$%math_1.3+({jobsr_user_jlevel_blacksmith}*0.03)% &b1.3pts &62exp'
+      - '&fGold Ore &8&l▪ &a$%math_5+({jobsr_user_jlevel_blacksmith}*0.03)% &b5pts &610exp'
+
+
+
+
+
+
+
+
+
+
+
+
+  'back':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 46
+      - 47
+      - 48
+    update: true
+    display_name: '&c&lʙᴀᴄᴋ'
+    left_click_commands:
+      - "[openguimenu] jobs_jobblacksmith"
+
+
+
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

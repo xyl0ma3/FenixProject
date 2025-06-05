@@ -1,0 +1,100 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+#
+title: '{stats_menu_title}'
+size: 6
+fill:
+  enabled: false
+  material: black_stained_glass_pane
+items:
+
+
+
+  home1:
+    pos: 5,1
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    on_click:
+      - type: command
+        executor: player
+        command: skills
+    display_name: '&c&lʙᴀᴄᴋ'
+  home2:
+    pos: 5,2
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    on_click:
+      - type: command
+        executor: player
+        command: skills
+    display_name: '&c&lʙᴀᴄᴋ'
+  home3:
+    pos: 5,3
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    on_click:
+      - type: command
+        executor: player
+        command: skills
+    display_name: '&c&lʙᴀᴄᴋ'
+
+
+
+
+
+
+
+
+templates:
+  stat:
+    strength:
+      pos: 1,2
+      material: PAPER
+      nbt:
+        CustomModelData: 110007
+    health:
+      pos: 1,6
+      material: PAPER
+      nbt:
+        CustomModelData: 110007
+    regeneration:
+      pos: 1,4
+      material: PAPER
+      nbt:
+        CustomModelData: 110007
+    luck:
+      pos: 3,2
+      material: PAPER
+      nbt:
+        CustomModelData: 110007
+    wisdom:
+      pos: 3,4
+      material: PAPER
+      nbt:
+        CustomModelData: 110007
+    toughness:
+      pos: 3,6
+      material: PAPER
+      nbt:
+        CustomModelData: 110007
+    display_name: '{color}&l{stat}'
+    lore:
+      - '{stat_desc}'
+      - '{skills}'
+      - ' '
+      - '{your_level}'
+      - ' '
+      - '{descriptors}'
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

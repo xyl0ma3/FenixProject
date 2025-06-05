@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1749079546213
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1749080340949
+  login: 1749079843694
+money: '10000012100'
+last-account-name: .xylokhalifa
+lastlocation:
+  world: 6086059a-7b54-4af5-a1ef-83382401ecee
+  world-name: playworld_nether
+  x: 26.745691
+  y: 83.0
+  z: 22.092663
+  yaw: 99.77801513671875
+  pitch: 12.894577026367188
+logoutlocation:
+  world: 4b0168ce-3e79-4123-9bef-119722e4c3f0
+  world-name: spawn
+  x: -1.4659758
+  y: 100.0
+  z: 8.547746
+  yaw: -142.1179656982422
+  pitch: 22.887405395507812

@@ -1,0 +1,717 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+menu_title: '&f七七七七七七七七⍪'
+open_command: tagsall2
+size: 54
+update_interval: 1
+
+items:
+
+
+  'Corgi_tag':
+    material: NAME_TAG
+    slot: 19
+    update: true
+    display_name: '&e&lCorgi Pin'
+
+    lore:
+      - ''
+      - '&fDisplay: ⌘'
+      - '&7Display in the tab'
+      - ''
+      - '&e➥ Left-Click to select'
+    priority: 1
+    enchantments:
+      - mending;1
+    hide_enchantments: true
+    hide_attributes: true
+    click_commands:
+      - "[console] deluxetags:tags set %player_name% Corgi"
+
+
+
+
+
+  'Crown_tag':
+    material: NAME_TAG
+    slot: 20
+    update: true
+    display_name: '&e&lCrown Pin'
+
+    lore:
+      - ''
+      - '&fDisplay: ⌙'
+      - '&7Display in the tab'
+      - ''
+      - '&e➥ Left-Click to select'
+    priority: 1
+    enchantments:
+      - mending;1
+    hide_enchantments: true
+    hide_attributes: true
+    click_commands:
+      - "[console] deluxetags:tags set %player_name% Crown"
+
+
+
+
+
+  'Deadpool_tag':
+    material: NAME_TAG
+    slot: 21
+    update: true
+    display_name: '&e&lDeadpool Pin'
+
+    lore:
+      - ''
+      - '&fDisplay: ⌚'
+      - '&7Display in the tab'
+      - ''
+      - '&e➥ Left-Click to select'
+    priority: 1
+    enchantments:
+      - mending;1
+    hide_enchantments: true
+    hide_attributes: true
+    click_commands:
+      - "[console] deluxetags:tags set %player_name% Deadpool"
+
+
+
+
+
+  'Death_tag':
+    material: NAME_TAG
+    slot: 22
+    update: true
+    display_name: '&e&lDeath Pin'
+
+    lore:
+      - ''
+      - '&fDisplay: ⌛'
+      - '&7Display in the tab'
+      - ''
+      - '&e➥ Left-Click to select'
+    priority: 1
+    enchantments:
+      - mending;1
+    hide_enchantments: true
+    hide_attributes: true
+    click_commands:
+      - "[console] deluxetags:tags set %player_name% Death"
+
+
+
+
+
+
+  'DivingHelmet_tag':
+    material: NAME_TAG
+    slot: 23
+    update: true
+    display_name: '&e&lDivingHelmet Pin'
+
+    lore:
+      - ''
+      - '&fDisplay: ⌜'
+      - '&7Display in the tab'
+      - ''
+      - '&e➥ Left-Click to select'
+    priority: 1
+    enchantments:
+      - mending;1
+    hide_enchantments: true
+    hide_attributes: true
+    click_commands:
+      - "[console] deluxetags:tags set %player_name% DivingHelmet"
+
+
+
+
+
+  'DonaldDuck_tag':
+    material: NAME_TAG
+    slot: 24
+    update: true
+    display_name: '&e&lDonaldDuck Pin'
+
+    lore:
+      - ''
+      - '&fDisplay: ⌝'
+      - '&7Display in the tab'
+      - ''
+      - '&e➥ Left-Click to select'
+    priority: 1
+    enchantments:
+      - mending;1
+    hide_enchantments: true
+    hide_attributes: true
+    click_commands:
+      - "[console] deluxetags:tags set %player_name% DonaldDuck"
+
+
+
+
+
+  'Dragon_tag':
+    material: NAME_TAG
+    slot: 25
+    update: true
+    display_name: '&e&lDragon Pin'
+
+    lore:
+      - ''
+      - '&fDisplay: ⌞'
+      - '&7Display in the tab'
+      - ''
+      - '&e➥ Left-Click to select'
+    priority: 1
+    enchantments:
+      - mending;1
+    hide_enchantments: true
+    hide_attributes: true
+    click_commands:
+      - "[console] deluxetags:tags set %player_name% Dragon"
+
+
+
+
+  'Earth_tag':
+    material: NAME_TAG
+    slot: 28
+    update: true
+    display_name: '&e&lEarth Pin'
+
+    lore:
+      - ''
+      - '&fDisplay: ⌟'
+      - '&7Display in the tab'
+      - ''
+      - '&e➥ Left-Click to select'
+    priority: 1
+    enchantments:
+      - mending;1
+    hide_enchantments: true
+    hide_attributes: true
+    click_commands:
+      - "[console] deluxetags:tags set %player_name% Earth"
+
+
+
+
+
+  'Elephant_tag':
+    material: NAME_TAG
+    slot: 29
+    update: true
+    display_name: '&e&lElephant Pin'
+
+    lore:
+      - ''
+      - '&fDisplay: ⌠'
+      - '&7Display in the tab'
+      - ''
+      - '&e➥ Left-Click to select'
+    priority: 1
+    enchantments:
+      - mending;1
+    hide_enchantments: true
+    hide_attributes: true
+    click_commands:
+      - "[console] deluxetags:tags set %player_name% Elephant"
+
+
+
+
+
+  'Fire_tag':
+    material: NAME_TAG
+    slot: 30
+    update: true
+    display_name: '&e&lFire Pin'
+
+    lore:
+      - ''
+      - '&fDisplay: ⌡'
+      - '&7Display in the tab'
+      - ''
+      - '&e➥ Left-Click to select'
+    priority: 1
+    enchantments:
+      - mending;1
+    hide_enchantments: true
+    hide_attributes: true
+    click_commands:
+      - "[console] deluxetags:tags set %player_name% Fire"
+
+
+
+
+
+  'FireFlower_tag':
+    material: NAME_TAG
+    slot: 31
+    update: true
+    display_name: '&e&lFireFlower Pin'
+
+    lore:
+      - ''
+      - '&fDisplay:  ⌢'
+      - '&7Display in the tab'
+      - ''
+      - '&e➥ Left-Click to select'
+    priority: 1
+    enchantments:
+      - mending;1
+    hide_enchantments: true
+    hide_attributes: true
+    click_commands:
+      - "[console] deluxetags:tags set %player_name% FireFlower"
+
+
+
+
+
+
+  'Flower_tag':
+    material: NAME_TAG
+    slot: 32
+    update: true
+    display_name: '&e&lFlower Pin'
+
+    lore:
+      - ''
+      - '&fDisplay:  ⌣'
+      - '&7Display in the tab'
+      - ''
+      - '&e➥ Left-Click to select'
+    priority: 1
+    enchantments:
+      - mending;1
+    hide_enchantments: true
+    hide_attributes: true
+    click_commands:
+      - "[console] deluxetags:tags set %player_name% Flower"
+
+
+
+
+
+
+
+
+  'FlyingRocket_tag':
+    material: NAME_TAG
+    slot: 33
+    update: true
+    display_name: '&e&lFlyingRocket Pin'
+
+    lore:
+      - ''
+      - '&fDisplay: ⌤'
+      - '&7Display in the tab'
+      - ''
+      - '&e➥ Left-Click to select'
+    priority: 1
+    enchantments:
+      - mending;1
+    hide_enchantments: true
+    hide_attributes: true
+    click_commands:
+      - "[console] deluxetags:tags set %player_name% FlyingRocket"
+
+
+
+
+
+
+  'Football_tag':
+    material: NAME_TAG
+    slot: 34
+    update: true
+    display_name: '&e&lFootball Pin'
+
+    lore:
+      - ''
+      - '&fDisplay: ⌥'
+      - '&7Display in the tab'
+      - ''
+      - '&e➥ Left-Click to select'
+    priority: 1
+    enchantments:
+      - mending;1
+    hide_enchantments: true
+    hide_attributes: true
+    click_commands:
+      - "[console] deluxetags:tags set %player_name% Football"
+
+
+
+
+
+  'Frog_tag':
+    material: NAME_TAG
+    slot: 37
+    update: true
+    display_name: '&e&lFrog Pin'
+
+    lore:
+      - ''
+      - '&fDisplay: ⌦'
+      - '&7Display in the tab'
+      - ''
+      - '&e➥ Left-Click to select'
+    priority: 1
+    enchantments:
+      - mending;1
+    hide_enchantments: true
+    hide_attributes: true
+    click_commands:
+      - "[console] deluxetags:tags set %player_name% Frog"
+
+
+
+
+
+  'FruitBasket_tag':
+    material: NAME_TAG
+    slot: 38
+    update: true
+    display_name: '&e&lFruitBasket Pin'
+
+    lore:
+      - ''
+      - '&fDisplay: ⌧'
+      - '&7Display in the tab'
+      - ''
+      - '&e➥ Left-Click to select'
+    priority: 1
+    enchantments:
+      - mending;1
+    hide_enchantments: true
+    hide_attributes: true
+    click_commands:
+      - "[console] deluxetags:tags set %player_name% FruitBasket"
+
+
+
+
+
+
+
+  'Ghost_tag':
+    material: NAME_TAG
+    slot: 39
+    update: true
+    display_name: '&e&lGhost Pin'
+
+    lore:
+      - ''
+      - '&fDisplay: ⌨'
+      - '&7Display in the tab'
+      - ''
+      - '&e➥ Left-Click to select'
+    priority: 1
+    enchantments:
+      - mending;1
+    hide_enchantments: true
+    hide_attributes: true
+    click_commands:
+      - "[console] deluxetags:tags set %player_name% Ghost"
+
+
+
+
+
+  'Giraffe_tag':
+    material: NAME_TAG
+    slot: 40
+    update: true
+    display_name: '&e&lGiraffe Pin'
+
+    lore:
+      - ''
+      - '&fDisplay: ⌫'
+      - '&7Display in the tab'
+      - ''
+      - '&e➥ Left-Click to select'
+    priority: 1
+    enchantments:
+      - mending;1
+    hide_enchantments: true
+    hide_attributes: true
+    click_commands:
+      - "[console] deluxetags:tags set %player_name% Giraffe"
+
+
+
+
+
+  'Goofy_tag':
+    material: NAME_TAG
+    slot: 41
+    update: true
+    display_name: '&e&lGoofy Pin'
+
+    lore:
+      - ''
+      - '&fDisplay: ⌬'
+      - '&7Display in the tab'
+      - ''
+      - '&e➥ Left-Click to select'
+    priority: 1
+    enchantments:
+      - mending;1
+    hide_enchantments: true
+    hide_attributes: true
+    click_commands:
+      - "[console] deluxetags:tags set %player_name% Goofy"
+
+
+
+
+
+  'Goomba_tag':
+    material: NAME_TAG
+    slot: 42
+    update: true
+    display_name: '&e&lGoomba Pin'
+
+    lore:
+      - ''
+      - '&fDisplay: ⌭'
+      - '&7Display in the tab'
+      - ''
+      - '&e➥ Left-Click to select'
+    priority: 1
+    enchantments:
+      - mending;1
+    hide_enchantments: true
+    hide_attributes: true
+    click_commands:
+      - "[console] deluxetags:tags set %player_name% Goomba"
+
+
+
+
+
+  'Gru_tag':
+    material: NAME_TAG
+    slot: 43
+    update: true
+    display_name: '&e&lGru Pin'
+
+    lore:
+      - ''
+      - '&fDisplay: ⌮'
+      - '&7Display in the tab'
+      - ''
+      - '&e➥ Left-Click to select'
+    priority: 1
+    enchantments:
+      - mending;1
+    hide_enchantments: true
+    hide_attributes: true
+    click_commands:
+      - "[console] deluxetags:tags set %player_name% Gru"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  'page_previous':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 18
+      - 27
+      - 36
+    display_name: '&f&lᴘʀᴇᴠɪᴏᴜs ᴘᴀɢᴇ'
+    left_click_commands:
+      - "[openguimenu] all_tags_1"
+  'page_next':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 26
+      - 35
+      - 44
+    display_name: '&f&lɴᴇxᴛ ᴘᴀɢᴇ'
+    left_click_commands:
+      - "[openguimenu] all_tags_3"
+
+
+
+
+  'page_previous_category':
+    material: PAPER
+    model_data: 110007
+    slot: 0
+    display_name: '&f&lᴘʀᴇᴠɪᴏᴜs ᴘᴀɢᴇ'
+    left_click_commands:
+      - "[openguimenu] games_tags_1"
+  'page_next_category':
+    material: PAPER
+    model_data: 110007
+    slot: 8
+    display_name: '&f&lɴᴇxᴛ ᴘᴀɢᴇ'
+    left_click_commands:
+      - "[openguimenu] movies_tags_1"
+
+
+
+
+
+
+
+  'page_others':
+    material: PAPER
+    model_data: 4106
+    slot: 1
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&6&lOthers'
+    lore:
+      - '&7Tags Category'
+      - ''
+      - '&e➥ Left-Click to open'
+    left_click_commands:
+      - "[openguimenu] others_tags_1"
+
+  'page_icons':
+    material: PAPER
+    model_data: 4104
+    slot: 2
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&b&lIcons'
+    lore:
+      - '&7Tags Category'
+      - ''
+      - '&e➥ Left-Click to open'
+    left_click_commands:
+      - "[openguimenu] icons_tags_1"
+
+  'page_games':
+    material: PAPER
+    model_data: 4103
+    slot: 3
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&5&lGames'
+    lore:
+      - '&7Tags Category'
+      - ''
+      - '&e➥ Left-Click to open'
+    left_click_commands:
+      - "[openguimenu] games_tags_1"
+
+  'page_all':
+    material: PAPER
+    model_data: 4101
+    slot: 4
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&c&lAll'
+    lore:
+      - '&7Tags Category'
+      - ''
+      - '&e➥ Left-Click to open'
+    left_click_commands:
+      - "[openguimenu] all_tags_1"
+
+  'page_movies':
+    material: PAPER
+    model_data: 4105
+    slot: 5
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&e&lMovies'
+    lore:
+      - '&7Tags Category'
+      - ''
+      - '&e➥ Left-Click to open'
+    left_click_commands:
+      - "[openguimenu] movies_tags_1"
+
+  'page_animals':
+    material: PAPER
+    model_data: 4102
+    slot: 6
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&a&lAnimals'
+    lore:
+      - '&7Tags Category'
+      - ''
+      - '&e➥ Left-Click to open'
+    left_click_commands:
+      - "[openguimenu] animals_tags_1"
+
+  'page_foods':
+    material: PAPER
+    model_data: 4107
+    slot: 7
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&d&lFoods'
+    lore:
+      - '&7Tags Category'
+      - ''
+      - '&e➥ Left-Click to open'
+    left_click_commands:
+      - "[openguimenu] foods_tags_1"
+
+
+
+
+
+  'clear_tag':
+    material: PAPER
+    model_data: 110007
+    slot: 49
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&e&lᴄʟᴇᴀʀ ᴛᴀɢ'
+    lore:
+      - ''
+      - '&8&l∙ &fCurrent: &7%deluxetags_identifier%'
+      - '&8&l∙ &fDisplay: &7%deluxetags_tag%'
+      - ''
+      - '&e➥ Left-Click to clear tag'
+    left_click_commands:
+      - "[console] deluxetags:tags clear %player_name%"
+
+
+
+
+
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

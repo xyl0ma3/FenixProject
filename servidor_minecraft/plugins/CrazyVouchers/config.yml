@@ -1,0 +1,44 @@
+# Support: https://discord.gg/badbones-s-live-chat-182615261403283459
+# Github: https://github.com/Crazy-Crew
+# 
+# Issues: https://github.com/Crazy-Crew/CrazyVouchers/issues
+# Features: https://github.com/Crazy-Crew/CrazyVouchers/issues
+# 
+settings:
+  # The prefix that shows up for all commands.
+  prefix: '&6&lVouchers &8→ &r'
+  # This lets you decide between having the old file system like vouchers.yml/vouchercodes.yml or split into vouchers/codes.
+  # 
+  # It defaults to false, but you can always set it to true.
+  # 
+  # This will not migrate back and forth you so make your choice to use this early on!
+  # 
+  use-old-file-system: false
+  cooldown:
+    # Should players have a voucher cooldown?
+    toggle: false
+    # How many seconds should a player have to wait, before opening a new voucher?
+    interval: 5
+  dupe-protection:
+    # Vouchers will no longer be able to stack, as each one has a unique identifier
+    # Once the voucher is used, the uuid attached is thrown in a file.
+    # 
+    # If you turn this option off, no new uuids will be attached or checked
+    # however previous vouchers will still not stack, obviously.
+    enabled: false
+    warning:
+      # This decides whether a line should be added to duplicated voucher lore to avoid scams.
+      enabled: false
+      # The line to add to the lore of an item. This message supports PlaceholderAPI
+      value: '&cThis item has been duplicated'
+  # Pick which locale you want to use if your server is in another language.
+  locale: en-US
+  # Whether you should only be allowed to use vouchers in survival.
+  survival-only: true
+  recipes:
+    # Whether they should be allowed to use vouchers in recipes.
+    toggle: true
+    # Whether an alert should be sent when trying to use vouchers in recipes.
+    alert: false
+  # Whether you want CrazyVouchers to shut up or not, This option is ignored by errors.
+  verbose_logging: true

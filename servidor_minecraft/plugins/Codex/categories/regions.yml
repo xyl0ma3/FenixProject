@@ -1,0 +1,55 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+name: "&c&lWorld &7&lRegions"
+discover_title:
+  title: ""
+  subtitle: ""
+  fade_in: 1
+  stay: 1
+  fade_out: 1
+discover_message:
+- " "
+- "&8[&6&l!&8] &6&lDiscovery Made &8→ &f%name%"
+- " "
+discover_sound:
+  name: BLOCK_GILDED_BLACKSTONE_STEP
+  volume: 10
+  pitch: 0.1
+discoveries:
+  crates:
+    name: "&a&lCrates Region"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 2"
+    discovered_on_region: cratesdiscovery
+  arena:
+    name: "&a&lArena Region"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 2"
+    discovered_on_region: arenadiscovery
+  koth:
+    name: "&a&lKoth Region"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 2"
+    discovered_on_region: kothdiscovery
+  afk:
+    name: "&a&lAfk Pond Region"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 2"
+    discovered_on_region: afk
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

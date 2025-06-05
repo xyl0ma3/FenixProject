@@ -1,0 +1,222 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+menu_title: '&f七七七七七七七七♒'
+open_command: kitspreviewking
+size: 45
+update_interval: 1
+
+items:
+
+
+  '1':
+    material: NETHERITE_SWORD
+    slot: 1
+    enchantments:
+      - mending;1
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&e&lKing Sword'
+    lore:
+      - ''
+      - '&#CCE9FFSharpness IV'
+      - '&#CCE9FFUnbreaking III'
+      - ''
+      - '&7Rarity: けけけけ'
+  '2':
+    material: NETHERITE_PICKAXE
+    slot: 2
+    enchantments:
+      - mending;1
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&e&lKing Pickaxe'
+    lore:
+      - ''
+      - '&#CCE9FFEfficiency IV'
+      - '&#CCE9FFUnbreaking III'
+      - ''
+      - '&7Rarity: けけけけ'
+  '3':
+    material: NETHERITE_AXE
+    slot: 3
+    enchantments:
+      - mending;1
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&e&lKing Axe'
+    lore:
+      - ''
+      - '&#CCE9FFEfficiency IV'
+      - '&#CCE9FFUnbreaking III'
+      - ''
+      - '&7Rarity: けけけけ'
+  '4':
+    material: NETHERITE_SHOVEL
+    slot: 4
+    enchantments:
+      - mending;1
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&e&lKing Shovel'
+    lore:
+      - ''
+      - '&#CCE9FFEfficiency IV'
+      - '&#CCE9FFUnbreaking III'
+      - ''
+      - '&7Rarity: けけけけ'
+  '5':
+    material: NETHERITE_HELMET
+    slot: 5
+    enchantments:
+      - mending;1
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&e&lKing Helmet'
+    lore:
+      - ''
+      - '&#CCE9FFProtection V'
+      - '&#CCE9FFUnbreaking III'
+      - ''
+      - '&7Rarity: けけけけ'
+  '6':
+    material: NETHERITE_CHESTPLATE
+    slot: 6
+    enchantments:
+      - mending;1
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&e&lKing Chestplate'
+    lore:
+      - ''
+      - '&#CCE9FFProtection V'
+      - '&#CCE9FFUnbreaking III'
+      - ''
+      - '&7Rarity: けけけけ'
+  '7':
+    material: NETHERITE_LEGGINGS
+    slot: 7
+    enchantments:
+      - mending;1
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&e&lKing Leggings'
+    lore:
+      - ''
+      - '&#CCE9FFProtection V'
+      - '&#CCE9FFUnbreaking III'
+      - ''
+      - '&7Rarity: けけけけ'
+  '8':
+    material: NETHERITE_BOOTS
+    slot: 10
+    enchantments:
+      - mending;1
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&e&lKing Boots'
+    lore:
+      - ''
+      - '&#CCE9FFProtection V'
+      - '&#CCE9FFUnbreaking III'
+      - ''
+      - '&7Rarity: けけけけ'
+  '9':
+    material: COOKED_BEEF
+    amount: 64
+    slot: 11
+    hide_attributes: true
+    display_name: '&f&l64x &e&lSteak'
+  '10':
+    material: ENCHANTED_GOLDEN_APPLE
+    amount: 2
+    slot: 12
+    hide_attributes: true
+    display_name: '&f&l2x &e&lNotch Apple'
+  '11':
+    material: OAK_LOG
+    amount: 64
+    slot: 13
+    hide_attributes: true
+    display_name: '&f&l64x &e&lOak Log'
+  '12':
+    material: OAK_LOG
+    amount: 64
+    slot: 14
+    hide_attributes: true
+    display_name: '&f&l64x &e&lOak Log'
+  '13':
+    material: IRON_BLOCK
+    amount: 16
+    slot: 15
+    hide_attributes: true
+    display_name: '&f&l16x &e&lIron Block'
+  '14':
+    material: GOLD_BLOCK
+    amount: 8
+    slot: 16
+    hide_attributes: true
+    display_name: '&f&l8x &e&lGold Block'
+  '15':
+    material: DIAMOND
+    amount: 16
+    slot: 19
+    hide_attributes: true
+    display_name: '&f&l16x &e&lDiamond'
+  '16':
+    material: EMERALD
+    amount: 8
+    slot: 20
+    hide_attributes: true
+    display_name: '&f&l8x &e&lEmerald'
+  '17':
+    material: NETHERITE_INGOT
+    amount: 4
+    slot: 21
+    hide_attributes: true
+    display_name: '&f&l4x &e&lNetherite Ingot'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  'back':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 37
+      - 38
+      - 39
+    display_name: '&c&lʙᴀᴄᴋ'
+    click_commands:
+      - "[openguimenu] kits_ranked"
+
+
+
+
+
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

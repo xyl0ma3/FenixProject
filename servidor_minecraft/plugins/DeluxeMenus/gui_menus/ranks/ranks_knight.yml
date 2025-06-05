@@ -1,0 +1,94 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+menu_title: '&f七七七七七七七七⊦'
+open_command: knightrank
+size: 27
+update_interval: 1
+
+items:
+
+
+  'keys':
+    material: head-FrostAMC
+    slot: 10
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&6&lʀᴀɴᴋ ᴋɴɪɢʜᴛ'
+    lore:
+      - ''
+      - '&7The Knight rank will give you'
+      - '&7various usefull perks on the server.'
+      - '&7You can obtain Knight in the coinshop!'
+      - ''
+      - '&6Rank Perks:'
+      - ' &8▪ &fPrefix: ぴ'
+      - ' &8▪ &fAccess to set 5x Homes'
+      - ' &8▪ &fKit Knight'
+      - ''
+      - '&6Rank Commands:'
+      - ' &8▪ &f/Nick'
+      - ' &8▪ &f/Back'
+      - ' &8▪ &f/Recipe'
+      - ' &8▪ &f/Feed'
+      - ' &8▪ &f/Disposal'
+
+
+  'store':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 5
+      - 6
+      - 7
+      - 8
+      - 14
+      - 15
+      - 16
+      - 17
+      - 23
+      - 24
+      - 25
+      - 26
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&#5B63AF&lsᴇʀᴠᴇʀ sᴛᴏʀᴇ'
+    lore:
+      - '&8Information'
+      - ''
+      - '&7The server store is where'
+      - '&7you can purchase premium'
+      - '&7perks such as coins!'
+      - ''
+      - '&7When you buy something from'
+      - '&7our store, it helps us'
+      - '&7improve the server!'
+      - ''
+      - '&e➥ Left-Click to open store'
+    left_click_commands:
+      - "[message] "
+      - "[message] &b&lStore &8&l▪ &fThanks for supporting our server!"
+      - "[message] "
+      - "[message] &#8CC0CCHey &f%player_name%&#8CC0CC! Are you enjoying your time on the server?"
+      - "[message] &#8CC0CCCheck out our &fstore&#8CC0CC! Your purchases allow us to continue"
+      - "[message] &#8CC0CCto provide you with the &fbest possible experience&#8CC0CC!"
+      - "[message] "
+      - "[message] &bStore: &fstore.yourserverlink.com"
+      - "[message] "
+      - "[close]"
+
+
+
+
+
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

@@ -1,0 +1,85 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+menu_title: '&f七七七七七七七七さ'
+open_command: kits
+size: 27
+update_interval: 1
+
+items:
+
+
+  'starter_kits':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 9
+      - 10
+      - 11
+      - 12
+      - 18
+      - 19
+      - 20
+      - 21
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&6&lsᴛᴀʀᴛᴇʀ ᴋɪᴛs'
+    lore:
+      - ''
+      - '&7Starter kits contains free'
+      - '&7items which are useful to'
+      - '&7start your survival journey!'
+      - ''
+      - '&e➥ Left-Click to open store'
+    left_click_commands:
+      - "[openguimenu] kits_starter"
+
+
+  'ranked_kits':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 5
+      - 6
+      - 7
+      - 8
+      - 14
+      - 15
+      - 16
+      - 17
+      - 23
+      - 24
+      - 25
+      - 26
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&#5B63AF&lʀᴀɴᴋᴇᴅ ᴋɪᴛs'
+    lore:
+      - ''
+      - '&7Ranked kits are premium'
+      - '&7kits which are only'
+      - '&7available for ranks!'
+      - ''
+      - '&e➥ Left-Click to open store'
+    left_click_commands:
+      - "[openguimenu] kits_ranked"
+
+
+
+
+
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

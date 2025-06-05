@@ -1,0 +1,67 @@
+
+command /emojis [<text>]:
+ trigger:
+
+  if arg-1 is "1":
+   send "" to player
+   send "&e&lEmojis &8→ &bPage 1/4" to player
+   send "" to player
+   send "&7Click on the emotes to Copy-Paste" to player
+   send " &8▪ &f:happy: <suggest command:⏰>⏰<reset>" to player
+   send " &8▪ &f:smiling: <suggest command:🔉>🔉<reset>" to player
+   send " &8▪ &f:wink: <suggest command:⏳>⏳<reset>" to player
+   send " &8▪ &f:tongue: <suggest command:📢>📢<reset>" to player
+   send " &8▪ &f:hearteyes: <suggest command:📟>📟<reset>" to player
+   send " &8▪ &f:love: <suggest command:📠>📠<reset>" to player
+   send "&f/Emojis 2 &8→ &7for next page" to player
+
+  else if arg-1 is "2":
+   send "" to player
+   send "&e&lEmojis &8→ &bPage 2/4" to player
+   send "" to player
+   send "&7Click on the emotes to Copy-Paste" to player
+   send " &8▪ &f:begging: <suggest command:💿>💿<reset>" to player
+   send " &8▪ &f:sad: <suggest command:📻>📻<reset>" to player
+   send " &8▪ &f:joy: <suggest command:🛰>🛰<reset>" to player
+   send " &8▪ &f:crying: <suggest command:💽>💽<reset>" to player
+   send " &8▪ &f:rage: <suggest command:📡>📡<reset>" to player
+   send " &8▪ &f:sweat: <suggest command:🔇>🔇<reset>" to player
+   send "&f/Emojis 3 &8→ &7for next page" to player
+
+  else if arg-1 is "3":
+   send "" to player
+   send "&e&lEmojis &8→ &bPage 3/4" to player
+   send "" to player
+   send "&7Click on the emotes to Copy-Paste" to player
+   send " &8▪ &f:cool: <suggest command:🔈>🔈<reset>" to player
+   send " &8▪ &f:grimacing: <suggest command:📱>📱<reset>" to player
+   send " &8▪ &f:upsidedown: <suggest command:📣>📣<reset>" to player
+   send " &8▪ &f:clown: <suggest command:📀>📀<reset>" to player
+   send " &8▪ &f:skull: <suggest command:🔊>🔊<reset>" to player
+   send " &8▪ &f:heart: <suggest command:📞>📞<reset>" to player
+   send "&f/Emojis 4 &8→ &7for next page" to player
+
+  else if arg-1 is "4":
+   send "" to player
+   send "&e&lEmojis &8→ &bPage 4/4" to player
+   send "" to player
+   send "&7Click on the emotes to Copy-Paste" to player
+   send " &8▪ &f:fire: <suggest command:💻>💻<reset>" to player
+   send " &8▪ &f:thumbup: <suggest command:🔕>🔕<reset>" to player
+   send " &8▪ &f:thumbdown: <suggest command:📣>📣<reset>" to player
+   send " &8▪ &f:rainbow: <suggest command:📺>📺<reset>" to player
+   send " &8▪ &f:eyes: <suggest command:💾>💾<reset>" to player
+
+  else:
+   send "" to player
+   send "&e&lEmojis &8→ &bPage 1/4" to player
+   send "" to player
+   send "&7Click on the emotes to Copy-Paste" to player
+   send " &8▪ &f:happy: <suggest command:⏰>⏰<reset>" to player
+   send " &8▪ &f:smiling: <suggest command:🔉>🔉<reset>" to player
+   send " &8▪ &f:wink: <suggest command:⏳>⏳<reset>" to player
+   send " &8▪ &f:tongue: <suggest command:📢>📢<reset>" to player
+   send " &8▪ &f:hearteyes: <suggest command:📟>📟<reset>" to player
+   send " &8▪ &f:love: <suggest command:📠>📠<reset>" to player
+   send "&f/Emojis 2 &8→ &7for next page" to player
+

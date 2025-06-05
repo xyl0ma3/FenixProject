@@ -1,0 +1,293 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+Settings:
+  Claim-Permission: false
+  Claim-Permission-Name: 'lucky.envoy.use'
+  Spawn-Chance: 3
+  Use-Chance: true
+  Placed-Block: 'ENDER_CHEST'
+  Bulk-Prizes:
+    Toggle: false
+    Random: true
+    Max-Bulk: 3
+  Hologram-Toggle: true
+  Hologram-Height: 1.8
+  Hologram:
+    - '&c&l[&6&l!&c&l] Supply Crate'    
+    - '&fRarity: &fけけけけ'
+  Firework-Toggle: true
+  Firework-Colors:
+    - 'Orange'
+    - 'Red'
+    - 'Yellow'
+    - 'White'
+  Signal-Flare:
+    Toggle: false
+    Time: '25s'
+    Colors:
+    - 'Orange'
+    - 'Red'
+    - 'Yellow'
+    - 'White'
+
+
+Prizes:
+  '1':
+    Chance: 2
+    Drop-Items: true
+
+    Items:
+      - 'Item:NETHERITE_SWORD, Amount:1'
+  '2':
+    Chance: 2
+    Drop-Items: true
+
+    Items:
+      - 'Item:NETHERITE_PICKAXE, Amount:1'
+  '6':
+    Chance: 2
+    Drop-Items: true
+
+    Items:
+      - 'Item:NETHERITE_CHESTPLATE, Amount:1'
+  '7':
+    Chance: 2
+    Drop-Items: true
+
+    Items:
+      - 'Item:NETHERITE_LEGGINGS, Amount:1'
+
+
+  '12':
+    Chance: 8
+    Drop-Items: true
+
+    Items:
+      - 'Item:DIAMOND, Amount:16'
+  '13':
+    Chance: 8
+    Drop-Items: true
+
+    Items:
+      - 'Item:EMERALD, Amount:8'
+  '14':
+    Chance: 8
+    Drop-Items: true
+
+    Items:
+      - 'Item:NETHERITE_INGOT, Amount:4'
+
+
+
+
+
+
+
+
+
+
+
+  '19':
+    Chance: 2
+    Drop-Items: true
+    Commands:
+      - 'minecraft:give @p[limit=1] enchanted_book{StoredEnchantments:[{id:efficiency,lvl:6}]} 1'
+  '20':
+    Chance: 2
+    Drop-Items: true
+    Commands:
+      - 'minecraft:give @p[limit=1] enchanted_book{StoredEnchantments:[{id:sharpness,lvl:6}]} 1'
+  '22':
+    Chance: 2
+    Drop-Items: true
+    Commands:
+      - 'minecraft:give @p[limit=1] enchanted_book{StoredEnchantments:[{id:thorns,lvl:4}]} 1'
+  '23':
+    Chance: 2
+    Drop-Items: true
+    Commands:
+      - 'minecraft:give @p[limit=1] enchanted_book{StoredEnchantments:[{id:looting,lvl:4}]} 1'
+  '25':
+    Chance: 2
+    Drop-Items: true
+    Commands:
+      - 'minecraft:give @p[limit=1] enchanted_book{StoredEnchantments:[{id:depth_strider,lvl:5}]} 1'
+  '26':
+    Chance: 2
+    Drop-Items: true
+    Commands:
+      - 'minecraft:give @p[limit=1] enchanted_book{StoredEnchantments:[{id:protection,lvl:6}]} 1'
+  '27':
+    Chance: 2
+    Drop-Items: true
+    Commands:
+      - 'minecraft:give @p[limit=1] enchanted_book{StoredEnchantments:[{id:fire_protection,lvl:7}]} 1'
+  '28':
+    Chance: 2
+    Drop-Items: true
+    Commands:
+      - 'minecraft:give @p[limit=1] enchanted_book{StoredEnchantments:[{id:fortune,lvl:4}]} 1'
+  '60':
+    Chance: 2
+    Drop-Items: true
+    Commands:
+      - 'minecraft:give @p[limit=1] enchanted_book{StoredEnchantments:[{id:feather_falling,lvl:5}]} 1'
+  '61':
+    Chance: 2
+    Drop-Items: true
+    Commands:
+      - 'minecraft:give @p[limit=1] enchanted_book{StoredEnchantments:[{id:power,lvl:7}]} 1'
+  '62':
+    Chance: 2
+    Drop-Items: true
+    Commands:
+      - 'minecraft:give @p[limit=1] enchanted_book{StoredEnchantments:[{id:unbreaking,lvl:5}]} 1'
+  '63':
+    Chance: 2
+    Drop-Items: true
+    Commands:
+      - 'minecraft:give @p[limit=1] enchanted_book{StoredEnchantments:[{id:lure,lvl:5}]} 1'
+  '64':
+    Chance: 2
+    Drop-Items: true
+    Commands:
+      - 'minecraft:give @p[limit=1] enchanted_book{StoredEnchantments:[{id:luck_of_the_sea,lvl:5}]} 1'
+  '65':
+    Chance: 2
+    Drop-Items: true
+    Commands:
+      - 'minecraft:give @p[limit=1] enchanted_book{StoredEnchantments:[{id:projectile_protection,lvl:6}]} 1'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  '32':
+    Chance: 10
+
+    Commands:
+      - 'eco give %Player% 40000'
+  '33':
+    Chance: 10
+
+    Commands:
+      - 'eco give %Player% 50000'
+  '34':
+    Chance: 10
+
+    Commands:
+      - 'eco give %Player% 60000'
+  '35':
+    Chance: 10
+
+    Commands:
+      - 'eco give %Player% 70000'
+
+
+  '37':
+    Chance: 12
+
+    Commands:
+      - 'tk give %Player% 75'
+  '38':
+    Chance: 12
+
+    Commands:
+      - 'tk give %Player% 100'
+  '39':
+    Chance: 12
+
+    Commands:
+      - 'tk give %Player% 150'
+
+
+
+  '42':
+    Chance: 5
+    Drop-Items: true
+
+    Items:
+      - 'Item:ELYTRA, Amount:1'
+  '43':
+    Chance: 8
+    Drop-Items: true
+
+    Items:
+      - 'Item:TRIDENT, Amount:1'
+
+  '44':
+    Chance: 5
+    Drop-Items: true
+
+    Items:
+      - 'Item:BEACON, Amount:1'
+  '45':
+    Chance: 5
+    Drop-Items: true
+
+    Items:
+      - 'Item:NETHER_STAR, Amount:1'
+
+
+  '50':
+    Chance: 10
+
+    Commands:
+      - 'cc give physical LuckyCrate 1 %Player%'
+  '51':
+    Chance: 5
+
+    Commands:
+      - 'cc give physical UltraCrate 1 %Player%'
+  '52':
+    Chance: 2
+
+    Commands:
+      - 'cc give physical SuperiorCrate 1 %Player%'
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

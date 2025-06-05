@@ -1,0 +1,29 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+location: spawn:64.500:115.6:-74.5
+enabled: true
+display-range: 100
+update-range: 100
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&d&lEpic Crate'
+    height: 0.3
+  - content: '&fRarity: けけけけ'
+    height: 0.5
+  - content: '&fLeft-Click to Preview'
+    height: 0.3
+  - content: '&d&nGet Keys From: /coinshop'
+    height: 0.3
+  actions: {}
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

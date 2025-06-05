@@ -1,0 +1,26 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+#
+patterns:
+  - type: stat
+    stat: regeneration
+    value: 1
+    pattern:
+      start: 2
+      interval: 1
+  - type: stat
+    stat: health
+    value: 1
+    pattern:
+      start: 2
+      interval: 2
+levels:
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

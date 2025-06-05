@@ -1,0 +1,36 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+# The IP to listen to. Use 0.0.0.0 if you wish to listen to all interfaces on your server. (All IP addresses)
+# This defaults to the IP you have configured your server to listen on, or 0.0.0.0 if you have not configured this.
+host: 0.0.0.0
+
+# Port to listen for new votes on
+port: 8192
+
+# Setting this option to true will disable handling of Protocol v1 packets. While the old protocol is not secure, this
+# option is currently not recommended as most voting sites only support the old protocol at present. However, if you are
+# using NuVotifier's proxy forwarding mechanism, enabling this option will increase your server's security.
+disable-v1-protocol: false
+
+# All tokens, labeled by the serviceName of each server list.
+tokens:
+  # Default token for all server lists, if another isn't supplied.
+  default: g827i6rjcdj14rsprffkqf8f5p
+
+# Configuration section for all vote forwarding to NuVotifier
+forwarding:
+  # Sets whether to set up a remote method for fowarding. Supported methods:
+  # - none - Does not set up a forwarding method.
+  # - pluginMessaging - Sets up plugin messaging
+  method: none
+  pluginMessaging:
+    channel: nuvotifier:votes
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

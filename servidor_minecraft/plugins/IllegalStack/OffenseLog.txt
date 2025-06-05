@@ -1,0 +1,37 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+August 18 2023 (1:26:4) - Illegal stack of items removed: TOTEM_OF_UNDYING (2) from player: Chriz745 at item scan.
+August 18 2023 (1:26:4) - Illegal stack of items removed: TOTEM_OF_UNDYING (2) from player: Chriz745 at item scan.
+August 18 2023 (8:1:13) - Illegal stack of items removed: STONE_SWORD (2) from player: Chriz745 at item scan.
+August 18 2023 (8:1:13) - Illegal stack of items removed: STONE_PICKAXE (2) from player: Chriz745 at item scan.
+August 18 2023 (8:1:13) - Illegal stack of items removed: STONE_AXE (2) from player: Chriz745 at item scan.
+August 18 2023 (8:1:13) - Illegal stack of items removed: STONE_SHOVEL (2) from player: Chriz745 at item scan.
+August 18 2023 (8:1:13) - Illegal stack of items removed: STONE_SWORD (2) from player: Chriz745 at item scan.
+August 18 2023 (8:1:13) - Illegal stack of items removed: STONE_PICKAXE (2) from player: Chriz745 at item scan.
+August 18 2023 (8:1:13) - Illegal stack of items removed: STONE_AXE (2) from player: Chriz745 at item scan.
+August 18 2023 (8:1:13) - Illegal stack of items removed: STONE_SHOVEL (2) from player: Chriz745 at item scan.
+August 18 2023 (8:1:13) - Illegal stack of items removed: STONE_SWORD (2) from player: Chriz745 at item scan.
+August 18 2023 (8:1:13) - Illegal stack of items removed: STONE_PICKAXE (2) from player: Chriz745 at item scan.
+August 18 2023 (8:1:13) - Illegal stack of items removed: STONE_AXE (2) from player: Chriz745 at item scan.
+August 18 2023 (8:1:13) - Illegal stack of items removed: STONE_SHOVEL (2) from player: Chriz745 at item scan.
+August 19 2023 (6:28:14) - Illegal stack of items removed: DIAMOND_SWORD (2) from player: Chriz745 at item scan.
+August 19 2023 (6:28:14) - Illegal stack of items removed: DIAMOND_PICKAXE (2) from player: Chriz745 at item scan.
+August 19 2023 (6:28:14) - Illegal stack of items removed: DIAMOND_AXE (2) from player: Chriz745 at item scan.
+August 19 2023 (6:28:14) - Illegal stack of items removed: DIAMOND_SHOVEL (2) from player: Chriz745 at item scan.
+August 19 2023 (6:28:14) - Illegal stack of items removed: DIAMOND_HELMET (2) from player: Chriz745 at item scan.
+August 19 2023 (6:28:14) - Illegal stack of items removed: DIAMOND_CHESTPLATE (2) from player: Chriz745 at item scan.
+August 19 2023 (6:28:14) - Illegal stack of items removed: DIAMOND_LEGGINGS (2) from player: Chriz745 at item scan.
+August 19 2023 (6:28:14) - Illegal stack of items removed: DIAMOND_BOOTS (2) from player: Chriz745 at item scan.
+September 1 2023 (0:53:10) -  aChriz745 appears to be using an autofishing mod..  4 caught within 0.3 blocks of each other @ Location{world=CraftWorld{name=spawn},x=32.63577128811155,y=99.0,z=-34.965209861612614,pitch=28.199291,yaw=-140.67236}
+September 4 2023 (9:56:4) - Removed a shulker box from inside another shulker box clicked by: Chriz745
+September 6 2023 (1:38:51) - broke a trapped nether portal @ Location{world=CraftWorld{name=playworld_nether},x=28.30000001192093,y=38.200000047683716,z=-80.69999998807907,pitch=14.699921,yaw=131.21506}
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

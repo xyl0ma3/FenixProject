@@ -1,0 +1,159 @@
+#Messages version
+#DO NOT CHANGE IT MANUALLY!
+CfgVersion: 2.3
+
+#ON / OFF sending messages after using tools
+MESSAGE_OPTION: true
+
+#INFO
+#Color code - &
+#Do not change variables inside % %
+MESSAGES:
+  #Technical messages
+  NO_PERMISSION: '&cNo permission! &r&6You do not have the rights to perform this command.'
+  CORRECT_USAGE: '&eCorrect usage: &a&l%SYNTAX%&r.'
+  WRONG_VALUE: '&cError: &r&6Invalid &lvalue&r provided!'
+  WRONG_PLAYER: '&6Player &d&l%PLAYER%&r not found!'
+  OFFLINE_PLAYER: '&ePlayer &d&l%PLAYER%&r is &4&loffline!&r'
+  INVALID_EXP_VALUE: '&6Experience value &a&l%EXP%&r is invalid!'
+
+  # Basic tools and commands
+  ADD_EXP: '&eAdded &a&l%EXP%&r &epoints to your experience!'
+  CLEARARROWS: '&6All &larrows&r removed from your body.'
+  CLEAR_MY_INV: '&6Your inventory has been &4cleared!&r'
+  DEOP: '&eYou are no longer &c&lOperator!&r'
+  FLY: '&6Flight mode set to: &a&l%SET%&r.'
+  FLY_SPEED: '&6Flight speed is now: &a&l%SPEED%&r.'
+  GAMEMODE: '&6Your game mode has been changed to: &a&l%MODE%&r.'
+  GOD: '&6God mode set to: &a&l%SET%&r.'
+  HEAL_ME: '&6You have been &lhealed!&r'
+  NEW_SET: '&eEquipped with a new set: &a&l%TYPE%&r.'
+  OP: '&eYou are now &c&lOperator!&r'
+  POTION_EFFECT: '&6New potion effect: &a&l%EFFECT%&r.'
+  POTION_EFFECT_CLEAR: '&6Potion effects &lcleared!&r'
+  REPAIR_ITEMS: '&6All items &lrepaired!&r'
+  RESET_EXP: '&6Your experience has been &4reset!&r'
+  SAVE_MY_EQ: '&6Your inventory has been &lsaved!&r'
+  SET_EXP: '&6You now have &a&l%EXP%&r experience.'
+  SHOW_EXP: '&6You have &a&l%EXP%&r experience points.'
+  TOP: '&6You are now on the &a&lhighest block!&r'
+  TPPOS: '&6Teleported to location: &a&l%LOCATION%&r.'
+  WALK_SPEED: '&6Walk speed set to: &a&l%SPEED%&r.'
+  MOB_SPAWN: '&6Spawned: &a&l%TYPE%&r.'
+
+  #Home
+  TP_HOME: '&6Teleported to your home location.'
+  TP_HOME_FAIL: '&6You do not have a home location!'
+  SET_HOME: '&6Set a new home location!'
+  DELETE_HOME: '&6Your home has been deleted!'
+
+  #Spawn
+  TP_SPAWN: '&6Teleported to your spawn location.'
+  TP_SPAWN_FAIL: '&6You do not have a spawn location!'
+  SET_SPAWN: '&6Set a new spawn location!'
+  DELETE_SPAWN: '&6Your spawn has been deleted!'
+
+  #Player manager tools and commands
+  ADD_EXP_PLAYER: '&6Added &a&l%EXP%&r &6to &d&l%PLAYER%&r.'
+  BAN: '&6Banned: &d&l%PLAYER%&r.'
+  CLEARARROWS_PLAYER: '&6Removed all arrows from &d&l%PLAYER%&r.'
+  CLEAR_INV: '&6Inventory of &d&l%PLAYER%&r &6was cleared.'
+  CLEAR_INV_ALL: '&6Cleared the inventory of all online players.'
+  DEOP_PLAYER: '&6Made &d&l%PLAYER%&r &6no longer a server operator.'
+  FLY_PLAYER: '&6Fly: &a&l%SET%&r &6for &d&l%PLAYER%&r.'
+  GAMEMODE_PLAYER: '&6Gamemode: &a&l%MODE%&r &6for &d&l%PLAYER%&r.'
+  GET_SKULL: '&6You have been given the skull of &d&l%PLAYER%&r.'
+  GOD_PLAYER: '&6God mode: &a&l%SET%&r &6for &d&l%PLAYER%&r.'
+  HEAL_PLAYER: '&6Healed &d&l%PLAYER%&r.'
+  KICK: '&6Kicked: &d&l%PLAYER%&r.'
+  KICK_ALL: '&6Kicked all players!'
+  KILL: '&6Killed: &d&l%PLAYER%&r.'
+  MUTE_PLAYER: '&6Muted &d&l%PLAYER%&r.'
+  OP_PLAYER: '&6Made &d&l%PLAYER%&r &6a server operator.'
+  REPAIR_ITEMS_PLAYER: '&6Repaired items for &d&l%PLAYER%&r.'
+  RESET_EXP_PLAYER: '&6Reset experience for &d&l%PLAYER%&r.'
+  SET_EXP_PLAYER: '&6Set &d&l%PLAYER%&r &6to &a&l%EXP%&r experience.'
+  SHOW_EXP_PLAYER: '&6&d&l%PLAYER%&r &6has &a&l%EXP%&r experience points.'
+  TOP_PLAYER: '&6&d&l%PLAYER%&r &6is on the highest block.'
+  TP: '&6Teleported to &d&l%PLAYER%&r.'
+  TP_TO_ME: '&d&l%PLAYER%&r &6was teleported to you.'
+  UNBAN: '&6Unbanned: &d&l%PLAYER%&r.'
+  UNMUTE_PLAYER: '&6Unmuted &d&l%PLAYER%&r.'
+  TP_HOME_PLAYER: '&6Teleported to &d&l%PLAYER%&r home location.'
+  TP_SPAWN_PLAYER: '&6Teleported to &d&l%PLAYER%&r spawn location.'
+  WHITELIST_ADD: "&6Added &d&l%PLAYER%&r to the whitelist"
+  WHITELIST_REMOVE: "&6Removed &d&l%PLAYER%&r from the whitelist"
+  BLOCK_MOVEMENT: "&6Blocked &d&l%PLAYER%&r from moving."
+  UNBLOCK_MOVEMENT: "&6Unblocked &d&l%PLAYER%&r from moving."
+  LAST_DEATH_LOC_TELEPORT: '&6Teleported to the last death location of player &d&l%PLAYER%&r'
+  LOGOUT_LOC_TELEPORT: '&6Teleported to the logout location of player &d&l%PLAYER%&r'
+  BLOCK_COMMANDS: '&6Blocked &d&l%PLAYER%&r from using commands.'
+  UNBLOCK_COMMANDS: '&6Unblocked &d&l%PLAYER%&r from using commands.'
+  BLOCK_GLIDING: '&6Blocked &d&l%PLAYER%&r from using an elytra.'
+  UNBLOCK_GLIDING: '&6Unblocked &d&l%PLAYER%&r from using an elytra.'
+
+  #Economy manager
+  GIVE_MONEY: '&6Gave money to &d&l%PLAYER%&r.'
+  TAKE_MONEY: '&6Took money from &d&l%PLAYER%&r.'
+  RESET_BALANCE: '&6Reset the balance of &d&l%PLAYER%&r.'
+
+  #World tools
+  SET_TIME: '&6Time set to &a&l%TIME%&r.'
+  LOCK_TIME: '&6Time lock status: &a&l%STATUS%&r.'
+  LOCK_WEATHER: '&6Weather lock status: &a&l%STATUS%&r.'
+  SET_WEATHER: '&6Weather set to &a&l%WEATHER%&r.'
+  TP_WORLDS: '&6Teleported to: &a&l%NAME%&r.'
+  TP_WORLDS_PLAYER: '&6Teleported &d&l%PLAYER%&r to &a&l%NAME%&r.'
+  CREATED_NEW_WORLD: '&6Created a new custom world: &a&l%NAME%&r.'
+  SET_WORLD_SPAWN: '&6Set new world spawn.'
+  REMOVE_WORLD: '&6Removed world: &a&l%NAME%&r.'
+  WRONG_WORLD: '&6You are in the wrong world!'
+
+  #Chat manager
+  CHAT_CLEARED: '&6Chat was cleared.'
+  CHAT_FILTER_STATUS: '&6Chat Filter set to %STATE%.'
+  CHAT_SLOW_MODE_STATUS: '&6Slow Mode set to %STATE%.'
+  CHAT_MUTE_STATUS: '&6Chat Mute set to %STATE%.'
+  COLOR_CODE: '&6Color code: &a&l%SET%&r.'
+
+  #Server tools
+  RELOAD: '&6Server reloaded.'
+  STOP: '&6Server stopped.'
+  WRONG_NAME: '&cWrong name provided!'
+  LANGUAGE: '&6Language: &a&l%LANG%&r.'
+  WHITELIST: '&6Whitelist: &a&l%SET%&r.'
+  SAVE_WORLD: '&6World saved successfully.'
+  CLEAR_ENTITIES: '&6All non-player entities have been cleared.'
+  TIME_SET_DAY: '&6Time set to day.'
+  PVP_TOGGLE: '&6PvP: &a&l%SET%&r.'
+
+  #Kit system
+  GET_KIT: '&6You just received a kit.'
+  CREATE_KIT: '&6Created a new kit.'
+  REMOVE_KIT: '&6Removed a kit.'
+
+  #Flags
+  SWITCH_ALL: "&6Set all flags to: &a&l%SET%&r."
+  PLACE_BLOCK_FLAG: '&6Place block flag: &a&l%SET%&r.'
+  BREAK_BLOCK_FLAG: '&6Break block flag: &a&l%SET%&r.'
+  CHAT_FLAG: '&6Chat flag: &a&l%SET%&r.'
+  PVP_FLAG: '&6PvP flag: &a&l%SET%&r.'
+  MOB_SPAWN_FLAG: '&6Mob spawn flag: &a&l%SET%&r.'
+  DROP_ITEM_FLAG: '&6Drop item flag: &a&l%SET%&r.'
+  PICKUP_ITEM_FLAG: '&6Pickup item flag: &a&l%SET%&r.'
+  USE_ITEM_FLAG: '&6Use item flag: &a&l%SET%&r.'
+  INTERACT_FLAG: '&6Interact flag: &a&l%SET%&r.'
+  EXPLOSION_DAMAGE_FLAG: '&6Explosion damage flag: &a&l%SET%&r.'
+  FIRE_SPREAD_FLAG: '&6Fire spread flag: &a&l%SET%&r.'
+  FALL_DAMAGE_FLAG: '&6Fall damage flag: &a&l%SET%&r.'
+  ENTITY_DAMAGE_FLAG: '&6Entity damage flag: &a&l%SET%&r.'
+  COMMAND_USE_FLAG: '&6Command use flag: &a&l%SET%&r.'
+
+  #Region
+  REGION_REMOVE: '&6Removed region: &a&l%REGION%&r.'
+  REGION_POS1: '&6Set Pos1 in region: &a&l%REGION%&r.'
+  REGION_POS2: '&6Set Pos2 in region: &a&l%REGION%&r.'
+
+  #LuckPerms
+  ADD_PERM: '&6Added permission &a&l%PERM%&r to &d&l%PLAYER%&r.'
+  REMOVE_PERM: '&6Removed permission &a&l%PERM%&r from &d&l%PLAYER%&r.'

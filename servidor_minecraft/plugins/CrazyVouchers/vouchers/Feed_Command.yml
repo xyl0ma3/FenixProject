@@ -1,0 +1,35 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+voucher:
+  item: PAPER
+  name: '&7✦ &c&l/Feed Command &7✦'
+  lore:
+  - '&8Command Voucher'
+  - ''
+  - '&7Claim this voucher to'
+  - '&7receive the /feed command!'
+  - ''
+  - '&e➥ Left-Click to claim'
+  player: ''
+  glowing: true
+  options:
+    message: '&8[&6&l!&8] &6&lVoucher &8→ &aYou have just claimed /feed command!'
+    permission:
+      blacklist-permission:
+        toggle: true
+        message: '&8[&6&l!&8] &6&lVoucher &8→ &cYou already have this command
+          and cant use this voucher.'
+        permissions:
+        - essentials.feed
+  commands:
+  - lp user {player} permission set essentials.feed
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

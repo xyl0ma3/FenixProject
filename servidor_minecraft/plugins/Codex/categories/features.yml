@@ -1,0 +1,153 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+name: "&c&lWorld &7&lRegions"
+discover_title:
+  title: ""
+  subtitle: ""
+  fade_in: 1
+  stay: 1
+  fade_out: 1
+discover_message:
+- " "
+- "&8[&6&l!&8] &6&lDiscovery Made &8→ &f%name%"
+- " "
+discover_sound:
+  name: BLOCK_GILDED_BLACKSTONE_STEP
+  volume: 10
+  pitch: 0.1
+discoveries:
+  1:
+    name: "&a&lAuction Feature"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 1"
+  2:
+    name: "&a&lCoinshop Feature"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 1"
+  3:
+    name: "&a&lCosmetics Feature"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 1"
+  4:
+    name: "&a&lDailyQuests Feature"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 1"
+  5:
+    name: "&a&lDeliveries Feature"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 1"
+  6:
+    name: "&a&lFactories Feature"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 1"
+  7:
+    name: "&a&lJobs Feature"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 1"
+  8:
+    name: "&a&lKits Feature"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 1"
+  9:
+    name: "&a&lLeaderboards Feature"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 1"
+  10:
+    name: "&a&lLevels Feature"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 1"
+  11:
+    name: "&a&lLottery Feature"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 1"
+  12:
+    name: "&a&lPlayerWarps Feature"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 1"
+  13:
+    name: "&a&lQuests Feature"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 1"
+  14:
+    name: "&a&lRewards Feature"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 1"
+  15:
+    name: "&a&lRTP Feature"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 1"
+  16:
+    name: "&a&lShop Feature"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 1"
+  17:
+    name: "&a&lSkills Feature"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 1"
+  18:
+    name: "&a&lTags Feature"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 1"
+  19:
+    name: "&a&lTeams Feature"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 1"
+  20:
+    name: "&a&lToolskins Feature"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 1"
+  21:
+    name: "&a&lWarps Feature"
+    lore:
+    - "NotUsed"
+    commands:
+    - "levelxp give %player% 1"
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

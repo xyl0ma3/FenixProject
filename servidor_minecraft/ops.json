@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "uuid": "9370f6d4-b684-3b52-86d8-6f91efc04318",
+    "name": "xylokhalifa",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "00000000-0000-0000-0009-01f8877471c7",
+    "name": ".xylokhalifa",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

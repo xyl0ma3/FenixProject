@@ -1,0 +1,390 @@
+#Configuration version
+#DO NOT CHANGE IT MANUALLY!
+CfgVersion: 3.6
+
+#Available slots for tools are from 0 to 53
+MainMenu:
+  Anvil:
+    Tool: true
+    Material: "ANVIL"
+    Title: "&a&lANVIL"
+    Lore:
+      - " "
+      - "&7COMMAND &e&l/anvil"
+
+  ArmorCreator:
+    Tool: true
+    Material: "DIAMOND_CHESTPLATE"
+    Title: "&a&lARMOR CREATOR"
+    Lore:
+      - " "
+      - "&7COMMAND &e&l/armorcreator"
+
+  AttackDamage:
+    Tool: true
+    Material: "DIAMOND_SWORD"
+    Title: "&a&lATTACK DAMAGE"
+    Lore:
+      - "&7Damage:&6&l %SET%%"
+      - " "
+      - "&7LEFT &e&l+"
+      - "&7RIGHT &e&l-"
+      - "&7RIGHT + SHIFT &e&lDEFAULT"
+      - " "
+      - "&7COMMAND"
+      - "&e&l/attackdamage <10-30>"
+
+  ClearInv:
+    Tool: true
+    Material: "PAPER"
+    Title: "&a&lCLEAR INVENTORY"
+    Lore:
+      - " "
+      - "&7COMMAND &e&l/clearinv"
+
+  ClearArrows:
+    Tool: true
+    Material: "BOW"
+    Title: "&a&lCLEAR ARROWS FROM BODY"
+    Lore:
+      - " "
+      - "&7COMMAND &e&l/cleararrows"
+
+  EnchantingTable:
+    Tool: true
+    Material: "ENCHANTING_TABLE"
+    Title: "&a&lENCHANTING TABLE"
+    Lore:
+      - " "
+      - "&7LEFT &e&lOPEN"
+      - " "
+      - "&7COMMAND &e&l/etable"
+
+  Experience:
+    Tool: true
+    Material: "GOLDEN_CARROT"
+    Title: "&a&lEXPERIENCE"
+    Lore:
+      - " "
+      - "&7LEFT &e&lOPEN"
+      - " "
+      - "&7COMMAND &e&l/exp"
+
+  Fly:
+    Tool: true
+    Material: "ELYTRA"
+    Title: "&a&lFLY"
+    Lore:
+      - "%SET%"
+      - " "
+      - "&7COMMAND &e&l/fly"
+
+  FlySpeed:
+    Tool: true
+    Material: "SNOWBALL"
+    Title: "&a&lFLY SPEED"
+    Lore:
+      - "&7FLY SPEED:&6&l %SET%"
+      - " "
+      - "&7LEFT &e&l+"
+      - "&7RIGHT &e&l-"
+      - "&7RIGHT + SHIFT &e&lDEFAULT"
+      - " "
+      - "&7COMMAND"
+      - "&e&l/speed fly <1-10>"
+
+  Gamemode:
+    Tool: true
+    Material: "ENDER_EYE"
+    Title: "&a&lGAMEMODE"
+    Lore:
+      - "%SET%"
+      - " "
+      - "&7LEFT &e&lOPEN GUI"
+      - "&7RIGHT &e&lSWITCH"
+      - " "
+      - "&7COMMAND"
+      - "&e&l/gamemode <ID / MODE>"
+      - "&e&l/gm <ID / MODE>"
+
+  God:
+    Tool: true
+    Material: "REDSTONE_TORCH"
+    Title: "&a&lGOD"
+    Lore:
+      - "%SET%"
+      - " "
+      - "&7COMMAND &e&l/god"
+
+  Heal:
+    Tool: true
+    Material: "GOLDEN_APPLE"
+    Title: "&a&lHEAL ME"
+    Lore:
+      - " "
+      - "&7LEFT &e&lHEAL ME"
+      - " "
+      - "&7COMMAND &e&l/heal"
+
+  Home:
+    Tool: true
+    Material: "DARK_OAK_DOOR"
+    Title: "&a&lHOME"
+    Lore:
+      - " "
+      - "&7LEFT &e&lTP"
+      - "&7LEFT + SHIFT &e&lSET NEW"
+      - "&7RIGHT + SHIFT &e&lDELETE"
+      - " "
+      - "&7COMMAND &e&l/home"
+      - "&7COMMAND &e&l/sethome"
+
+  ItemEditor:
+    Tool: true
+    Material: "CALIBRATED_SCULK_SENSOR"
+    Title: "&a&lITEM EDITOR"
+    Lore:
+      - " "
+      - "&7LEFT &e&lOPEN GUI"
+
+  Jump:
+    Tool: true
+    Material: "NETHERITE_BOOTS"
+    Title: "&a&lJUMP"
+    Lore:
+      - "&7JUMP:&6&l %SET%%"
+      - " "
+      - "&7LEFT &e&l+"
+      - "&7RIGHT &e&l-"
+      - "&7RIGHT + SHIFT &e&lDEFAULT"
+      - " "
+      - "&7COMMAND"
+      - "&e&l/jump <10-30>"
+
+  MaxHealth:
+    Tool: true
+    Material: "HONEYCOMB"
+    Title: "&a&lMAX HEALTH"
+    Lore:
+      - "&7Hearts:&6&l %SET%"
+      - " "
+      - "&7LEFT &e&l+"
+      - "&7RIGHT &e&l-"
+      - "&7RIGHT + SHIFT &e&lDEFAULT"
+      - " "
+      - "&7COMMAND"
+      - "&e&l/maxhealth <1-100>"
+
+  MobSpawn:
+    Tool: true
+    Material: "ZOMBIE_HEAD"
+    Title: "&a&lMOB SPAWN"
+    Lore:
+      - " "
+      - "&7COMMAND &e&l/mobspawn"
+
+  MyEQ:
+    Tool: true
+    Material: "BOOK"
+    Title: "&a&lMY EQ"
+    Lore:
+      - " "
+      - "&7COMMAND &e&l/myeq"
+
+  PotionEffects:
+    Tool: true
+    Material: "POTION"
+    Title: "&a&lGET POTION EFFECT"
+    Lore:
+      - " "
+      - "&7COMMAND &e&l/effects"
+
+  Repair:
+    Tool: true
+    Material: "ANVIL"
+    Title: "&a&lREPAIR ITEMS"
+    Lore:
+      - " "
+      - "&7LEFT &e&lHAND"
+      - "&7RIGHT &e&lALL"
+      - " "
+      - "&7COMMAND &e&l/repair"
+
+  Spawn:
+    Tool: true
+    Material: "RED_BED"
+    Title: "&a&lSPAWN"
+    Lore:
+      - " "
+      - "&7LEFT &e&lTP"
+      - "&7LEFT + SHIFT &e&lSET NEW"
+      - "&7RIGHT + SHIFT &e&lDELETE"
+      - " "
+      - "&7COMMAND &e&l/spawn"
+      - "&7COMMAND &e&l/setspawn"
+
+  WalkSpeed:
+    Tool: true
+    Material: "ARROW"
+    Title: "&a&lWALK SPEED"
+    Lore:
+      - "&7WALK SPEED:&6&l %SET%"
+      - " "
+      - "&7LEFT &e&l+"
+      - "&7RIGHT &e&l-"
+      - "&7RIGHT + SHIFT &e&lDEFAULT"
+      - " "
+      - "&7COMMAND"
+      - "&e&l/speed walk <1-10>"
+
+  Workbench:
+    Tool: true
+    Material: "CRAFTING_TABLE"
+    Title: "&a&lWORKBENCH"
+    Lore:
+      - " "
+      - "&7LEFT &e&lOPEN"
+      - " "
+      - "&7COMMAND &e&l/wb"
+
+
+PlayerMenu:
+  BanList:
+    Tool: true
+    Material: "TNT"
+    Title: "&a&lBAN LIST"
+    Lore:
+      - " "
+      - "&7COMMAND &e&l/banlist"
+
+  KickAll:
+    Tool: true
+    Material: "NETHERITE_BOOTS"
+    Title: "&a&lKICK ALL"
+    Lore:
+      - " "
+      - "%SET%"
+      - " "
+      - "&7COMMAND &e&l/kickall"
+
+  KitSystem:
+    Tool: true
+    Material: "GOLDEN_SWORD"
+    Title: "&a&lKITS"
+    Lore:
+      - " "
+      - "&7LEFT &e&lKIT MENU"
+      - " "
+      - "&7COMMANDS"
+      - "&e&l/kit"
+      - "&e&l/kit <kit_name>"
+      - " "
+      - "&7RIGHT &e&lKIT MANAGER"
+      - " "
+      - "&7COMMANDS"
+      - "&e&l/kitmanager"
+      - "&e&l/kitmanager create <kit_name>"
+      - "&e&l/kitmanager preview <kit_name>"
+      - "&e&l/kitmanager remove <kit_name>"
+
+  PlayerManager:
+    Tool: true
+    Material: "PLAYER_HEAD"
+    Title: "&a&lPLAYER MANAGER"
+    Lore:
+      - " "
+      - "&7COMMAND &e&l/player &7|&e&l /p"
+
+ServerPluginMenu:
+  ChatManager:
+    Tool: true
+    Material: "PAINTING"
+    Title: "&a&lCHAT MANAGER"
+    Lore:
+      - " "
+      - "&7LEFT &e&lOPEN GUI"
+
+  EssentialsXSupport:
+    Tool: true
+    Material: "TNT_MINECART"
+    Title: "&a&lEssentialsX SUPPORT"
+    Lore:
+      - " "
+      - "&7EssentialsX &l%SET%"
+
+  Flags:
+    Tool: true
+    Material: "EXPERIENCE_BOTTLE"
+    Title: "&a&lFLAGS"
+    Lore:
+      - " "
+      - "&7Without WorldGuard"
+      - "&7COMMAND &e&l/fastflags [flag]"
+      - " "
+      - "&7With WorldGuard"
+      - "&7COMMAND &e&l/at fastflags [flag]"
+
+  Gamerules:
+    Tool: true
+    Material: "BOOKSHELF"
+    Title: "&a&lGAMERULES"
+    Lore:
+      - " "
+      - "&7COMMAND &e&l/gamerules"
+
+  LuckPerms:
+    Tool: true
+    Material: "EMERALD"
+    Title: "&a&lLuckPerms MANAGER"
+    Lore:
+      - " "
+      - "&7Luck Perms &l%SET%"
+      - " "
+      - "&7COMMAND &e&l/atluckperms"
+
+  Regions:
+    Tool: true
+    Material: "WOODEN_AXE"
+    Title: "&a&lREGIONS"
+    Lore:
+      - " "
+      - "&7LEFT &e&lOpen regions list"
+      - "&7COMMAND &e&l/region &7|&e&l /rg"
+      - " "
+      - "&7RIGHT &e&lCreate new region"
+      - "&7COMMAND &e&l/region new &7|&e&l /rg new"
+
+  ServerManager:
+    Tool: true
+    Material: "GOLDEN_AXE"
+    Title: "&a&lSERVER MANAGER"
+    Lore:
+      - " "
+      - "&7COMMAND &e&l/servermanager"
+
+  TimeWeather:
+    Tool: true
+    Material: "CLOCK"
+    Title: "&a&lTIME / WEATHER"
+    Lore:
+      - " "
+      - "&7COMMAND &e&l/timeweather"
+
+  WorldGuardRegions:
+    Tool: true
+    Material: "DIAMOND_AXE"
+    Title: "&a&lWorldGuard REGIONS"
+    Lore:
+      - " "
+      - "&7WorldEdit &l%SET%"
+      - "&7WorldGuard &l%SET%"
+      - " "
+      - "&7COMMAND &e&l/wgregion"
+
+  WorldManager:
+    Tool: true
+    Material: "NETHER_STAR"
+    Title: "&a&lWORLD MANAGER"
+    Lore:
+      - " "
+      - "&7COMMAND &e&l/worldmanager"

@@ -1,0 +1,303 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+Settings:
+  Claim-Permission: false
+  Claim-Permission-Name: 'lucky.envoy.use'
+  Spawn-Chance: 18
+  Use-Chance: true
+  Placed-Block: 'CHEST'
+  Bulk-Prizes:
+    Toggle: false
+    Random: true
+    Max-Bulk: 3
+  Hologram-Toggle: true
+  Hologram-Height: 1.8
+  Hologram:
+    - '&c&l[&6&l!&c&l] Supply Crate'    
+    - '&fRarity: &fけ'
+  Firework-Toggle: true
+  Firework-Colors:
+    - 'Orange'
+    - 'Red'
+    - 'Yellow'
+    - 'White'
+  Signal-Flare:
+    Toggle: false
+    Time: '25s'
+    Colors:
+    - 'Orange'
+    - 'Red'
+    - 'Yellow'
+    - 'White'
+
+
+Prizes:
+  '1':
+    Chance: 3
+    Drop-Items: true
+    Items:
+      - 'Item:DIAMOND_SWORD, Amount:1'
+  '2':
+    Chance: 3
+    Drop-Items: true
+    Items:
+      - 'Item:DIAMOND_PICKAXE, Amount:1'
+  '3':
+    Chance: 3
+    Drop-Items: true
+
+    Items:
+      - 'Item:DIAMOND_AXE, Amount:1'
+  '4':
+    Chance: 3
+    Drop-Items: true
+
+    Items:
+      - 'Item:DIAMOND_SHOVEL, Amount:1'
+
+  '5':
+    Chance: 3
+    Drop-Items: true
+
+    Items:
+      - 'Item:DIAMOND_HELMET, Amount:1'
+  '6':
+    Chance: 3
+    Drop-Items: true
+
+    Items:
+      - 'Item:DIAMOND_CHESTPLATE, Amount:1'
+  '7':
+    Chance: 3
+    Drop-Items: true
+
+    Items:
+      - 'Item:DIAMOND_LEGGINGS, Amount:1'
+  '8':
+    Chance: 3
+    Drop-Items: true
+
+    Items:
+      - 'Item:DIAMOND_BOOTS, Amount:1'
+  '9':
+    Chance: 8
+    Drop-Items: true
+
+    Items:
+      - 'Item:IRON_INGOT, Amount:24'
+  '10':
+    Chance: 8
+    Drop-Items: true
+
+    Items:
+      - 'Item:COAL, Amount:64'
+  '11':
+    Chance: 8
+    Drop-Items: true
+
+    Items:
+      - 'Item:GOLD_INGOT, Amount:16'
+  '12':
+    Chance: 8
+    Drop-Items: true
+
+    Items:
+      - 'Item:DIAMOND, Amount:4'
+  '13':
+    Chance: 8
+    Drop-Items: true
+
+    Items:
+      - 'Item:EMERALD, Amount:2'
+  '14':
+    Chance: 8
+    Drop-Items: true
+
+    Items:
+      - 'Item:NETHERITE_INGOT, Amount:1'
+  '15':
+    Chance: 8
+    Drop-Items: true
+
+    Items:
+      - 'Item:WHEAT, Amount:64'
+  '16':
+    Chance: 8
+    Drop-Items: true
+
+    Items:
+      - 'Item:CARROT, Amount:64'
+  '17':
+    Chance: 8
+    Drop-Items: true
+
+    Items:
+      - 'Item:POTATO, Amount:64'
+
+  '18':
+    Chance: 3
+    Drop-Items: true
+
+    Items:
+      - 'Item:ENCHANTED_BOOK, Amount:1, Mending:1'
+
+  '19':
+    Chance: 3
+    Drop-Items: true
+
+    Items:
+      - 'Item:ENCHANTED_BOOK, Amount:1, aqua_affinity:1'
+
+
+  '20':
+    Chance: 3
+    Drop-Items: true
+
+    Items:
+      - 'Item:ENCHANTED_BOOK, Amount:1, blast_protection:5'
+  '21':
+    Chance: 3
+    Drop-Items: true
+
+    Items:
+      - 'Item:ENCHANTED_BOOK, Amount:1, flame:1'
+  '22':
+    Chance: 3
+    Drop-Items: true
+
+    Items:
+      - 'Item:ENCHANTED_BOOK, Amount:1, infinity:1'
+  '23':
+    Chance: 3
+    Drop-Items: true
+
+    Items:
+      - 'Item:ENCHANTED_BOOK, Amount:1, power:4'
+  '24':
+    Chance: 3
+    Drop-Items: true
+
+    Items:
+      - 'Item:ENCHANTED_BOOK, Amount:1, respiration:4'
+  '25':
+    Chance: 3
+    Drop-Items: true
+
+    Items:
+      - 'Item:ENCHANTED_BOOK, Amount:1, smite:5'
+  '26':
+    Chance: 3
+    Drop-Items: true
+
+    Items:
+      - 'Item:ENCHANTED_BOOK, Amount:1, thorns:3'
+  '27':
+    Chance: 3
+    Drop-Items: true
+
+    Items:
+      - 'Item:ENCHANTED_BOOK, Amount:1, punch:3'
+  '28':
+    Chance: 3
+    Drop-Items: true
+
+    Items:
+      - 'Item:ENCHANTED_BOOK, Amount:1, luck_of_the_sea:4'
+  '29':
+    Chance: 3
+    Drop-Items: true
+
+    Items:
+      - 'Item:ENCHANTED_BOOK, Amount:1, knockback:3'
+  '30':
+    Chance: 3
+    Drop-Items: true
+
+    Items:
+      - 'Item:ENCHANTED_BOOK, Amount:1, frost_walker:2'
+
+
+
+  '31':
+    Chance: 10
+
+    Commands:
+      - 'eco give %Player% 2000'
+  '32':
+    Chance: 10
+
+    Commands:
+      - 'eco give %Player% 2500'
+  '33':
+    Chance: 10
+
+    Commands:
+      - 'eco give %Player% 3000'
+  '34':
+    Chance: 10
+
+    Commands:
+      - 'eco give %Player% 4000'
+  '35':
+    Chance: 10
+
+    Commands:
+      - 'eco give %Player% 5000'
+
+
+  '36':
+    Chance: 12
+
+    Commands:
+      - 'tk give %Player% 20'
+  '37':
+    Chance: 12
+
+    Commands:
+      - 'tk give %Player% 25'
+  '38':
+    Chance: 12
+
+    Commands:
+      - 'tk give %Player% 30'
+  '39':
+    Chance: 12
+
+    Commands:
+      - 'tk give %Player% 40'
+
+  '40':
+    Chance: 10
+    Drop-Items: true
+
+    Items:
+      - 'Item:HOPPER, Amount:1'
+  '41':
+    Chance: 8
+    Drop-Items: true
+
+    Items:
+      - 'Item:OBSIDIAN, Amount:8'
+  '40':
+    Chance: 8
+    Drop-Items: true
+
+    Items:
+      - 'Item:BOOK, Amount:16'
+
+
+
+  '50':
+    Chance: 5
+
+    Commands:
+      - 'cc give physical LuckyCrate 1 %Player%'
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

@@ -1,0 +1,178 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+Settings:
+  Claim-Permission: false
+  Claim-Permission-Name: 'lucky.envoy.use'
+  Spawn-Chance: 1
+  Use-Chance: true
+  Placed-Block: 'ENDER_CHEST'
+  Bulk-Prizes:
+    Toggle: false
+    Random: true
+    Max-Bulk: 3
+  Hologram-Toggle: true
+  Hologram-Height: 1.8
+  Hologram:
+    - '&c&l[&6&l!&c&l] Supply Crate'    
+    - '&fRarity: &fけけけけけ'
+  Firework-Toggle: true
+  Firework-Colors:
+    - 'Orange'
+    - 'Red'
+    - 'Yellow'
+    - 'White'
+  Signal-Flare:
+    Toggle: false
+    Time: '25s'
+    Colors:
+    - 'Orange'
+    - 'Red'
+    - 'Yellow'
+    - 'White'
+
+
+Prizes:
+  '19':
+    Chance: 2
+    Drop-Items: true
+    Commands:
+      - 'minecraft:give @p[limit=1] enchanted_book{StoredEnchantments:[{id:efficiency,lvl:7}]} 1'
+  '20':
+    Chance: 2
+    Drop-Items: true
+    Commands:
+      - 'minecraft:give @p[limit=1] enchanted_book{StoredEnchantments:[{id:sharpness,lvl:7}]} 1'
+  '22':
+    Chance: 2
+    Drop-Items: true
+    Commands:
+      - 'minecraft:give @p[limit=1] enchanted_book{StoredEnchantments:[{id:thorns,lvl:5}]} 1'
+  '23':
+    Chance: 2
+    Drop-Items: true
+    Commands:
+      - 'minecraft:give @p[limit=1] enchanted_book{StoredEnchantments:[{id:looting,lvl:5}]} 1'
+  '25':
+    Chance: 2
+    Drop-Items: true
+    Commands:
+      - 'minecraft:give @p[limit=1] enchanted_book{StoredEnchantments:[{id:depth_strider,lvl:5}]} 1'
+  '26':
+    Chance: 2
+    Drop-Items: true
+    Commands:
+      - 'minecraft:give @p[limit=1] enchanted_book{StoredEnchantments:[{id:protection,lvl:7}]} 1'
+  '27':
+    Chance: 2
+    Drop-Items: true
+    Commands:
+      - 'minecraft:give @p[limit=1] enchanted_book{StoredEnchantments:[{id:fire_protection,lvl:8}]} 1'
+  '28':
+    Chance: 2
+    Drop-Items: true
+    Commands:
+      - 'minecraft:give @p[limit=1] enchanted_book{StoredEnchantments:[{id:fortune,lvl:5}]} 1'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  '33':
+    Chance: 10
+
+    Commands:
+      - 'eco give %Player% 75000'
+  '34':
+    Chance: 10
+
+    Commands:
+      - 'eco give %Player% 100000'
+  '35':
+    Chance: 10
+
+    Commands:
+      - 'eco give %Player% 150000'
+
+
+  '38':
+    Chance: 12
+
+    Commands:
+      - 'tk give %Player% 250'
+  '39':
+    Chance: 12
+
+    Commands:
+      - 'tk give %Player% 500'
+
+
+
+  '42':
+    Chance: 5
+    Drop-Items: true
+
+    Items:
+      - 'Item:ELYTRA, Amount:1'
+  '44':
+    Chance: 5
+    Drop-Items: true
+
+    Items:
+      - 'Item:BEACON, Amount:1'
+
+
+  '51':
+    Chance: 5
+
+    Commands:
+      - 'cc give physical UltraCrate 1 %Player%'
+  '52':
+    Chance: 2
+
+    Commands:
+      - 'cc give physical SuperiorCrate 1 %Player%'
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

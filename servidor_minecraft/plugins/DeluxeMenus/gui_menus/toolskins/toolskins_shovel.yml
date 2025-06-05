@@ -1,0 +1,635 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+menu_title: '&f七七七七七七七七≟'
+open_command: toolskinsshovel
+size: 54
+update_interval: 1
+
+items:
+
+
+  'category_sword_skins':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 9
+      - 10
+      - 11
+      - 12
+    display_name: '&f&lsᴡᴏʀᴅ sᴋɪɴs'
+    left_click_commands:
+      - "[openguimenu] toolskins_sword"
+
+  'category_pickaxe_skins':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 18
+      - 19
+      - 20
+      - 21
+    display_name: '&f&lᴘɪᴄᴋᴀxᴇ sᴋɪɴs'
+    left_click_commands:
+      - "[openguimenu] toolskins_pickaxe"
+
+  'category_axe_skins':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 27
+      - 28
+      - 29
+      - 30
+    display_name: '&f&lᴀxᴇ sᴋɪɴs'
+    left_click_commands:
+      - "[openguimenu] toolskins_axe"
+
+  'category_shovel_skins':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 36
+      - 37
+      - 38
+      - 39
+    display_name: '&f&lsʜᴏᴠᴇʟ sᴋɪɴs'
+    left_click_commands:
+      - "[openguimenu] toolskins_shovel"
+
+  'store':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 46
+      - 47
+      - 48
+    update: true
+    display_name: '&6&lsᴛᴏʀᴇ'
+    hide_enchantments: true
+    hide_attributes: true
+    left_click_commands:
+      - "[player] store"
+
+
+
+
+
+  'atlantis_skin':
+    material: DIAMOND_SHOVEL
+    model_data: 50001
+    slot: 4
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&6Atlantis Shovel'
+    lore:
+      - '&8Toolskin Unlocked'
+      - ''
+      - '&7Equip this skin to your tool by'
+      - '&7holding the tool in your hand.'
+      - ''
+      - '&fApplicable Tools:'
+      - ' &8▪ &7Netherite'
+      - ' &8▪ &7Diamond'
+      - ''
+      - '&e➥ Left-Click to equip'
+    click_commands:
+      - "[givepermission] toolskins.admin"
+      - "[player] toolskinshovel 50001"
+      - "[takepermission] toolskins.admin"
+    click_requirement:
+      requirements:
+        points:
+          type: has permission
+          permission: toolskins.Atlantis.shovel
+          deny_commands:
+            - "[message] &8[&b&l!&8] &b&lToolSkins &8→ &cYou do not own this skin!"
+
+
+  'celestial_skin':
+    material: DIAMOND_SHOVEL
+    model_data: 50002
+    slot: 5
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&6Celestial Shovel'
+    lore:
+      - '&8Toolskin Unlocked'
+      - ''
+      - '&7Equip this skin to your tool by'
+      - '&7holding the tool in your hand.'
+      - ''
+      - '&fApplicable Tools:'
+      - ' &8▪ &7Netherite'
+      - ' &8▪ &7Diamond'
+      - ''
+      - '&e➥ Left-Click to equip'
+    click_commands:
+      - "[givepermission] toolskins.admin"
+      - "[player] toolskinshovel 50002"
+      - "[takepermission] toolskins.admin"
+    click_requirement:
+      requirements:
+        points:
+          type: has permission
+          permission: toolskins.Celestial.shovel
+          deny_commands:
+            - "[message] &8[&b&l!&8] &b&lToolSkins &8→ &cYou do not own this skin!"
+
+
+  'crimson_skin':
+    material: DIAMOND_SHOVEL
+    model_data: 50003
+    slot: 6
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&6Crimson Shovel'
+    lore:
+      - '&8Toolskin Unlocked'
+      - ''
+      - '&7Equip this skin to your tool by'
+      - '&7holding the tool in your hand.'
+      - ''
+      - '&fApplicable Tools:'
+      - ' &8▪ &7Netherite'
+      - ' &8▪ &7Diamond'
+      - ''
+      - '&e➥ Left-Click to equip'
+    click_commands:
+      - "[givepermission] toolskins.admin"
+      - "[player] toolskinshovel 50003"
+      - "[takepermission] toolskins.admin"
+    click_requirement:
+      requirements:
+        points:
+          type: has permission
+          permission: toolskins.Crimson.shovel
+          deny_commands:
+            - "[message] &8[&b&l!&8] &b&lToolSkins &8→ &cYou do not own this skin!"
+
+
+  'devil_skin':
+    material: DIAMOND_SHOVEL
+    model_data: 50004
+    slot: 7
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&6Devil Shovel'
+    lore:
+      - '&8Toolskin Unlocked'
+      - ''
+      - '&7Equip this skin to your tool by'
+      - '&7holding the tool in your hand.'
+      - ''
+      - '&fApplicable Tools:'
+      - ' &8▪ &7Netherite'
+      - ' &8▪ &7Diamond'
+      - ''
+      - '&e➥ Left-Click to equip'
+    click_commands:
+      - "[givepermission] toolskins.admin"
+      - "[player] toolskinshovel 50004"
+      - "[takepermission] toolskins.admin"
+    click_requirement:
+      requirements:
+        points:
+          type: has permission
+          permission: toolskins.Devil.shovel
+          deny_commands:
+            - "[message] &8[&b&l!&8] &b&lToolSkins &8→ &cYou do not own this skin!"
+
+
+  'emerald_skin':
+    material: DIAMOND_SHOVEL
+    model_data: 50005
+    slot: 8
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&6Emerald Shovel'
+    lore:
+      - '&8Toolskin Unlocked'
+      - ''
+      - '&7Equip this skin to your tool by'
+      - '&7holding the tool in your hand.'
+      - ''
+      - '&fApplicable Tools:'
+      - ' &8▪ &7Netherite'
+      - ' &8▪ &7Diamond'
+      - ''
+      - '&e➥ Left-Click to equip'
+    click_commands:
+      - "[givepermission] toolskins.admin"
+      - "[player] toolskinshovel 50005"
+      - "[takepermission] toolskins.admin"
+    click_requirement:
+      requirements:
+        points:
+          type: has permission
+          permission: toolskins.Emerald.shovel
+          deny_commands:
+            - "[message] &8[&b&l!&8] &b&lToolSkins &8→ &cYou do not own this skin!"
+
+
+  'halloween_skin':
+    material: DIAMOND_SHOVEL
+    model_data: 50006
+    slot: 13
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&6Halloween Shovel'
+    lore:
+      - '&8Toolskin Unlocked'
+      - ''
+      - '&7Equip this skin to your tool by'
+      - '&7holding the tool in your hand.'
+      - ''
+      - '&fApplicable Tools:'
+      - ' &8▪ &7Netherite'
+      - ' &8▪ &7Diamond'
+      - ''
+      - '&e➥ Left-Click to equip'
+    click_commands:
+      - "[givepermission] toolskins.admin"
+      - "[player] toolskinshovel 50006"
+      - "[takepermission] toolskins.admin"
+    click_requirement:
+      requirements:
+        points:
+          type: has permission
+          permission: toolskins.Halloween.shovel
+          deny_commands:
+            - "[message] &8[&b&l!&8] &b&lToolSkins &8→ &cYou do not own this skin!"
+
+
+  'heaven_skin':
+    material: DIAMOND_SHOVEL
+    model_data: 50007
+    slot: 14
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&6Heaven Shovel'
+    lore:
+      - '&8Toolskin Unlocked'
+      - ''
+      - '&7Equip this skin to your tool by'
+      - '&7holding the tool in your hand.'
+      - ''
+      - '&fApplicable Tools:'
+      - ' &8▪ &7Netherite'
+      - ' &8▪ &7Diamond'
+      - ''
+      - '&e➥ Left-Click to equip'
+    click_commands:
+      - "[givepermission] toolskins.admin"
+      - "[player] toolskinshovel 50007"
+      - "[takepermission] toolskins.admin"
+    click_requirement:
+      requirements:
+        points:
+          type: has permission
+          permission: toolskins.Heaven.shovel
+          deny_commands:
+            - "[message] &8[&b&l!&8] &b&lToolSkins &8→ &cYou do not own this skin!"
+
+
+  'monster_skin':
+    material: DIAMOND_SHOVEL
+    model_data: 50008
+    slot: 15
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&6Monster Shovel'
+    lore:
+      - '&8Toolskin Unlocked'
+      - ''
+      - '&7Equip this skin to your tool by'
+      - '&7holding the tool in your hand.'
+      - ''
+      - '&fApplicable Tools:'
+      - ' &8▪ &7Netherite'
+      - ' &8▪ &7Diamond'
+      - ''
+      - '&e➥ Left-Click to equip'
+    click_commands:
+      - "[givepermission] toolskins.admin"
+      - "[player] toolskinshovel 50008"
+      - "[takepermission] toolskins.admin"
+    click_requirement:
+      requirements:
+        points:
+          type: has permission
+          permission: toolskins.Monster.shovel
+          deny_commands:
+            - "[message] &8[&b&l!&8] &b&lToolSkins &8→ &cYou do not own this skin!"
+
+
+  'moon_skin':
+    material: DIAMOND_SHOVEL
+    model_data: 50009
+    slot: 16
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&6Moon Shovel'
+    lore:
+      - '&8Toolskin Unlocked'
+      - ''
+      - '&7Equip this skin to your tool by'
+      - '&7holding the tool in your hand.'
+      - ''
+      - '&fApplicable Tools:'
+      - ' &8▪ &7Netherite'
+      - ' &8▪ &7Diamond'
+      - ''
+      - '&e➥ Left-Click to equip'
+    click_commands:
+      - "[givepermission] toolskins.admin"
+      - "[player] toolskinshovel 50009"
+      - "[takepermission] toolskins.admin"
+    click_requirement:
+      requirements:
+        points:
+          type: has permission
+          permission: toolskins.Moon.shovel
+          deny_commands:
+            - "[message] &8[&b&l!&8] &b&lToolSkins &8→ &cYou do not own this skin!"
+
+
+  'mud_skin':
+    material: DIAMOND_SHOVEL
+    model_data: 50010
+    slot: 17
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&6Mud Shovel'
+    lore:
+      - '&8Toolskin Unlocked'
+      - ''
+      - '&7Equip this skin to your tool by'
+      - '&7holding the tool in your hand.'
+      - ''
+      - '&fApplicable Tools:'
+      - ' &8▪ &7Netherite'
+      - ' &8▪ &7Diamond'
+      - ''
+      - '&e➥ Left-Click to equip'
+    click_commands:
+      - "[givepermission] toolskins.admin"
+      - "[player] toolskinshovel 50010"
+      - "[takepermission] toolskins.admin"
+    click_requirement:
+      requirements:
+        points:
+          type: has permission
+          permission: toolskins.Mud.shovel
+          deny_commands:
+            - "[message] &8[&b&l!&8] &b&lToolSkins &8→ &cYou do not own this skin!"
+
+
+  'nether_skin':
+    material: DIAMOND_SHOVEL
+    model_data: 50011
+    slot: 22
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&6Nether Shovel'
+    lore:
+      - '&8Toolskin Unlocked'
+      - ''
+      - '&7Equip this skin to your tool by'
+      - '&7holding the tool in your hand.'
+      - ''
+      - '&fApplicable Tools:'
+      - ' &8▪ &7Netherite'
+      - ' &8▪ &7Diamond'
+      - ''
+      - '&e➥ Left-Click to equip'
+    click_commands:
+      - "[givepermission] toolskins.admin"
+      - "[player] toolskinshovel 50011"
+      - "[takepermission] toolskins.admin"
+    click_requirement:
+      requirements:
+        points:
+          type: has permission
+          permission: toolskins.Nether.shovel
+          deny_commands:
+            - "[message] &8[&b&l!&8] &b&lToolSkins &8→ &cYou do not own this skin!"
+
+
+  'panther_skin':
+    material: DIAMOND_SHOVEL
+    model_data: 50012
+    slot: 23
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&6Panther Shovel'
+    lore:
+      - '&8Toolskin Unlocked'
+      - ''
+      - '&7Equip this skin to your tool by'
+      - '&7holding the tool in your hand.'
+      - ''
+      - '&fApplicable Tools:'
+      - ' &8▪ &7Netherite'
+      - ' &8▪ &7Diamond'
+      - ''
+      - '&e➥ Left-Click to equip'
+    click_commands:
+      - "[givepermission] toolskins.admin"
+      - "[player] toolskinshovel 50012"
+      - "[takepermission] toolskins.admin"
+    click_requirement:
+      requirements:
+        points:
+          type: has permission
+          permission: toolskins.Panther.shovel
+          deny_commands:
+            - "[message] &8[&b&l!&8] &b&lToolSkins &8→ &cYou do not own this skin!"
+
+
+  'pegasus_skin':
+    material: DIAMOND_SHOVEL
+    model_data: 50013
+    slot: 24
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&6Pegasus Shovel'
+    lore:
+      - '&8Toolskin Unlocked'
+      - ''
+      - '&7Equip this skin to your tool by'
+      - '&7holding the tool in your hand.'
+      - ''
+      - '&fApplicable Tools:'
+      - ' &8▪ &7Netherite'
+      - ' &8▪ &7Diamond'
+      - ''
+      - '&e➥ Left-Click to equip'
+    click_commands:
+      - "[givepermission] toolskins.admin"
+      - "[player] toolskinshovel 50013"
+      - "[takepermission] toolskins.admin"
+    click_requirement:
+      requirements:
+        points:
+          type: has permission
+          permission: toolskins.Pegasus.shovel
+          deny_commands:
+            - "[message] &8[&b&l!&8] &b&lToolSkins &8→ &cYou do not own this skin!"
+
+
+  'radiant_skin':
+    material: DIAMOND_SHOVEL
+    model_data: 50014
+    slot: 25
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&6Radiant Shovel'
+    lore:
+      - '&8Toolskin Unlocked'
+      - ''
+      - '&7Equip this skin to your tool by'
+      - '&7holding the tool in your hand.'
+      - ''
+      - '&fApplicable Tools:'
+      - ' &8▪ &7Netherite'
+      - ' &8▪ &7Diamond'
+      - ''
+      - '&e➥ Left-Click to equip'
+    click_commands:
+      - "[givepermission] toolskins.admin"
+      - "[player] toolskinshovel 50014"
+      - "[takepermission] toolskins.admin"
+    click_requirement:
+      requirements:
+        points:
+          type: has permission
+          permission: toolskins.Radiant.shovel
+          deny_commands:
+            - "[message] &8[&b&l!&8] &b&lToolSkins &8→ &cYou do not own this skin!"
+
+
+  'thunder_skin':
+    material: DIAMOND_SHOVEL
+    model_data: 50015
+    slot: 26
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&6Thunder Shovel'
+    lore:
+      - '&8Toolskin Unlocked'
+      - ''
+      - '&7Equip this skin to your tool by'
+      - '&7holding the tool in your hand.'
+      - ''
+      - '&fApplicable Tools:'
+      - ' &8▪ &7Netherite'
+      - ' &8▪ &7Diamond'
+      - ''
+      - '&e➥ Left-Click to equip'
+    click_commands:
+      - "[givepermission] toolskins.admin"
+      - "[player] toolskinshovel 50015"
+      - "[takepermission] toolskins.admin"
+    click_requirement:
+      requirements:
+        points:
+          type: has permission
+          permission: toolskins.Thunder.shovel
+          deny_commands:
+            - "[message] &8[&b&l!&8] &b&lToolSkins &8→ &cYou do not own this skin!"
+
+
+  'twilight_skin':
+    material: DIAMOND_SHOVEL
+    model_data: 50016
+    slot: 31
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&6Twilight Shovel'
+    lore:
+      - '&8Toolskin Unlocked'
+      - ''
+      - '&7Equip this skin to your tool by'
+      - '&7holding the tool in your hand.'
+      - ''
+      - '&fApplicable Tools:'
+      - ' &8▪ &7Netherite'
+      - ' &8▪ &7Diamond'
+      - ''
+      - '&e➥ Left-Click to equip'
+    click_commands:
+      - "[givepermission] toolskins.admin"
+      - "[player] toolskinshovel 50016"
+      - "[takepermission] toolskins.admin"
+    click_requirement:
+      requirements:
+        points:
+          type: has permission
+          permission: toolskins.Twilight.shovel
+          deny_commands:
+            - "[message] &8[&b&l!&8] &b&lToolSkins &8→ &cYou do not own this skin!"
+
+
+  'warrior_skin':
+    material: DIAMOND_SHOVEL
+    model_data: 50017
+    slot: 32
+    update: true
+    hide_enchantments: true
+    hide_attributes: true
+    display_name: '&6Warrior Shovel'
+    lore:
+      - '&8Toolskin Unlocked'
+      - ''
+      - '&7Equip this skin to your tool by'
+      - '&7holding the tool in your hand.'
+      - ''
+      - '&fApplicable Tools:'
+      - ' &8▪ &7Netherite'
+      - ' &8▪ &7Diamond'
+      - ''
+      - '&e➥ Left-Click to equip'
+    click_commands:
+      - "[givepermission] toolskins.admin"
+      - "[player] toolskinshovel 50017"
+      - "[takepermission] toolskins.admin"
+    click_requirement:
+      requirements:
+        points:
+          type: has permission
+          permission: toolskins.Warrior.shovel
+          deny_commands:
+            - "[message] &8[&b&l!&8] &b&lToolSkins &8→ &cYou do not own this skin!"
+
+
+
+
+
+
+
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

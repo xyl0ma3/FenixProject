@@ -1,0 +1,35 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+location: spawn:5.000:104.200:-4.0
+enabled: true
+display-range: 100
+update-range: 100
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#FCC72D&lWelcome To Survival'
+    height: 0.6
+  - content: '&fHeya &b%player_name% &fWelcome to the server!'
+    height: 0.3
+  - content: '&fWe have been waiting for you!'
+    height: 0.6
+  - content: '&7You are in our spawn where you can'
+    height: 0.3
+  - content: '&7interact with NPCs and other players!'
+    height: 0.6
+  - content: '&fIf you have any questions, join our discord!'
+    height: 0.3
+  - content: '&b→ §ndiscord.gg/example§r &b←'
+    height: 0.3
+  actions: {}
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

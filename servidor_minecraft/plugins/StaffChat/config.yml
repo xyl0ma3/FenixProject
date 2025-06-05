@@ -1,0 +1,77 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+# This file was Leaked by Launcher for NullAssets.com           
+# Visit https://nullassets.com today.
+staffchat:
+  error: '&cYou are not allowed to execute this command. Contact a server administrator
+    if you believe this is an error.'
+  disable-off: '&3You have disabled StaffChat!'
+  disable-on: '&3You have enabled StaffChat!'
+  toggle-on: '&3You will now send messages in &eStaffChat&3!'
+  toggle-off: '&3You will no longer send messages in &eStaffChat&3!'
+  header: '&8[&e&l!&8] &e&lStaffChat &8→ '
+  placeholder:
+    name: '%placeholderyouwant%'
+adminchat:
+  error: '&cYou are not allowed to execute this command. Contact a server administrator
+    if you believe this is an error.'
+  disable-off: '&3You disabled Admin Chat!'
+  disable-on: '&3You enabled Admin Chat'
+  toggle-on: '&3You will now send messages in &cAdminChat&3!'
+  toggle-off: '&3You will no longer send messages in &cAdminChat&3!'
+  header: '&8[&cAdminChat&8]&f '
+  placeholder:
+    name: '%placeholderyouwant'
+developerchat:
+  error: '&cYou are not allowed to execute this command. Contact a server administrator
+    if you believe this is an error.'
+  disable-off: '&3You disabled Developer Chat!'
+  disable-on: '&3You enabled Developer Chat'
+  toggle-on: '&3You will now send messages in &eDeveloperChat&3!'
+  toggle-off: '&3You will no longer send messages in &eDeveloperChat&3!'
+  header: '&8[&eDeveloperChat&8]&f '
+  placeholder:
+    name: '%placeholderyouwant%'
+enable-placeholders: false
+discordwebhook:
+  enabled: false
+  webhook: INSERT-WEBHOOK-HERE
+  webhookusername: StaffChat Logs
+  footer: New Staff Chat message
+  footericon: https://i.imgur.com/frdEAle.png
+CONFIG_VERSION: 1
+staffchat-enabled: true
+developerchat-enabled: true
+adminchat-enabled: true
+update-checker: true
+# DO NOT EDIT THIS
+Version: 1
+# Depend on VanishNoPacket?
+VanishNoPacket: false
+# Staff Chat prefix
+prefix: '&8[&e&l!&8] &e&lStaff Chat &7→&r'
+# Color of staff chat messages
+color: '&c'
+# Change the the name/message separator
+separator: '&f: '
+# Use nicknames instead of regular names?
+nicknames: false
+# Color of the player name when using /sc if nicknames are disabled
+name_color: '&f'
+# Will staff recieve staff login/logout notifcations?
+logMessages: true
+# Staff log in message
+joinMessage: '&8[&fStaff&8] &a+ &f@p'
+# Staff log out message
+leaveMessage: '&8[&fStaff&8] &c- &f@p'
+# Staff toggle messages
+toggleEnable: '&8[&e&l!&8] &e&lStaff Chat &7→ &rEnabled staff messages.'
+toggleDisable: '&8[&e&l!&8] &e&lStaff Chat &7→ &rDisabled staff messages.'
+
+# b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

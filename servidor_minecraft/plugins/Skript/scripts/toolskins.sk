@@ -1,0 +1,339 @@
+command /toolskinpickaxe <text>:
+ permission: toolskins.admin
+ permission message: &c&lError &8&l| &7You don't have permission to perform this command!
+ trigger:
+  if player is holding a diamond pickaxe:
+   make player run command "setmodeldata %arg 1%" as op
+  else if player is holding a netherite pickaxe:
+   make player run command "setmodeldata %arg 1%" as op
+  else:
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &7You do not have the right tool in your hand!"
+
+command /toolskinaxe <text>:
+ permission: toolskins.admin
+ permission message: &c&lError &8&l| &7You don't have permission to perform this command!
+ trigger:
+  if player is holding a diamond axe:
+   make player run command "setmodeldata %arg 1%" as op
+  else if player is holding a netherite axe:
+   make player run command "setmodeldata %arg 1%" as op
+  else:
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &7You do not have the right tool in your hand!"
+
+command /toolskinsword <text>:
+ permission: toolskins.admin
+ permission message: &c&lError &8&l| &7You don't have permission to perform this command!
+ trigger:
+  if player is holding a diamond sword:
+   make player run command "setmodeldata %arg 1%" as op
+  else if player is holding a netherite sword:
+   make player run command "setmodeldata %arg 1%" as op
+  else:
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &7You do not have the right tool in your hand!"
+
+command /toolskinshovel <text>:
+ permission: toolskins.admin
+ permission message: &c&lError &8&l| &7You don't have permission to perform this command!
+ trigger:
+  if player is holding a diamond shovel:
+   make player run command "setmodeldata %arg 1%" as op
+  else if player is holding a netherite shovel:
+   make player run command "setmodeldata %arg 1%" as op
+  else:
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &7You do not have the right tool in your hand!"
+
+
+
+
+
+
+
+
+
+
+command /giverandomtoolskin <text> [<offline player>]:
+ permission: toolskins.admin
+ permission message: &c&lError &8&l| &7You don't have permission to perform this command!
+ trigger:
+
+  if arg-1 is "toolskinsAtlantisSword":
+   execute console command "/lp user %arg 2% permission set toolskins.Atlantis.Sword"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Atlantis Sword skin!" to arg-2
+
+  else if arg-1 is "toolskinsCelestialSword":
+   execute console command "/lp user %arg 2% permission set toolskins.Celestial.Sword"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Celestial Sword skin!" to arg-2
+
+  else if arg-1 is "toolskinsCrimsonSword":
+   execute console command "/lp user %arg 2% permission set toolskins.Crimson.Sword"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Crimson Sword skin!" to arg-2
+
+  else if arg-1 is "toolskinsDevilSword":
+   execute console command "/lp user %arg 2% permission set toolskins.Devil.Sword"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Devil Sword skin!" to arg-2
+
+  else if arg-1 is "toolskinsEmeraldSword":
+   execute console command "/lp user %arg 2% permission set toolskins.Emerald.Sword"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Emerald Sword skin!" to arg-2
+
+  else if arg-1 is "toolskinsHalloweenSword":
+   execute console command "/lp user %arg 2% permission set toolskins.Halloween.Sword"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Halloween Sword skin!" to arg-2
+
+  else if arg-1 is "toolskinsHeavenSword":
+   execute console command "/lp user %arg 2% permission set toolskins.Heaven.Sword"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Heaven Sword skin!" to arg-2
+
+  else if arg-1 is "toolskinsMonsterSword":
+   execute console command "/lp user %arg 2% permission set toolskins.Monster.Sword"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Monster Sword skin!" to arg-2
+
+  else if arg-1 is "toolskinsMoonSword":
+   execute console command "/lp user %arg 2% permission set toolskins.Moon.Sword"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Moon Sword skin!" to arg-2
+
+  else if arg-1 is "toolskinsMudSword":
+   execute console command "/lp user %arg 2% permission set toolskins.Mud.Sword"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Mud Sword skin!" to arg-2
+
+  else if arg-1 is "toolskinsNetherSword":
+   execute console command "/lp user %arg 2% permission set toolskins.Nether.Sword"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Nether Sword skin!" to arg-2
+
+  else if arg-1 is "toolskinsPantherSword":
+   execute console command "/lp user %arg 2% permission set toolskins.Panther.Sword"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Panther Sword skin!" to arg-2
+
+  else if arg-1 is "toolskinsPegasusSword":
+   execute console command "/lp user %arg 2% permission set toolskins.Pegasus.Sword"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Pegasus Sword skin!" to arg-2
+
+  else if arg-1 is "toolskinsRadiantSword":
+   execute console command "/lp user %arg 2% permission set toolskins.Radiant.Sword"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Radiant Sword skin!" to arg-2
+
+  else if arg-1 is "toolskinsThunderSword":
+   execute console command "/lp user %arg 2% permission set toolskins.Thunder.Sword"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Thunder Sword skin!" to arg-2
+
+  else if arg-1 is "toolskinsTwilightSword":
+   execute console command "/lp user %arg 2% permission set toolskins.Twilight.Sword"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Twilight Sword skin!" to arg-2
+
+  else if arg-1 is "toolskinsWarriorSword":
+   execute console command "/lp user %arg 2% permission set toolskins.Warrior.Sword"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Warrior Sword skin!" to arg-2
+
+
+
+
+
+  else if arg-1 is "toolskinsCelestialPickaxe":
+   execute console command "/lp user %arg 2% permission set toolskins.Celestial.Pickaxe"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Celestial Pickaxe skin!" to arg-2
+
+  else if arg-1 is "toolskinsCrimsonPickaxe":
+   execute console command "/lp user %arg 2% permission set toolskins.Crimson.Pickaxe"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Crimson Pickaxe skin!" to arg-2
+
+  else if arg-1 is "toolskinsDevilPickaxe":
+   execute console command "/lp user %arg 2% permission set toolskins.Devil.Pickaxe"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Devil Pickaxe skin!" to arg-2
+
+  else if arg-1 is "toolskinsEmeraldPickaxe":
+   execute console command "/lp user %arg 2% permission set toolskins.Emerald.Pickaxe"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Emerald Pickaxe skin!" to arg-2
+
+  else if arg-1 is "toolskinsHalloweenPickaxe":
+   execute console command "/lp user %arg 2% permission set toolskins.Halloween.Pickaxe"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Halloween Pickaxe skin!" to arg-2
+
+  else if arg-1 is "toolskinsHeavenPickaxe":
+   execute console command "/lp user %arg 2% permission set toolskins.Heaven.Pickaxe"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Heaven Pickaxe skin!" to arg-2
+
+  else if arg-1 is "toolskinsMonsterPickaxe":
+   execute console command "/lp user %arg 2% permission set toolskins.Monster.Pickaxe"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Monster Pickaxe skin!" to arg-2
+
+  else if arg-1 is "toolskinsMoonPickaxe":
+   execute console command "/lp user %arg 2% permission set toolskins.Moon.Pickaxe"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Moon Pickaxe skin!" to arg-2
+
+  else if arg-1 is "toolskinsMudPickaxe":
+   execute console command "/lp user %arg 2% permission set toolskins.Mud.Pickaxe"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Mud Pickaxe skin!" to arg-2
+
+  else if arg-1 is "toolskinsNetherPickaxe":
+   execute console command "/lp user %arg 2% permission set toolskins.Nether.Pickaxe"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Nether Pickaxe skin!" to arg-2
+
+  else if arg-1 is "toolskinsPantherPickaxe":
+   execute console command "/lp user %arg 2% permission set toolskins.Panther.Pickaxe"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Panther Pickaxe skin!" to arg-2
+
+  else if arg-1 is "toolskinsPegasusPickaxe":
+   execute console command "/lp user %arg 2% permission set toolskins.Pegasus.Pickaxe"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Pegasus Pickaxe skin!" to arg-2
+
+  else if arg-1 is "toolskinsRadiantPickaxe":
+   execute console command "/lp user %arg 2% permission set toolskins.Radiant.Pickaxe"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Radiant Pickaxe skin!" to arg-2
+
+  else if arg-1 is "toolskinsThunderPickaxe":
+   execute console command "/lp user %arg 2% permission set toolskins.Thunder.Pickaxe"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Thunder Pickaxe skin!" to arg-2
+
+  else if arg-1 is "toolskinsTwilightPickaxe":
+   execute console command "/lp user %arg 2% permission set toolskins.Twilight.Pickaxe"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Twilight Pickaxe skin!" to arg-2
+
+  else if arg-1 is "toolskinsWarriorPickaxe":
+   execute console command "/lp user %arg 2% permission set toolskins.Warrior.Pickaxe"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Warrior Pickaxe skin!" to arg-2
+
+
+
+
+
+  else if arg-1 is "toolskinsCelestialAxe":
+   execute console command "/lp user %arg 2% permission set toolskins.Celestial.Axe"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Celestial Axe skin!" to arg-2
+
+  else if arg-1 is "toolskinsCrimsonAxe":
+   execute console command "/lp user %arg 2% permission set toolskins.Crimson.Axe"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Crimson Axe skin!" to arg-2
+
+  else if arg-1 is "toolskinsDevilAxe":
+   execute console command "/lp user %arg 2% permission set toolskins.Devil.Axe"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Devil Axe skin!" to arg-2
+
+  else if arg-1 is "toolskinsEmeraldAxe":
+   execute console command "/lp user %arg 2% permission set toolskins.Emerald.Axe"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Emerald Axe skin!" to arg-2
+
+  else if arg-1 is "toolskinsHalloweenAxe":
+   execute console command "/lp user %arg 2% permission set toolskins.Halloween.Axe"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Halloween Axe skin!" to arg-2
+
+  else if arg-1 is "toolskinsHeavenAxe":
+   execute console command "/lp user %arg 2% permission set toolskins.Heaven.Axe"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Heaven Axe skin!" to arg-2
+
+  else if arg-1 is "toolskinsMonsterAxe":
+   execute console command "/lp user %arg 2% permission set toolskins.Monster.Axe"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Monster Axe skin!" to arg-2
+
+  else if arg-1 is "toolskinsMoonAxe":
+   execute console command "/lp user %arg 2% permission set toolskins.Moon.Axe"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Moon Axe skin!" to arg-2
+
+  else if arg-1 is "toolskinsMudAxe":
+   execute console command "/lp user %arg 2% permission set toolskins.Mud.Axe"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Mud Axe skin!" to arg-2
+
+  else if arg-1 is "toolskinsNetherAxe":
+   execute console command "/lp user %arg 2% permission set toolskins.Nether.Axe"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Nether Axe skin!" to arg-2
+
+  else if arg-1 is "toolskinsPantherAxe":
+   execute console command "/lp user %arg 2% permission set toolskins.Panther.Axe"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Panther Axe skin!" to arg-2
+
+  else if arg-1 is "toolskinsPegasusAxe":
+   execute console command "/lp user %arg 2% permission set toolskins.Pegasus.Axe"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Pegasus Axe skin!" to arg-2
+
+  else if arg-1 is "toolskinsRadiantAxe":
+   execute console command "/lp user %arg 2% permission set toolskins.Radiant.Axe"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Radiant Axe skin!" to arg-2
+
+  else if arg-1 is "toolskinsThunderAxe":
+   execute console command "/lp user %arg 2% permission set toolskins.Thunder.Axe"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Thunder Axe skin!" to arg-2
+
+  else if arg-1 is "toolskinsTwilightAxe":
+   execute console command "/lp user %arg 2% permission set toolskins.Twilight.Axe"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Twilight Axe skin!" to arg-2
+
+  else if arg-1 is "toolskinsWarriorAxe":
+   execute console command "/lp user %arg 2% permission set toolskins.Warrior.Axe"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Warrior Axe skin!" to arg-2
+
+
+
+
+
+  else if arg-1 is "toolskinsCelestialShovel":
+   execute console command "/lp user %arg 2% permission set toolskins.Celestial.Shovel"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Celestial Shovel skin!" to arg-2
+
+  else if arg-1 is "toolskinsCrimsonShovel":
+   execute console command "/lp user %arg 2% permission set toolskins.Crimson.Shovel"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Crimson Shovel skin!" to arg-2
+
+  else if arg-1 is "toolskinsDevilShovel":
+   execute console command "/lp user %arg 2% permission set toolskins.Devil.Shovel"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Devil Shovel skin!" to arg-2
+
+  else if arg-1 is "toolskinsEmeraldShovel":
+   execute console command "/lp user %arg 2% permission set toolskins.Emerald.Shovel"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Emerald Shovel skin!" to arg-2
+
+  else if arg-1 is "toolskinsHalloweenShovel":
+   execute console command "/lp user %arg 2% permission set toolskins.Halloween.Shovel"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Halloween Shovel skin!" to arg-2
+
+  else if arg-1 is "toolskinsHeavenShovel":
+   execute console command "/lp user %arg 2% permission set toolskins.Heaven.Shovel"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Heaven Shovel skin!" to arg-2
+
+  else if arg-1 is "toolskinsMonsterShovel":
+   execute console command "/lp user %arg 2% permission set toolskins.Monster.Shovel"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Monster Shovel skin!" to arg-2
+
+  else if arg-1 is "toolskinsMoonShovel":
+   execute console command "/lp user %arg 2% permission set toolskins.Moon.Shovel"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Moon Shovel skin!" to arg-2
+
+  else if arg-1 is "toolskinsMudShovel":
+   execute console command "/lp user %arg 2% permission set toolskins.Mud.Shovel"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Mud Shovel skin!" to arg-2
+
+  else if arg-1 is "toolskinsNetherShovel":
+   execute console command "/lp user %arg 2% permission set toolskins.Nether.Shovel"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Nether Shovel skin!" to arg-2
+
+  else if arg-1 is "toolskinsPantherShovel":
+   execute console command "/lp user %arg 2% permission set toolskins.Panther.Shovel"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Panther Shovel skin!" to arg-2
+
+  else if arg-1 is "toolskinsPegasusShovel":
+   execute console command "/lp user %arg 2% permission set toolskins.Pegasus.Shovel"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Pegasus Shovel skin!" to arg-2
+
+  else if arg-1 is "toolskinsRadiantShovel":
+   execute console command "/lp user %arg 2% permission set toolskins.Radiant.Shovel"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Radiant Shovel skin!" to arg-2
+
+  else if arg-1 is "toolskinsThunderShovel":
+   execute console command "/lp user %arg 2% permission set toolskins.Thunder.Shovel"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Thunder Shovel skin!" to arg-2
+
+  else if arg-1 is "toolskinsTwilightShovel":
+   execute console command "/lp user %arg 2% permission set toolskins.Twilight.Shovel"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Twilight Shovel skin!" to arg-2
+
+  else if arg-1 is "toolskinsWarriorShovel":
+   execute console command "/lp user %arg 2% permission set toolskins.Warrior.Shovel"
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &aYou just won the Warrior Shovel skin!" to arg-2
+
+
+
+
+  else:
+   message "&8[&b&l!&8] &b&lToolSkins &8→ &cSomething didn't work, please contact an admin!"
+
+  launch ball large coloured red, purple and white fading to light green and black at player's location with duration 0
+  message "&8[&b&l!&8] &b&lToolSkins &8→ &7You can use this skin at /toolskins!" to arg-2
+

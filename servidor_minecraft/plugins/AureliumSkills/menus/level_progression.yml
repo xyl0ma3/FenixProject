@@ -1,0 +1,391 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+#
+title: '{level_progression_menu_title}'
+size: 5
+fill:
+  enabled: false
+  material: black_stained_glass_pane
+items:
+  back:
+    pos: 5,3
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    display_name: '{back}'
+    lore:
+    - '{back_click}'
+
+  next_page:
+    pos: 4,7
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    display_name: '&f&lɴᴇxᴛ'
+  previous_page:
+    pos: 4,5
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    display_name: '&f&lᴘʀᴇᴠɪᴏᴜs'
+  sources:
+    pos: 0,5
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    display_name: '&a&lxᴘ sᴏᴜʀᴄᴇs'
+    lore:
+    - '{sources_desc}'
+    - ' '
+    - '{sources_click}'
+  abilities:
+    pos: 0,3
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    display_name: '&c&lᴀʙɪʟɪᴛɪᴇs'
+    lore:
+    - '{abilities_desc}'
+    - ' '
+    - '{abilities_click}'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  home1:
+    pos: 4,1
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    on_click:
+      - type: command
+        executor: player
+        command: skills
+    display_name: '&c&lʙᴀᴄᴋ'
+  home2:
+    pos: 4,2
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    on_click:
+      - type: command
+        executor: player
+        command: skills
+    display_name: '&c&lʙᴀᴄᴋ'
+  home3:
+    pos: 4,3
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    on_click:
+      - type: command
+        executor: player
+        command: skills
+    display_name: '&c&lʙᴀᴄᴋ'
+
+
+
+templates:
+  skill:
+    pos: 0,4
+    farming:
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+      flags:
+      - hide_attributes
+    foraging:
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+      flags:
+      - hide_attributes
+    mining:
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+      flags:
+      - hide_attributes
+    fishing:
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    excavation:
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+      flags:
+      - hide_attributes
+    archery:
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    defense:
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+      flags:
+      - hide_attributes
+    fighting:
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+      flags:
+      - hide_attributes
+    endurance:
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    agility:
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    alchemy:
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    enchanting:
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    sorcery:
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    healing:
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+      potion_data:
+        type: instant_heal
+      flags:
+      - hide_potion_effects
+    forging:
+    material: PAPER
+    nbt:
+      CustomModelData: 110007
+    display_name: '&e{skill} &8&l(&7{level}&8&l)'
+    lore:
+    - '{skill_desc}'
+    - ''
+    - '{ability_levels}'
+    - '{progress_to_level}{max_level}'
+  unlocked:
+    material: PAPER
+    nbt:
+      CustomModelData: 5962
+    '2':
+      pos: 1,0
+    '3':
+      pos: 1,1
+    '4':
+      pos: 1,2
+    '5':
+      pos: 1,3
+    '6':
+      pos: 1,4
+    '7':
+      pos: 1,5
+    '8':
+      pos: 1,6
+    '9':
+      pos: 1,7
+    '10':
+      pos: 1,8
+    '11':
+      pos: 2,0
+    '12':
+      pos: 2,1
+    '13':
+      pos: 2,2
+    '14':
+      pos: 2,3
+    '15':
+      pos: 2,4
+    '16':
+      pos: 2,5
+    '17':
+      pos: 2,6
+    '18':
+      pos: 2,7
+    '19':
+      pos: 2,8
+    '20':
+      pos: 3,0
+    '21':
+      pos: 3,1
+    '22':
+      pos: 3,2
+    '23':
+      pos: 3,3
+    '24':
+      pos: 3,4
+    '25':
+      pos: 3,5
+    '26':
+      pos: 3,6
+    '27':
+      pos: 3,7
+    '28':
+      pos: 3,8
+    display_name: '{level_unlocked}'
+    lore:
+    - '{rewards}'
+    - '{ability}{mana_ability}'
+    - '{unlocked}'
+  in_progress:
+    '2':
+      pos: 1,0
+    '3':
+      pos: 1,1
+    '4':
+      pos: 1,2
+    '5':
+      pos: 1,3
+    '6':
+      pos: 1,4
+    '7':
+      pos: 1,5
+    '8':
+      pos: 1,6
+    '9':
+      pos: 1,7
+    '10':
+      pos: 1,8
+    '11':
+      pos: 2,0
+    '12':
+      pos: 2,1
+    '13':
+      pos: 2,2
+    '14':
+      pos: 2,3
+    '15':
+      pos: 2,4
+    '16':
+      pos: 2,5
+    '17':
+      pos: 2,6
+    '18':
+      pos: 2,7
+    '19':
+      pos: 2,8
+    '20':
+      pos: 3,0
+    '21':
+      pos: 3,1
+    '22':
+      pos: 3,2
+    '23':
+      pos: 3,3
+    '24':
+      pos: 3,4
+    '25':
+      pos: 3,5
+    '26':
+      pos: 3,6
+    '27':
+      pos: 3,7
+    '28':
+      pos: 3,8
+    material: PAPER
+    nbt:
+      CustomModelData: 5964
+    display_name: '{level_in_progress}'
+    lore:
+    - '{rewards}'
+    - '{ability}{mana_ability}'
+    - '{progress}'
+    - ' '
+    - '{in_progress}'
+  locked:
+    material: PAPER
+    nbt:
+      CustomModelData: 5963
+    '2':
+      pos: 1,0
+    '3':
+      pos: 1,1
+    '4':
+      pos: 1,2
+    '5':
+      pos: 1,3
+    '6':
+      pos: 1,4
+    '7':
+      pos: 1,5
+    '8':
+      pos: 1,6
+    '9':
+      pos: 1,7
+    '10':
+      pos: 1,8
+    '11':
+      pos: 2,0
+    '12':
+      pos: 2,1
+    '13':
+      pos: 2,2
+    '14':
+      pos: 2,3
+    '15':
+      pos: 2,4
+    '16':
+      pos: 2,5
+    '17':
+      pos: 2,6
+    '18':
+      pos: 2,7
+    '19':
+      pos: 2,8
+    '20':
+      pos: 3,0
+    '21':
+      pos: 3,1
+    '22':
+      pos: 3,2
+    '23':
+      pos: 3,3
+    '24':
+      pos: 3,4
+    '25':
+      pos: 3,5
+    '26':
+      pos: 3,6
+    '27':
+      pos: 3,7
+    '28':
+      pos: 3,8
+    display_name: '{level_locked}'
+    lore:
+    - '{rewards}'
+    - '{ability}{mana_ability}'
+    - '{locked}'
+options:
+  use_level_as_amount: false
+  over_max_stack_amount: 1
+  items_per_page: 27
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

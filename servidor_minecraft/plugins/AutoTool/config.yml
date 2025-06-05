@@ -1,0 +1,30 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+#
+KeepPlayerDataDays: 30
+UseJoinMessage: false
+OnlyCheckToolBar: true
+OnlySwitchWithToolInHand: false
+DontUseItemWithOneDurability: true
+SwitchSoundEnabled: true
+Messages:
+    Prefix: ""
+    JoinMessage:
+        Enabled: "§fAutomatic tool selection is §aenabled§f."
+        Disabled: "§fAutomatic tool selection is §cdisable§f."
+    SwitchMessage:
+        Enabled: "§8[§b§l!§8] §b§lSettings §8→ §7AutoTool: §aON"
+        Disabled: "§8[§b§l!§8] §b§lSettings §8→ §7AutoTool: §cOFF"
+    Common:
+        Yes: "Yes"
+        No: "No"
+        Enabled: "enabled"
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853

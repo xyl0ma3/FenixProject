@@ -1,0 +1,85 @@
+
+on player fish:
+ if fishing state is caught_fish:
+  chance of 1%:
+   execute console command "/excellentcrates:crate key give %player% common 1"
+   send player title "&a&lReward Found" with subtitle "&7You have found a special reward by fishing!" for 5 seconds
+
+on player fish:
+ if fishing state is caught_fish:
+  chance of 0.5%:
+   execute console command "/excellentcrates:crate key give %player% rare 1"
+   send player title "&a&lReward Found" with subtitle "&7You have found a special reward by fishing!" for 5 seconds
+
+on player fish:
+ if fishing state is caught_fish:
+  chance of 0.2%:
+   execute console command "/excellentcrates:crate key give %player% epic 1"
+   send player title "&a&lReward Found" with subtitle "&7You have found a special reward by fishing!" for 5 seconds
+
+on player fish:
+ if fishing state is caught_fish:
+  chance of 0.1%:
+   execute console command "/excellentcrates:crate key give %player% superior 1"
+   send player title "&a&lReward Found" with subtitle "&7You have found a special reward by fishing!" for 5 seconds
+
+on player fish:
+ if fishing state is caught_fish:
+  chance of 2%:
+   execute console command "/coins give %player% 2"
+   send player title "&a&lReward Found" with subtitle "&7You have found a special reward by fishing!" for 5 seconds
+
+on player fish:
+ if fishing state is caught_fish:
+  chance of 0.5%:
+   execute console command "/give %player% enchanted_book 1 efficiency:4"
+   send player title "&a&lReward Found" with subtitle "&7You have found a special reward by fishing!" for 5 seconds
+
+on player fish:
+ if fishing state is caught_fish:
+  chance of 0.5%:
+   execute console command "/give %player% enchanted_book 1 sharpness:4"
+   send player title "&a&lReward Found" with subtitle "&7You have found a special reward by fishing!" for 5 seconds
+
+on player fish:
+ if fishing state is caught_fish:
+  chance of 0.5%:
+   execute console command "/give %player% enchanted_book 1 unbreaking:3"
+   send player title "&a&lReward Found" with subtitle "&7You have found a special reward by fishing!" for 5 seconds
+
+on player fish:
+ if fishing state is caught_fish:
+  chance of 0.5%:
+   execute console command "/give %player% diamond_pickaxe 1 efficiency:3 unbreaking:3"
+   send player title "&a&lReward Found" with subtitle "&7You have found a special reward by fishing!" for 5 seconds
+
+on player fish:
+ if fishing state is caught_fish:
+  chance of 0.5%:
+   execute console command "/give %player% diamond_sword 1 sharpness:3 unbreaking:3"
+   send player title "&a&lReward Found" with subtitle "&7You have found a special reward by fishing!" for 5 seconds
+
+on player fish:
+ if fishing state is caught_fish:
+  chance of 0.5%:
+   execute console command "/give %player% diamond_shovel 1 efficiency:3 unbreaking:3"
+   send player title "&a&lReward Found" with subtitle "&7You have found a special reward by fishing!" for 5 seconds
+
+on player fish:
+ if fishing state is caught_fish:
+  chance of 0.5%:
+   execute console command "/give %player% diamond_axe 1 efficiency:3 unbreaking:3"
+   send player title "&a&lReward Found" with subtitle "&7You have found a special reward by fishing!" for 5 seconds
+
+
+
+
+
+
+
+
+
+
+
+
+

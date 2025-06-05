@@ -1,0 +1,67 @@
+command /coinshop:
+ trigger:
+  make player execute command "/coinshop"
+
+command /rewards:
+ trigger:
+  make player execute command "/rewards"
+
+command /warps:
+ trigger:
+  make player execute command "/warps"
+
+command /help:
+ trigger:
+  make player execute command "/serverguide"
+
+command /tutorial:
+ trigger:
+  make player execute command "/serverguide"
+
+command /serverguide:
+ trigger:
+  make player execute command "/serverguide"
+
+command /worlds:
+ trigger:
+  make player execute command "/worlds"
+
+command /teams:
+ trigger:
+  make player execute command "/teams"
+
+command /factories:
+ trigger:
+  make player execute command "/factories"
+
+command /shop:
+ trigger:
+  make player execute command "/shop"
+
+command /levels:
+ trigger:
+  make player execute command "/levels"
+
+command /deliveries:
+ trigger:
+  make player execute command "/deliveries"
+
+command /toolskins:
+ trigger:
+  make player execute command "/toolskins"
+
+command /leaderboards:
+ trigger:
+  make player execute command "/leaderboards"
+
+command /settings:
+ trigger:
+  make player execute command "/settings"
+
+command /warp:
+ trigger:
+  make player execute command "/warps"
+
+command /nationtags:
+ trigger:
+  make player execute command "/nationtags"

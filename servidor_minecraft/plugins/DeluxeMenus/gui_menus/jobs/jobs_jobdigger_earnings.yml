@@ -1,0 +1,59 @@
+#
+#      / /
+#     / /         ___                    __        ___       / __        ___        __
+#    / /        //   ) )   //   / /   //   ) )   //   ) )   //   ) )   //___) )   //  ) )
+#   / /        //   / /   //   / /   //   / /   //         //   / /   //         //
+#  / /____/ / ((___( (   ((___( (   //   / /   ((____     //   / /   ((____     //
+#
+#
+#This file was Leaked by Launcher for NullAssets.com           
+#Visit https://nullassets.com today.
+menu_title: '&f七七七七七七七七⇮'
+open_command: jobsjobdiggerearnings
+size: 54
+update_interval: 1
+
+items:
+
+
+
+  'digging_blocks_1':
+    material: IRON_SHOVEL
+    slot: 10
+    hide_attributes: true
+    display_name: '&6&lDigging Blocks'
+    lore:
+      - ''
+      - '&7View the payment you receive'
+      - '&7for each job action.'
+      - ''
+      - '&fGrass Block &8&l▪ &a$%math_0.3+({jobsr_user_jlevel_digger}*0.03)% &b0.3pts &60.3exp'
+      - '&fDirt &8&l▪ &a$%math_0.25+({jobsr_user_jlevel_digger}*0.03)% &b0.25pts &60.25exp'
+      - '&fGravel &8&l▪ &a$%math_1+({jobsr_user_jlevel_digger}*0.03)% &b1pts &61exp'
+      - '&fSand &8&l▪ &a$%math_0.4+({jobsr_user_jlevel_digger}*0.03)% &b0.4pts &60.5exp'
+      - '&fClay &8&l▪ &a$%math_1+({jobsr_user_jlevel_digger}*0.03)% &b1pts &61exp'
+      - '&fRed Sand &8&l▪ &a$%math_1+({jobsr_user_jlevel_digger}*0.03)% &b1pts &61exp'
+      - '&fCoarse Dirt &8&l▪ &a$%math_1+({jobsr_user_jlevel_digger}*0.03)% &b1pts &61exp'
+
+
+
+
+
+
+
+  'back':
+    material: PAPER
+    model_data: 110007
+    slots:
+      - 46
+      - 47
+      - 48
+    update: true
+    display_name: '&c&lʙᴀᴄᴋ'
+    left_click_commands:
+      - "[openguimenu] jobs_jobdigger"
+
+
+
+
+#b6cfc993198c9a027f4e70823185437f3bb2672b6554d85fcd853
